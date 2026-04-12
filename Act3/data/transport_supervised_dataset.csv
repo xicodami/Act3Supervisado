@@ -1,0 +1,1801 @@
+trip_id,origin_station,destination_station,route_id,day_type,hour_block,distance_km,segment_count,transfer_count,is_peak_hour,weather_condition,traffic_level,station_type_origin,station_type_destination,travel_time_min
+TRIP_0001,Portal Norte,Hospital Central,R1+R2,sunday,15-18,8.1,3,1,1,clear,high,terminal,central,49.65
+TRIP_0002,San Pedro,Villa Nueva,R1+R3,weekday,09-12,11.8,4,1,0,clear,high,intermedia,barrial,60.7
+TRIP_0003,San Pedro,Hospital Central,R5,weekday,12-15,2.7,1,0,0,clear,high,intermedia,central,20.33
+TRIP_0004,San Pedro,Lago Azul,R1,weekday,21-23,8.3,3,0,0,rain,medium,intermedia,intermedia,32.57
+TRIP_0005,Parque Industrial,San Pedro,R5,weekday,15-18,6.1,2,0,1,rain,high,industrial,intermedia,34.91
+TRIP_0006,Mercado Distrital,Portal Norte,R2+R1,weekday,07-09,9.9,4,1,1,clear,high,barrial,terminal,54.06
+TRIP_0007,San Pedro,Lago Azul,R1,saturday,09-12,8.3,3,0,0,rain,high,intermedia,intermedia,37.87
+TRIP_0008,Universidad,Hospital Central,R1+R2,weekday,07-09,4.5,2,1,1,clear,high,intermedia,central,40.02
+TRIP_0009,Terminal Sur,Parque Industrial,R2+R5,saturday,09-12,9.2,3,1,0,clear,low,terminal,industrial,42.47
+TRIP_0010,San Pedro,Villa Nueva,R1+R3,weekday,15-18,11.8,4,1,1,clear,high,intermedia,barrial,67.53
+TRIP_0011,Hospital Central,Parque Industrial,R5,weekday,09-12,3.4,1,0,0,clear,medium,central,industrial,17.59
+TRIP_0012,Portal Norte,Centro Histórico,R1,weekday,09-12,6.0,2,0,0,clear,medium,terminal,central,27.39
+TRIP_0013,Portal Norte,Tecnoparque,R1+R4,weekday,18-21,12.7,4,1,1,clear,low,terminal,industrial,59.95
+TRIP_0014,Hospital Central,Aeropuerto,R5+R4,saturday,09-12,9.5,2,1,0,clear,medium,central,terminal,39.54
+TRIP_0015,Terminal Sur,Lago Azul,R3,weekday,07-09,8.7,2,0,1,heavy_rain,high,terminal,intermedia,48.48
+TRIP_0016,Parque Industrial,Universidad,R4,saturday,15-18,7.3,2,0,1,clear,medium,industrial,intermedia,33.21
+TRIP_0017,Mercado Distrital,Parque Industrial,R2+R5,weekday,07-09,5.2,2,1,1,clear,high,barrial,industrial,40.32
+TRIP_0018,Mercado Distrital,Parque Industrial,R2+R5,saturday,09-12,5.2,2,1,0,clear,medium,barrial,industrial,30.88
+TRIP_0019,Terminal Sur,Villa Nueva,R3,weekday,05-07,5.2,1,0,0,clear,medium,terminal,barrial,22.07
+TRIP_0020,Lago Azul,Terminal Sur,R3,weekday,18-21,8.7,2,0,1,clear,medium,intermedia,terminal,34.94
+TRIP_0021,Universidad,Aeropuerto,R4,sunday,12-15,13.4,3,0,0,rain,low,intermedia,terminal,43.07
+TRIP_0022,Parque Industrial,Terminal Sur,R5+R2,weekday,12-15,9.2,3,1,0,clear,medium,industrial,terminal,41.6
+TRIP_0023,Portal Norte,Universidad,R1,sunday,07-09,8.4,3,0,1,clear,medium,terminal,intermedia,31.9
+TRIP_0024,Lago Azul,Hospital Central,R1+R2,weekday,15-18,4.9,2,1,1,rain,medium,intermedia,central,37.56
+TRIP_0025,Centro Histórico,Mercado Distrital,R2,weekday,09-12,3.9,2,0,0,rain,high,central,barrial,26.41
+TRIP_0026,Portal Norte,Centro Histórico,R1,weekday,12-15,6.0,2,0,0,clear,high,terminal,central,31.99
+TRIP_0027,Portal Norte,Parque Industrial,R1+R4,sunday,18-21,15.7,5,1,1,rain,high,terminal,industrial,83.52
+TRIP_0028,San Pedro,Lago Azul,R1,weekday,15-18,8.3,3,0,1,clear,medium,intermedia,intermedia,35.18
+TRIP_0029,Centro Histórico,Portal Norte,R1,weekday,07-09,6.0,2,0,1,rain,medium,central,terminal,29.26
+TRIP_0030,San Pedro,Terminal Sur,R5+R2,weekday,09-12,8.5,3,1,0,rain,high,intermedia,terminal,48.41
+TRIP_0031,Parque Industrial,Hospital Central,R5,weekday,07-09,3.4,1,0,1,clear,high,industrial,central,24.08
+TRIP_0032,Universidad,Aeropuerto,R4,weekday,07-09,13.4,3,0,1,rain,high,intermedia,terminal,56.02
+TRIP_0033,Hospital Central,Terminal Sur,R2,weekday,18-21,5.8,2,0,1,clear,medium,central,terminal,28.9
+TRIP_0034,Terminal Sur,Parque Industrial,R2+R5,weekday,18-21,9.2,3,1,1,clear,high,terminal,industrial,54.36
+TRIP_0035,Terminal Sur,Lago Azul,R3,sunday,12-15,8.7,2,0,0,rain,medium,terminal,intermedia,28.59
+TRIP_0036,San Pedro,Terminal Sur,R5+R2,weekday,07-09,8.5,3,1,1,rain,high,intermedia,terminal,48.6
+TRIP_0037,Universidad,Aeropuerto,R4,sunday,12-15,13.4,3,0,0,clear,low,intermedia,terminal,39.93
+TRIP_0038,Aeropuerto,Lago Azul,R4+R1,sunday,09-12,18.6,5,1,0,clear,low,terminal,intermedia,61.54
+TRIP_0039,Hospital Central,Tecnoparque,R5+R4,weekday,12-15,6.4,2,1,0,clear,high,central,industrial,36.94
+TRIP_0040,Tecnoparque,Lago Azul,R4+R1,sunday,07-09,9.5,3,1,1,clear,medium,industrial,intermedia,43.14
+TRIP_0041,Parque Industrial,Portal Norte,R4+R1,weekday,05-07,15.7,5,1,0,clear,medium,industrial,terminal,64.33
+TRIP_0042,Hospital Central,Portal Norte,R2+R1,weekday,18-21,8.1,3,1,1,rain,medium,central,terminal,46.93
+TRIP_0043,Centro Histórico,Tecnoparque,R1+R4,weekday,05-07,6.7,2,1,0,clear,medium,central,industrial,33.15
+TRIP_0044,Aeropuerto,Lago Azul,R4+R1,weekday,18-21,18.6,5,1,1,clear,high,terminal,intermedia,93.47
+TRIP_0045,Tecnoparque,Centro Histórico,R4+R1,saturday,15-18,6.7,2,1,1,rain,medium,industrial,central,44.2
+TRIP_0046,Villa Nueva,Universidad,R3+R1,sunday,12-15,8.7,3,1,0,clear,medium,barrial,intermedia,38.62
+TRIP_0047,Lago Azul,Portal Norte,R1,weekday,07-09,3.2,1,0,1,clear,medium,intermedia,terminal,20.08
+TRIP_0048,Tecnoparque,Parque Industrial,R4,saturday,09-12,3.0,1,0,0,heavy_rain,high,industrial,industrial,33.18
+TRIP_0049,Universidad,Villa Nueva,R1+R3,sunday,15-18,8.7,3,1,1,rain,high,intermedia,barrial,50.81
+TRIP_0050,Portal Norte,Parque Industrial,R1+R4,saturday,07-09,15.7,5,1,1,clear,high,terminal,industrial,80.53
+TRIP_0051,Mercado Distrital,Terminal Sur,R2,saturday,05-07,4.0,1,0,0,rain,low,barrial,terminal,17.32
+TRIP_0052,Lago Azul,Centro Histórico,R1,weekday,15-18,2.8,1,0,1,rain,high,intermedia,central,25.64
+TRIP_0053,Lago Azul,Aeropuerto,R1+R4,weekday,12-15,18.6,5,1,0,clear,medium,intermedia,terminal,70.22
+TRIP_0054,Villa Nueva,Hospital Central,R3+R2,weekday,12-15,11.0,3,1,0,rain,low,barrial,central,45.61
+TRIP_0055,Parque Industrial,Terminal Sur,R5+R2,saturday,15-18,9.2,3,1,1,clear,high,industrial,terminal,53.7
+TRIP_0056,Terminal Sur,San Pedro,R2+R5,weekday,09-12,8.5,3,1,0,clear,low,terminal,intermedia,39.11
+TRIP_0057,Aeropuerto,Parque Industrial,R4,saturday,12-15,6.1,1,0,0,rain,medium,terminal,industrial,27.05
+TRIP_0058,Lago Azul,San Pedro,R1,sunday,15-18,8.3,3,0,1,heavy_rain,medium,intermedia,intermedia,41.8
+TRIP_0059,Terminal Sur,Hospital Central,R2,weekday,15-18,5.8,2,0,1,clear,high,terminal,central,31.95
+TRIP_0060,Parque Industrial,Lago Azul,R4+R1,weekday,09-12,12.5,4,1,0,clear,high,industrial,intermedia,64.89
+TRIP_0061,Lago Azul,Parque Industrial,R1+R4,sunday,09-12,12.5,4,1,0,rain,low,intermedia,industrial,52.3
+TRIP_0062,Terminal Sur,Mercado Distrital,R2,sunday,05-07,4.0,1,0,0,clear,low,terminal,barrial,14.34
+TRIP_0063,Centro Histórico,Villa Nueva,R1+R3,weekday,05-07,6.3,2,1,0,clear,low,central,barrial,26.15
+TRIP_0064,Centro Histórico,Mercado Distrital,R2,weekday,18-21,3.9,2,0,1,rain,high,central,barrial,32.32
+TRIP_0065,Hospital Central,Tecnoparque,R5+R4,weekday,07-09,6.4,2,1,1,clear,high,central,industrial,47.2
+TRIP_0066,Parque Industrial,Hospital Central,R5,saturday,07-09,3.4,1,0,1,clear,high,industrial,central,27.73
+TRIP_0067,Villa Nueva,Terminal Sur,R3,weekday,05-07,5.2,1,0,0,rain,medium,barrial,terminal,24.54
+TRIP_0068,San Pedro,Portal Norte,R1,weekday,21-23,11.5,4,0,0,clear,medium,intermedia,terminal,39.7
+TRIP_0069,Aeropuerto,Hospital Central,R4+R5,sunday,09-12,9.5,2,1,0,clear,medium,terminal,central,40.09
+TRIP_0070,Lago Azul,Parque Industrial,R1+R4,weekday,12-15,12.5,4,1,0,clear,medium,intermedia,industrial,60.28
+TRIP_0071,Mercado Distrital,Lago Azul,R2+R1,weekday,09-12,6.7,3,1,0,clear,medium,barrial,intermedia,36.23
+TRIP_0072,Lago Azul,Universidad,R1,weekday,12-15,5.2,2,0,0,clear,low,intermedia,intermedia,19.8
+TRIP_0073,Tecnoparque,Parque Industrial,R4,weekday,12-15,3.0,1,0,0,clear,medium,industrial,industrial,18.45
+TRIP_0074,Terminal Sur,Centro Histórico,R2,saturday,12-15,7.9,3,0,0,clear,medium,terminal,central,36.01
+TRIP_0075,Lago Azul,Tecnoparque,R1+R4,weekday,15-18,9.5,3,1,1,clear,high,intermedia,industrial,59.47
+TRIP_0076,Parque Industrial,Mercado Distrital,R5+R2,weekday,09-12,5.2,2,1,0,clear,low,industrial,barrial,31.42
+TRIP_0077,Portal Norte,Villa Nueva,R1+R3,saturday,18-21,6.7,2,1,1,clear,medium,terminal,barrial,36.99
+TRIP_0078,Villa Nueva,Portal Norte,R3+R1,weekday,21-23,6.7,2,1,0,heavy_rain,medium,barrial,terminal,38.34
+TRIP_0079,Hospital Central,Terminal Sur,R2,weekday,05-07,5.8,2,0,0,clear,medium,central,terminal,25.24
+TRIP_0080,Lago Azul,Terminal Sur,R3,sunday,12-15,8.7,2,0,0,rain,high,intermedia,terminal,36.05
+TRIP_0081,Aeropuerto,Hospital Central,R4+R5,weekday,05-07,9.5,2,1,0,rain,medium,terminal,central,48.09
+TRIP_0082,Lago Azul,Mercado Distrital,R1+R2,sunday,05-07,6.7,3,1,0,clear,low,intermedia,barrial,29.34
+TRIP_0083,Lago Azul,Tecnoparque,R1+R4,weekday,05-07,9.5,3,1,0,clear,high,intermedia,industrial,50.29
+TRIP_0084,Terminal Sur,Hospital Central,R2,weekday,09-12,5.8,2,0,0,clear,medium,terminal,central,27.26
+TRIP_0085,Universidad,Parque Industrial,R4,sunday,12-15,7.3,2,0,0,rain,low,intermedia,industrial,24.6
+TRIP_0086,San Pedro,Villa Nueva,R1+R3,weekday,12-15,11.8,4,1,0,clear,medium,intermedia,barrial,52.86
+TRIP_0087,Portal Norte,Lago Azul,R1,weekday,05-07,3.2,1,0,0,rain,medium,terminal,intermedia,19.29
+TRIP_0088,Lago Azul,Terminal Sur,R3,weekday,15-18,8.7,2,0,1,clear,high,intermedia,terminal,41.63
+TRIP_0089,Mercado Distrital,Portal Norte,R2+R1,saturday,18-21,9.9,4,1,1,clear,high,barrial,terminal,54.6
+TRIP_0090,Mercado Distrital,Parque Industrial,R2+R5,saturday,09-12,5.2,2,1,0,clear,medium,barrial,industrial,34.88
+TRIP_0091,Lago Azul,Tecnoparque,R1+R4,weekday,15-18,9.5,3,1,1,rain,high,intermedia,industrial,55.84
+TRIP_0092,Universidad,Portal Norte,R1,weekday,21-23,8.4,3,0,0,clear,high,intermedia,terminal,37.8
+TRIP_0093,Villa Nueva,Portal Norte,R3+R1,weekday,12-15,6.7,2,1,0,rain,high,barrial,terminal,41.8
+TRIP_0094,Portal Norte,Centro Histórico,R1,weekday,07-09,6.0,2,0,1,clear,high,terminal,central,35.19
+TRIP_0095,San Pedro,Portal Norte,R1,saturday,18-21,11.5,4,0,1,clear,medium,intermedia,terminal,44.92
+TRIP_0096,Mercado Distrital,Centro Histórico,R2,weekday,15-18,3.9,2,0,1,clear,medium,barrial,central,22.78
+TRIP_0097,Portal Norte,Terminal Sur,R1+R3,weekday,18-21,11.9,3,1,1,clear,high,terminal,terminal,63.76
+TRIP_0098,Lago Azul,San Pedro,R1,sunday,07-09,8.3,3,0,1,clear,medium,intermedia,intermedia,30.12
+TRIP_0099,San Pedro,Hospital Central,R5,weekday,09-12,2.7,1,0,0,clear,medium,intermedia,central,14.15
+TRIP_0100,Portal Norte,Mercado Distrital,R1+R2,sunday,12-15,9.9,4,1,0,clear,low,terminal,barrial,36.45
+TRIP_0101,Universidad,Centro Histórico,R1,weekday,15-18,2.4,1,0,1,clear,medium,intermedia,central,16.75
+TRIP_0102,Portal Norte,Tecnoparque,R1+R4,weekday,09-12,12.7,4,1,0,rain,low,terminal,industrial,50.44
+TRIP_0103,Mercado Distrital,Hospital Central,R2,saturday,12-15,1.8,1,0,0,clear,medium,barrial,central,11.93
+TRIP_0104,Universidad,Parque Industrial,R4,weekday,18-21,7.3,2,0,1,clear,high,intermedia,industrial,40.3
+TRIP_0105,Aeropuerto,Hospital Central,R4+R5,weekday,21-23,9.5,2,1,0,clear,high,terminal,central,48.28
+TRIP_0106,San Pedro,Universidad,R1,weekday,12-15,3.1,1,0,0,clear,medium,intermedia,intermedia,16.55
+TRIP_0107,Lago Azul,San Pedro,R1,sunday,07-09,8.3,3,0,1,clear,medium,intermedia,intermedia,30.93
+TRIP_0108,Parque Industrial,Mercado Distrital,R5+R2,weekday,05-07,5.2,2,1,0,clear,medium,industrial,barrial,34.46
+TRIP_0109,Parque Industrial,Mercado Distrital,R5+R2,weekday,09-12,5.2,2,1,0,clear,medium,industrial,barrial,32.17
+TRIP_0110,Lago Azul,Universidad,R1,weekday,12-15,5.2,2,0,0,clear,medium,intermedia,intermedia,23.93
+TRIP_0111,Hospital Central,Aeropuerto,R5+R4,sunday,07-09,9.5,2,1,1,clear,medium,central,terminal,40.38
+TRIP_0112,Villa Nueva,Hospital Central,R3+R2,weekday,18-21,11.0,3,1,1,clear,high,barrial,central,62.86
+TRIP_0113,Tecnoparque,Centro Histórico,R4+R1,weekday,07-09,6.7,2,1,1,rain,low,industrial,central,41.43
+TRIP_0114,Portal Norte,Villa Nueva,R1+R3,weekday,07-09,6.7,2,1,1,clear,high,terminal,barrial,39.53
+TRIP_0115,Parque Industrial,Lago Azul,R4+R1,sunday,12-15,12.5,4,1,0,clear,medium,industrial,intermedia,50.7
+TRIP_0116,Tecnoparque,Universidad,R4,weekday,12-15,4.3,1,0,0,heavy_rain,medium,industrial,intermedia,24.98
+TRIP_0117,Lago Azul,Mercado Distrital,R1+R2,saturday,12-15,6.7,3,1,0,clear,medium,intermedia,barrial,36.43
+TRIP_0118,Hospital Central,Portal Norte,R2+R1,weekday,05-07,8.1,3,1,0,clear,medium,central,terminal,42.6
+TRIP_0119,Portal Norte,Universidad,R1,weekday,18-21,8.4,3,0,1,clear,medium,terminal,intermedia,35.06
+TRIP_0120,Villa Nueva,Terminal Sur,R3,weekday,21-23,5.2,1,0,0,clear,low,barrial,terminal,20.97
+TRIP_0121,Lago Azul,Aeropuerto,R1+R4,weekday,18-21,18.6,5,1,1,rain,high,intermedia,terminal,91.12
+TRIP_0122,Centro Histórico,Universidad,R1,weekday,09-12,2.4,1,0,0,clear,high,central,intermedia,19.61
+TRIP_0123,Portal Norte,Tecnoparque,R1+R4,weekday,18-21,12.7,4,1,1,clear,high,terminal,industrial,70.31
+TRIP_0124,Parque Industrial,San Pedro,R5,saturday,12-15,6.1,2,0,0,rain,high,industrial,intermedia,31.17
+TRIP_0125,Portal Norte,Mercado Distrital,R1+R2,weekday,09-12,9.9,4,1,0,clear,high,terminal,barrial,49.92
+TRIP_0126,Villa Nueva,Lago Azul,R3,weekday,21-23,3.5,1,0,0,clear,low,barrial,intermedia,13.75
+TRIP_0127,Universidad,Parque Industrial,R4,sunday,09-12,7.3,2,0,0,clear,medium,intermedia,industrial,23.36
+TRIP_0128,Lago Azul,Hospital Central,R1+R2,sunday,15-18,4.9,2,1,1,clear,medium,intermedia,central,37.2
+TRIP_0129,Portal Norte,Parque Industrial,R1+R4,weekday,15-18,15.7,5,1,1,rain,high,terminal,industrial,86.93
+TRIP_0130,Mercado Distrital,San Pedro,R2+R5,weekday,09-12,4.5,2,1,0,clear,high,barrial,intermedia,32.39
+TRIP_0131,Centro Histórico,Portal Norte,R1,weekday,07-09,6.0,2,0,1,clear,high,central,terminal,29.54
+TRIP_0132,San Pedro,Portal Norte,R1,weekday,05-07,11.5,4,0,0,rain,high,intermedia,terminal,48.88
+TRIP_0133,Parque Industrial,Centro Histórico,R5+R2,weekday,12-15,5.5,2,1,0,clear,low,industrial,central,27.89
+TRIP_0134,Centro Histórico,Lago Azul,R1,weekday,12-15,2.8,1,0,0,clear,low,central,intermedia,13.34
+TRIP_0135,Hospital Central,Universidad,R2+R1,sunday,21-23,4.5,2,1,0,heavy_rain,high,central,intermedia,40.39
+TRIP_0136,San Pedro,Hospital Central,R5,weekday,12-15,2.7,1,0,0,clear,high,intermedia,central,19.41
+TRIP_0137,San Pedro,Aeropuerto,R5+R4,weekday,07-09,12.2,3,1,1,rain,high,intermedia,terminal,65.46
+TRIP_0138,Villa Nueva,Lago Azul,R3,weekday,09-12,3.5,1,0,0,rain,medium,barrial,intermedia,21.59
+TRIP_0139,Tecnoparque,Aeropuerto,R4,sunday,07-09,9.1,2,0,1,clear,high,industrial,terminal,39.36
+TRIP_0140,Terminal Sur,Lago Azul,R3,weekday,07-09,8.7,2,0,1,clear,high,terminal,intermedia,41.76
+TRIP_0141,Parque Industrial,Aeropuerto,R4,weekday,07-09,6.1,1,0,1,heavy_rain,high,industrial,terminal,41.28
+TRIP_0142,Centro Histórico,Universidad,R1,weekday,12-15,2.4,1,0,0,clear,medium,central,intermedia,15.64
+TRIP_0143,Lago Azul,Universidad,R1,weekday,21-23,5.2,2,0,0,clear,medium,intermedia,intermedia,21.43
+TRIP_0144,Lago Azul,Mercado Distrital,R1+R2,weekday,07-09,6.7,3,1,1,rain,high,intermedia,barrial,49.35
+TRIP_0145,Portal Norte,Parque Industrial,R1+R4,weekday,07-09,15.7,5,1,1,heavy_rain,high,terminal,industrial,82.39
+TRIP_0146,Tecnoparque,San Pedro,R4+R1,weekday,18-21,7.4,2,1,1,clear,low,industrial,intermedia,45.49
+TRIP_0147,Portal Norte,Hospital Central,R1+R2,saturday,15-18,8.1,3,1,1,clear,high,terminal,central,48.31
+TRIP_0148,Aeropuerto,Universidad,R4,weekday,21-23,13.4,3,0,0,clear,low,terminal,intermedia,41.72
+TRIP_0149,Lago Azul,Villa Nueva,R3,weekday,09-12,3.5,1,0,0,rain,medium,intermedia,barrial,18.49
+TRIP_0150,Villa Nueva,Lago Azul,R3,weekday,12-15,3.5,1,0,0,clear,high,barrial,intermedia,20.31
+TRIP_0151,Centro Histórico,Aeropuerto,R1+R4,sunday,05-07,15.8,4,1,0,clear,medium,central,terminal,58.53
+TRIP_0152,Terminal Sur,Hospital Central,R2,weekday,18-21,5.8,2,0,1,clear,high,terminal,central,33.98
+TRIP_0153,Aeropuerto,Hospital Central,R4+R5,weekday,18-21,9.5,2,1,1,clear,high,terminal,central,55.98
+TRIP_0154,Villa Nueva,Terminal Sur,R3,weekday,07-09,5.2,1,0,1,clear,high,barrial,terminal,28.61
+TRIP_0155,Terminal Sur,Villa Nueva,R3,weekday,07-09,5.2,1,0,1,rain,high,terminal,barrial,29.62
+TRIP_0156,Portal Norte,Mercado Distrital,R1+R2,weekday,07-09,9.9,4,1,1,clear,medium,terminal,barrial,50.18
+TRIP_0157,Centro Histórico,Tecnoparque,R1+R4,saturday,21-23,6.7,2,1,0,clear,low,central,industrial,31.94
+TRIP_0158,Portal Norte,Universidad,R1,weekday,15-18,8.4,3,0,1,clear,medium,terminal,intermedia,34.74
+TRIP_0159,Parque Industrial,Universidad,R4,sunday,09-12,7.3,2,0,0,clear,low,industrial,intermedia,24.34
+TRIP_0160,Hospital Central,Mercado Distrital,R2,weekday,18-21,1.8,1,0,1,rain,high,central,barrial,25.5
+TRIP_0161,Portal Norte,Villa Nueva,R1+R3,saturday,12-15,6.7,2,1,0,clear,low,terminal,barrial,30.87
+TRIP_0162,Terminal Sur,Villa Nueva,R3,weekday,12-15,5.2,1,0,0,clear,low,terminal,barrial,18.31
+TRIP_0163,Universidad,Mercado Distrital,R1+R2,weekday,09-12,6.3,3,1,0,rain,high,intermedia,barrial,41.92
+TRIP_0164,Lago Azul,Villa Nueva,R3,weekday,09-12,3.5,1,0,0,heavy_rain,low,intermedia,barrial,20.38
+TRIP_0165,Parque Industrial,Portal Norte,R4+R1,sunday,21-23,15.7,5,1,0,clear,low,industrial,terminal,60.18
+TRIP_0166,Centro Histórico,Aeropuerto,R1+R4,sunday,15-18,15.8,4,1,1,clear,high,central,terminal,81.26
+TRIP_0167,Lago Azul,Parque Industrial,R1+R4,weekday,15-18,12.5,4,1,1,clear,high,intermedia,industrial,75.49
+TRIP_0168,Lago Azul,Aeropuerto,R1+R4,saturday,21-23,18.6,5,1,0,clear,medium,intermedia,terminal,70.26
+TRIP_0169,Portal Norte,Centro Histórico,R1,weekday,15-18,6.0,2,0,1,rain,high,terminal,central,38.15
+TRIP_0170,San Pedro,Terminal Sur,R5+R2,saturday,18-21,8.5,3,1,1,clear,high,intermedia,terminal,49.76
+TRIP_0171,Universidad,Lago Azul,R1,weekday,05-07,5.2,2,0,0,clear,low,intermedia,intermedia,19.18
+TRIP_0172,Tecnoparque,Hospital Central,R4+R5,weekday,18-21,6.4,2,1,1,clear,medium,industrial,central,38.54
+TRIP_0173,Portal Norte,Universidad,R1,weekday,18-21,8.4,3,0,1,clear,medium,terminal,intermedia,36.73
+TRIP_0174,Universidad,Aeropuerto,R4,weekday,15-18,13.4,3,0,1,clear,medium,intermedia,terminal,46.22
+TRIP_0175,Terminal Sur,Villa Nueva,R3,saturday,07-09,5.2,1,0,1,clear,medium,terminal,barrial,25.25
+TRIP_0176,Hospital Central,Portal Norte,R2+R1,sunday,07-09,8.1,3,1,1,clear,medium,central,terminal,42.02
+TRIP_0177,San Pedro,Centro Histórico,R1,sunday,18-21,5.5,2,0,1,clear,medium,intermedia,central,24.27
+TRIP_0178,Universidad,Mercado Distrital,R1+R2,weekday,12-15,6.3,3,1,0,rain,medium,intermedia,barrial,36.94
+TRIP_0179,Terminal Sur,Mercado Distrital,R2,weekday,09-12,4.0,1,0,0,rain,high,terminal,barrial,25.61
+TRIP_0180,Lago Azul,Parque Industrial,R1+R4,weekday,12-15,12.5,4,1,0,clear,medium,intermedia,industrial,53.03
+TRIP_0181,Portal Norte,Hospital Central,R1+R2,weekday,18-21,8.1,3,1,1,clear,medium,terminal,central,45.93
+TRIP_0182,Lago Azul,Portal Norte,R1,weekday,18-21,3.2,1,0,1,clear,medium,intermedia,terminal,22.78
+TRIP_0183,Centro Histórico,Parque Industrial,R2+R5,weekday,05-07,5.5,2,1,0,clear,medium,central,industrial,33.77
+TRIP_0184,Portal Norte,Terminal Sur,R1+R3,sunday,09-12,11.9,3,1,0,clear,low,terminal,terminal,51.34
+TRIP_0185,Universidad,Tecnoparque,R4,weekday,18-21,4.3,1,0,1,rain,medium,intermedia,industrial,27.44
+TRIP_0186,Portal Norte,Aeropuerto,R1+R4,weekday,07-09,21.8,6,1,1,rain,high,terminal,terminal,106.67
+TRIP_0187,Parque Industrial,Mercado Distrital,R5+R2,weekday,09-12,5.2,2,1,0,heavy_rain,medium,industrial,barrial,40.32
+TRIP_0188,Mercado Distrital,Centro Histórico,R2,weekday,12-15,3.9,2,0,0,heavy_rain,medium,barrial,central,27.48
+TRIP_0189,Mercado Distrital,Hospital Central,R2,weekday,09-12,1.8,1,0,0,clear,low,barrial,central,12.99
+TRIP_0190,Portal Norte,Terminal Sur,R1+R3,weekday,09-12,11.9,3,1,0,clear,high,terminal,terminal,55.28
+TRIP_0191,Villa Nueva,Universidad,R3+R1,weekday,09-12,8.7,3,1,0,clear,medium,barrial,intermedia,40.74
+TRIP_0192,Aeropuerto,Universidad,R4,weekday,09-12,13.4,3,0,0,clear,low,terminal,intermedia,41.84
+TRIP_0193,Tecnoparque,Universidad,R4,weekday,12-15,4.3,1,0,0,rain,low,industrial,intermedia,19.08
+TRIP_0194,Aeropuerto,Lago Azul,R4+R1,weekday,18-21,18.6,5,1,1,clear,high,terminal,intermedia,90.56
+TRIP_0195,Mercado Distrital,Portal Norte,R2+R1,saturday,12-15,9.9,4,1,0,clear,medium,barrial,terminal,37.86
+TRIP_0196,Centro Histórico,Portal Norte,R1,weekday,05-07,6.0,2,0,0,rain,medium,central,terminal,26.55
+TRIP_0197,Mercado Distrital,San Pedro,R2+R5,weekday,07-09,4.5,2,1,1,rain,high,barrial,intermedia,42.51
+TRIP_0198,Aeropuerto,Centro Histórico,R4+R1,sunday,18-21,15.8,4,1,1,clear,high,terminal,central,82.15
+TRIP_0199,San Pedro,Aeropuerto,R5+R4,saturday,12-15,12.2,3,1,0,clear,high,intermedia,terminal,57.35
+TRIP_0200,Mercado Distrital,Lago Azul,R2+R1,weekday,09-12,6.7,3,1,0,clear,medium,barrial,intermedia,33.92
+TRIP_0201,Portal Norte,Universidad,R1,sunday,05-07,8.4,3,0,0,clear,low,terminal,intermedia,28.48
+TRIP_0202,Aeropuerto,Universidad,R4,saturday,09-12,13.4,3,0,0,clear,low,terminal,intermedia,40.99
+TRIP_0203,Parque Industrial,Centro Histórico,R5+R2,weekday,09-12,5.5,2,1,0,clear,high,industrial,central,37.65
+TRIP_0204,Hospital Central,Centro Histórico,R2,weekday,15-18,2.1,1,0,1,rain,high,central,central,24.67
+TRIP_0205,Lago Azul,Mercado Distrital,R1+R2,weekday,12-15,6.7,3,1,0,heavy_rain,high,intermedia,barrial,52.26
+TRIP_0206,Centro Histórico,Villa Nueva,R1+R3,sunday,05-07,6.3,2,1,0,rain,medium,central,barrial,33.71
+TRIP_0207,Universidad,Portal Norte,R1,weekday,12-15,8.4,3,0,0,rain,medium,intermedia,terminal,32.95
+TRIP_0208,Portal Norte,Centro Histórico,R1,weekday,07-09,6.0,2,0,1,clear,high,terminal,central,36.39
+TRIP_0209,Mercado Distrital,Terminal Sur,R2,saturday,21-23,4.0,1,0,0,rain,high,barrial,terminal,25.68
+TRIP_0210,Aeropuerto,Universidad,R4,sunday,21-23,13.4,3,0,0,clear,low,terminal,intermedia,37.71
+TRIP_0211,Mercado Distrital,Parque Industrial,R2+R5,weekday,09-12,5.2,2,1,0,clear,low,barrial,industrial,30.13
+TRIP_0212,Parque Industrial,Terminal Sur,R5+R2,weekday,05-07,9.2,3,1,0,clear,low,industrial,terminal,44.13
+TRIP_0213,Hospital Central,Mercado Distrital,R2,weekday,18-21,1.8,1,0,1,heavy_rain,medium,central,barrial,23.6
+TRIP_0214,Universidad,Lago Azul,R1,weekday,12-15,5.2,2,0,0,rain,medium,intermedia,intermedia,24.79
+TRIP_0215,Hospital Central,Portal Norte,R2+R1,saturday,12-15,8.1,3,1,0,rain,high,central,terminal,49.55
+TRIP_0216,Tecnoparque,Lago Azul,R4+R1,weekday,18-21,9.5,3,1,1,clear,high,industrial,intermedia,57.42
+TRIP_0217,Parque Industrial,Centro Histórico,R5+R2,weekday,15-18,5.5,2,1,1,clear,medium,industrial,central,40.05
+TRIP_0218,Lago Azul,Villa Nueva,R3,weekday,07-09,3.5,1,0,1,clear,high,intermedia,barrial,25.22
+TRIP_0219,Parque Industrial,Mercado Distrital,R5+R2,weekday,12-15,5.2,2,1,0,clear,low,industrial,barrial,26.39
+TRIP_0220,Centro Histórico,Mercado Distrital,R2,weekday,05-07,3.9,2,0,0,heavy_rain,medium,central,barrial,26.62
+TRIP_0221,Universidad,Parque Industrial,R4,saturday,15-18,7.3,2,0,1,rain,high,intermedia,industrial,40.61
+TRIP_0222,Portal Norte,Centro Histórico,R1,weekday,09-12,6.0,2,0,0,clear,medium,terminal,central,26.19
+TRIP_0223,Terminal Sur,San Pedro,R2+R5,saturday,12-15,8.5,3,1,0,rain,medium,terminal,intermedia,38.73
+TRIP_0224,San Pedro,Terminal Sur,R5+R2,weekday,07-09,8.5,3,1,1,clear,high,intermedia,terminal,49.88
+TRIP_0225,Villa Nueva,Universidad,R3+R1,sunday,07-09,8.7,3,1,1,clear,medium,barrial,intermedia,44.45
+TRIP_0226,Lago Azul,Centro Histórico,R1,saturday,15-18,2.8,1,0,1,clear,medium,intermedia,central,17.19
+TRIP_0227,Lago Azul,Villa Nueva,R3,weekday,07-09,3.5,1,0,1,clear,high,intermedia,barrial,24.9
+TRIP_0228,Parque Industrial,Universidad,R4,saturday,15-18,7.3,2,0,1,rain,high,industrial,intermedia,40.0
+TRIP_0229,Centro Histórico,Universidad,R1,weekday,12-15,2.4,1,0,0,clear,low,central,intermedia,12.7
+TRIP_0230,Centro Histórico,Universidad,R1,weekday,07-09,2.4,1,0,1,clear,medium,central,intermedia,16.39
+TRIP_0231,Hospital Central,Centro Histórico,R2,sunday,12-15,2.1,1,0,0,clear,medium,central,central,11.32
+TRIP_0232,San Pedro,Mercado Distrital,R5+R2,saturday,12-15,4.5,2,1,0,clear,low,intermedia,barrial,21.04
+TRIP_0233,Parque Industrial,Hospital Central,R5,weekday,12-15,3.4,1,0,0,clear,high,industrial,central,25.67
+TRIP_0234,Centro Histórico,Terminal Sur,R2,sunday,21-23,7.9,3,0,0,rain,medium,central,terminal,32.9
+TRIP_0235,Lago Azul,Villa Nueva,R3,weekday,12-15,3.5,1,0,0,rain,medium,intermedia,barrial,18.77
+TRIP_0236,Universidad,Aeropuerto,R4,weekday,05-07,13.4,3,0,0,heavy_rain,medium,intermedia,terminal,46.78
+TRIP_0237,Lago Azul,Portal Norte,R1,weekday,07-09,3.2,1,0,1,rain,medium,intermedia,terminal,21.8
+TRIP_0238,Lago Azul,Villa Nueva,R3,saturday,07-09,3.5,1,0,1,clear,high,intermedia,barrial,24.71
+TRIP_0239,Portal Norte,Terminal Sur,R1+R3,weekday,07-09,11.9,3,1,1,rain,high,terminal,terminal,66.48
+TRIP_0240,Villa Nueva,Mercado Distrital,R3+R2,weekday,12-15,9.2,2,1,0,heavy_rain,low,barrial,barrial,46.49
+TRIP_0241,Centro Histórico,Mercado Distrital,R2,saturday,05-07,3.9,2,0,0,clear,medium,central,barrial,16.15
+TRIP_0242,Tecnoparque,Centro Histórico,R4+R1,weekday,12-15,6.7,2,1,0,rain,medium,industrial,central,35.77
+TRIP_0243,Centro Histórico,Lago Azul,R1,weekday,09-12,2.8,1,0,0,rain,low,central,intermedia,14.15
+TRIP_0244,Portal Norte,Hospital Central,R1+R2,weekday,07-09,8.1,3,1,1,clear,high,terminal,central,52.64
+TRIP_0245,Lago Azul,Centro Histórico,R1,sunday,18-21,2.8,1,0,1,clear,medium,intermedia,central,17.46
+TRIP_0246,Lago Azul,Universidad,R1,weekday,07-09,5.2,2,0,1,rain,high,intermedia,intermedia,31.16
+TRIP_0247,Lago Azul,Mercado Distrital,R1+R2,weekday,15-18,6.7,3,1,1,clear,high,intermedia,barrial,47.55
+TRIP_0248,Mercado Distrital,Centro Histórico,R2,weekday,18-21,3.9,2,0,1,clear,high,barrial,central,27.74
+TRIP_0249,Terminal Sur,Centro Histórico,R2,saturday,18-21,7.9,3,0,1,clear,medium,terminal,central,35.22
+TRIP_0250,Centro Histórico,Aeropuerto,R1+R4,saturday,15-18,15.8,4,1,1,clear,medium,central,terminal,65.04
+TRIP_0251,Villa Nueva,Universidad,R3+R1,weekday,12-15,8.7,3,1,0,clear,medium,barrial,intermedia,38.84
+TRIP_0252,Villa Nueva,Centro Histórico,R3+R1,saturday,12-15,6.3,2,1,0,clear,medium,barrial,central,28.65
+TRIP_0253,Villa Nueva,Portal Norte,R3+R1,sunday,21-23,6.7,2,1,0,clear,medium,barrial,terminal,35.93
+TRIP_0254,Tecnoparque,Portal Norte,R4+R1,weekday,18-21,12.7,4,1,1,clear,high,industrial,terminal,72.82
+TRIP_0255,Lago Azul,Terminal Sur,R3,sunday,09-12,8.7,2,0,0,rain,low,intermedia,terminal,29.12
+TRIP_0256,Universidad,Terminal Sur,R1+R2,weekday,07-09,10.3,4,1,1,clear,high,intermedia,terminal,64.01
+TRIP_0257,Parque Industrial,Hospital Central,R5,weekday,18-21,3.4,1,0,1,clear,medium,industrial,central,23.33
+TRIP_0258,Portal Norte,Hospital Central,R1+R2,weekday,18-21,8.1,3,1,1,rain,high,terminal,central,51.83
+TRIP_0259,San Pedro,Hospital Central,R5,weekday,05-07,2.7,1,0,0,heavy_rain,medium,intermedia,central,21.36
+TRIP_0260,Centro Histórico,San Pedro,R1,weekday,12-15,5.5,2,0,0,clear,medium,central,intermedia,25.06
+TRIP_0261,Portal Norte,Mercado Distrital,R1+R2,weekday,12-15,9.9,4,1,0,clear,high,terminal,barrial,51.26
+TRIP_0262,Hospital Central,Universidad,R2+R1,weekday,05-07,4.5,2,1,0,clear,low,central,intermedia,30.61
+TRIP_0263,Tecnoparque,Lago Azul,R4+R1,weekday,18-21,9.5,3,1,1,clear,high,industrial,intermedia,58.0
+TRIP_0264,Mercado Distrital,San Pedro,R2+R5,weekday,15-18,4.5,2,1,1,clear,medium,barrial,intermedia,31.5
+TRIP_0265,Portal Norte,Terminal Sur,R1+R3,saturday,07-09,11.9,3,1,1,clear,medium,terminal,terminal,56.49
+TRIP_0266,Terminal Sur,Universidad,R2+R1,sunday,05-07,10.3,4,1,0,rain,low,terminal,intermedia,49.2
+TRIP_0267,Terminal Sur,Parque Industrial,R2+R5,sunday,09-12,9.2,3,1,0,clear,low,terminal,industrial,39.14
+TRIP_0268,Terminal Sur,Universidad,R2+R1,weekday,07-09,10.3,4,1,1,clear,high,terminal,intermedia,59.33
+TRIP_0269,Parque Industrial,San Pedro,R5,weekday,09-12,6.1,2,0,0,rain,low,industrial,intermedia,24.98
+TRIP_0270,Aeropuerto,Parque Industrial,R4,weekday,12-15,6.1,1,0,0,clear,high,terminal,industrial,27.66
+TRIP_0271,Lago Azul,Villa Nueva,R3,weekday,12-15,3.5,1,0,0,rain,medium,intermedia,barrial,21.15
+TRIP_0272,Terminal Sur,San Pedro,R2+R5,weekday,05-07,8.5,3,1,0,clear,medium,terminal,intermedia,38.87
+TRIP_0273,Portal Norte,Centro Histórico,R1,weekday,18-21,6.0,2,0,1,clear,high,terminal,central,35.18
+TRIP_0274,Terminal Sur,San Pedro,R2+R5,saturday,07-09,8.5,3,1,1,rain,high,terminal,intermedia,52.92
+TRIP_0275,San Pedro,Parque Industrial,R5,sunday,07-09,6.1,2,0,1,clear,medium,intermedia,industrial,27.73
+TRIP_0276,Mercado Distrital,Portal Norte,R2+R1,weekday,15-18,9.9,4,1,1,rain,high,barrial,terminal,62.52
+TRIP_0277,San Pedro,Aeropuerto,R5+R4,weekday,09-12,12.2,3,1,0,heavy_rain,high,intermedia,terminal,70.25
+TRIP_0278,Hospital Central,Aeropuerto,R5+R4,weekday,09-12,9.5,2,1,0,clear,medium,central,terminal,40.7
+TRIP_0279,San Pedro,Villa Nueva,R1+R3,weekday,09-12,11.8,4,1,0,clear,low,intermedia,barrial,45.44
+TRIP_0280,Parque Industrial,Mercado Distrital,R5+R2,saturday,12-15,5.2,2,1,0,clear,medium,industrial,barrial,30.01
+TRIP_0281,Centro Histórico,Universidad,R1,weekday,05-07,2.4,1,0,0,clear,medium,central,intermedia,15.35
+TRIP_0282,Mercado Distrital,Portal Norte,R2+R1,weekday,09-12,9.9,4,1,0,clear,low,barrial,terminal,43.91
+TRIP_0283,Lago Azul,Terminal Sur,R3,weekday,07-09,8.7,2,0,1,rain,high,intermedia,terminal,41.93
+TRIP_0284,Hospital Central,Centro Histórico,R2,saturday,12-15,2.1,1,0,0,heavy_rain,medium,central,central,21.47
+TRIP_0285,Villa Nueva,San Pedro,R3+R1,weekday,09-12,11.8,4,1,0,clear,low,barrial,intermedia,44.16
+TRIP_0286,Centro Histórico,Aeropuerto,R1+R4,weekday,15-18,15.8,4,1,1,rain,high,central,terminal,86.1
+TRIP_0287,Hospital Central,Parque Industrial,R5,weekday,05-07,3.4,1,0,0,clear,medium,central,industrial,19.63
+TRIP_0288,Portal Norte,Aeropuerto,R1+R4,saturday,18-21,21.8,6,1,1,clear,high,terminal,terminal,102.98
+TRIP_0289,Universidad,Tecnoparque,R4,weekday,15-18,4.3,1,0,1,heavy_rain,high,intermedia,industrial,40.04
+TRIP_0290,Mercado Distrital,Centro Histórico,R2,weekday,18-21,3.9,2,0,1,clear,high,barrial,central,26.7
+TRIP_0291,Lago Azul,Terminal Sur,R3,weekday,15-18,8.7,2,0,1,rain,high,intermedia,terminal,41.53
+TRIP_0292,Parque Industrial,Universidad,R4,saturday,09-12,7.3,2,0,0,clear,low,industrial,intermedia,24.95
+TRIP_0293,Mercado Distrital,Terminal Sur,R2,saturday,07-09,4.0,1,0,1,rain,high,barrial,terminal,27.54
+TRIP_0294,Villa Nueva,Centro Histórico,R3+R1,sunday,07-09,6.3,2,1,1,clear,high,barrial,central,39.73
+TRIP_0295,Parque Industrial,Aeropuerto,R4,saturday,09-12,6.1,1,0,0,clear,medium,industrial,terminal,24.32
+TRIP_0296,Lago Azul,Universidad,R1,sunday,12-15,5.2,2,0,0,rain,low,intermedia,intermedia,18.26
+TRIP_0297,Universidad,Tecnoparque,R4,weekday,18-21,4.3,1,0,1,clear,medium,intermedia,industrial,26.98
+TRIP_0298,Villa Nueva,Centro Histórico,R3+R1,weekday,07-09,6.3,2,1,1,clear,medium,barrial,central,37.94
+TRIP_0299,Universidad,Portal Norte,R1,weekday,12-15,8.4,3,0,0,clear,medium,intermedia,terminal,28.63
+TRIP_0300,Portal Norte,San Pedro,R1,weekday,09-12,11.5,4,0,0,rain,medium,terminal,intermedia,41.39
+TRIP_0301,Centro Histórico,Tecnoparque,R1+R4,weekday,12-15,6.7,2,1,0,clear,medium,central,industrial,32.61
+TRIP_0302,Lago Azul,Hospital Central,R1+R2,weekday,12-15,4.9,2,1,0,rain,medium,intermedia,central,34.09
+TRIP_0303,Centro Histórico,Tecnoparque,R1+R4,weekday,09-12,6.7,2,1,0,clear,low,central,industrial,29.71
+TRIP_0304,Mercado Distrital,Lago Azul,R2+R1,weekday,09-12,6.7,3,1,0,rain,medium,barrial,intermedia,35.84
+TRIP_0305,Tecnoparque,Lago Azul,R4+R1,weekday,05-07,9.5,3,1,0,heavy_rain,low,industrial,intermedia,46.19
+TRIP_0306,Portal Norte,Parque Industrial,R1+R4,weekday,18-21,15.7,5,1,1,clear,high,terminal,industrial,84.49
+TRIP_0307,Hospital Central,Aeropuerto,R5+R4,weekday,07-09,9.5,2,1,1,rain,high,central,terminal,52.93
+TRIP_0308,Hospital Central,Mercado Distrital,R2,weekday,09-12,1.8,1,0,0,clear,medium,central,barrial,15.15
+TRIP_0309,Villa Nueva,Terminal Sur,R3,saturday,07-09,5.2,1,0,1,clear,medium,barrial,terminal,26.31
+TRIP_0310,Parque Industrial,Lago Azul,R4+R1,weekday,18-21,12.5,4,1,1,clear,medium,industrial,intermedia,63.5
+TRIP_0311,San Pedro,Tecnoparque,R1+R4,weekday,07-09,7.4,2,1,1,clear,high,intermedia,industrial,47.0
+TRIP_0312,Portal Norte,Universidad,R1,sunday,12-15,8.4,3,0,0,clear,medium,terminal,intermedia,27.22
+TRIP_0313,Parque Industrial,San Pedro,R5,weekday,12-15,6.1,2,0,0,clear,medium,industrial,intermedia,26.36
+TRIP_0314,Lago Azul,Portal Norte,R1,weekday,05-07,3.2,1,0,0,clear,low,intermedia,terminal,14.16
+TRIP_0315,Portal Norte,Hospital Central,R1+R2,weekday,09-12,8.1,3,1,0,clear,medium,terminal,central,38.92
+TRIP_0316,Tecnoparque,Universidad,R4,weekday,07-09,4.3,1,0,1,rain,high,industrial,intermedia,31.18
+TRIP_0317,Portal Norte,Aeropuerto,R1+R4,weekday,15-18,21.8,6,1,1,rain,high,terminal,terminal,106.33
+TRIP_0318,Centro Histórico,Parque Industrial,R2+R5,saturday,18-21,5.5,2,1,1,clear,high,central,industrial,37.56
+TRIP_0319,Portal Norte,Villa Nueva,R1+R3,weekday,05-07,6.7,2,1,0,rain,medium,terminal,barrial,38.97
+TRIP_0320,Mercado Distrital,Parque Industrial,R2+R5,weekday,09-12,5.2,2,1,0,clear,medium,barrial,industrial,32.63
+TRIP_0321,Tecnoparque,Lago Azul,R4+R1,weekday,18-21,9.5,3,1,1,clear,high,industrial,intermedia,59.72
+TRIP_0322,Villa Nueva,Universidad,R3+R1,weekday,07-09,8.7,3,1,1,clear,medium,barrial,intermedia,50.39
+TRIP_0323,Parque Industrial,Terminal Sur,R5+R2,weekday,18-21,9.2,3,1,1,clear,high,industrial,terminal,53.07
+TRIP_0324,Parque Industrial,Tecnoparque,R4,weekday,12-15,3.0,1,0,0,clear,high,industrial,industrial,23.92
+TRIP_0325,Universidad,Hospital Central,R1+R2,sunday,07-09,4.5,2,1,1,clear,high,intermedia,central,35.05
+TRIP_0326,Terminal Sur,Universidad,R2+R1,weekday,12-15,10.3,4,1,0,clear,medium,terminal,intermedia,46.41
+TRIP_0327,Villa Nueva,San Pedro,R3+R1,sunday,07-09,11.8,4,1,1,clear,high,barrial,intermedia,65.35
+TRIP_0328,Tecnoparque,Parque Industrial,R4,weekday,21-23,3.0,1,0,0,clear,high,industrial,industrial,23.18
+TRIP_0329,Lago Azul,Hospital Central,R1+R2,weekday,07-09,4.9,2,1,1,rain,high,intermedia,central,41.5
+TRIP_0330,Universidad,San Pedro,R1,weekday,07-09,3.1,1,0,1,rain,medium,intermedia,intermedia,22.62
+TRIP_0331,Terminal Sur,San Pedro,R2+R5,weekday,15-18,8.5,3,1,1,clear,high,terminal,intermedia,45.96
+TRIP_0332,Villa Nueva,San Pedro,R3+R1,weekday,09-12,11.8,4,1,0,clear,medium,barrial,intermedia,53.85
+TRIP_0333,Portal Norte,Hospital Central,R1+R2,weekday,09-12,8.1,3,1,0,clear,low,terminal,central,38.3
+TRIP_0334,Universidad,San Pedro,R1,weekday,12-15,3.1,1,0,0,rain,medium,intermedia,intermedia,19.56
+TRIP_0335,Tecnoparque,Centro Histórico,R4+R1,sunday,15-18,6.7,2,1,1,clear,medium,industrial,central,43.36
+TRIP_0336,Parque Industrial,Aeropuerto,R4,weekday,05-07,6.1,1,0,0,clear,low,industrial,terminal,22.27
+TRIP_0337,Aeropuerto,Portal Norte,R4+R1,sunday,15-18,21.8,6,1,1,clear,high,terminal,terminal,99.77
+TRIP_0338,Tecnoparque,Portal Norte,R4+R1,weekday,18-21,12.7,4,1,1,clear,medium,industrial,terminal,61.0
+TRIP_0339,Villa Nueva,Terminal Sur,R3,weekday,18-21,5.2,1,0,1,rain,medium,barrial,terminal,26.29
+TRIP_0340,Centro Histórico,Tecnoparque,R1+R4,saturday,12-15,6.7,2,1,0,clear,medium,central,industrial,33.41
+TRIP_0341,Portal Norte,Villa Nueva,R1+R3,weekday,15-18,6.7,2,1,1,heavy_rain,high,terminal,barrial,54.91
+TRIP_0342,Centro Histórico,Portal Norte,R1,weekday,09-12,6.0,2,0,0,clear,medium,central,terminal,26.25
+TRIP_0343,Hospital Central,Mercado Distrital,R2,weekday,07-09,1.8,1,0,1,clear,medium,central,barrial,18.2
+TRIP_0344,Lago Azul,Hospital Central,R1+R2,sunday,05-07,4.9,2,1,0,clear,low,intermedia,central,27.2
+TRIP_0345,Universidad,Parque Industrial,R4,sunday,07-09,7.3,2,0,1,clear,high,intermedia,industrial,31.97
+TRIP_0346,Aeropuerto,Hospital Central,R4+R5,saturday,07-09,9.5,2,1,1,clear,high,terminal,central,55.27
+TRIP_0347,Hospital Central,San Pedro,R5,weekday,05-07,2.7,1,0,0,clear,low,central,intermedia,14.81
+TRIP_0348,Universidad,Mercado Distrital,R1+R2,weekday,18-21,6.3,3,1,1,rain,medium,intermedia,barrial,42.38
+TRIP_0349,Mercado Distrital,Terminal Sur,R2,sunday,07-09,4.0,1,0,1,clear,medium,barrial,terminal,19.52
+TRIP_0350,Parque Industrial,Hospital Central,R5,sunday,07-09,3.4,1,0,1,rain,medium,industrial,central,23.62
+TRIP_0351,Parque Industrial,Lago Azul,R4+R1,saturday,15-18,12.5,4,1,1,clear,medium,industrial,intermedia,68.08
+TRIP_0352,Aeropuerto,Universidad,R4,weekday,09-12,13.4,3,0,0,clear,medium,terminal,intermedia,43.89
+TRIP_0353,Parque Industrial,Hospital Central,R5,weekday,07-09,3.4,1,0,1,clear,high,industrial,central,24.67
+TRIP_0354,San Pedro,Lago Azul,R1,weekday,15-18,8.3,3,0,1,heavy_rain,medium,intermedia,intermedia,41.93
+TRIP_0355,Lago Azul,Portal Norte,R1,weekday,15-18,3.2,1,0,1,clear,low,intermedia,terminal,18.62
+TRIP_0356,Centro Histórico,Tecnoparque,R1+R4,weekday,07-09,6.7,2,1,1,clear,high,central,industrial,46.29
+TRIP_0357,Centro Histórico,Villa Nueva,R1+R3,sunday,18-21,6.3,2,1,1,clear,high,central,barrial,41.25
+TRIP_0358,Hospital Central,Universidad,R2+R1,saturday,21-23,4.5,2,1,0,clear,medium,central,intermedia,33.92
+TRIP_0359,San Pedro,Mercado Distrital,R5+R2,weekday,12-15,4.5,2,1,0,clear,high,intermedia,barrial,31.08
+TRIP_0360,Lago Azul,Centro Histórico,R1,weekday,18-21,2.8,1,0,1,clear,low,intermedia,central,15.98
+TRIP_0361,Villa Nueva,Mercado Distrital,R3+R2,saturday,18-21,9.2,2,1,1,clear,high,barrial,barrial,49.28
+TRIP_0362,Villa Nueva,Mercado Distrital,R3+R2,weekday,15-18,9.2,2,1,1,clear,high,barrial,barrial,46.97
+TRIP_0363,Parque Industrial,Mercado Distrital,R5+R2,weekday,12-15,5.2,2,1,0,clear,medium,industrial,barrial,31.24
+TRIP_0364,Parque Industrial,San Pedro,R5,weekday,15-18,6.1,2,0,1,clear,high,industrial,intermedia,32.85
+TRIP_0365,Aeropuerto,Hospital Central,R4+R5,weekday,12-15,9.5,2,1,0,clear,low,terminal,central,39.34
+TRIP_0366,Universidad,Terminal Sur,R1+R2,weekday,07-09,10.3,4,1,1,rain,high,intermedia,terminal,67.64
+TRIP_0367,Terminal Sur,Mercado Distrital,R2,weekday,18-21,4.0,1,0,1,clear,high,terminal,barrial,28.24
+TRIP_0368,Tecnoparque,Universidad,R4,weekday,07-09,4.3,1,0,1,clear,high,industrial,intermedia,28.44
+TRIP_0369,Mercado Distrital,Centro Histórico,R2,weekday,18-21,3.9,2,0,1,clear,high,barrial,central,26.23
+TRIP_0370,Aeropuerto,Lago Azul,R4+R1,weekday,21-23,18.6,5,1,0,clear,low,terminal,intermedia,66.25
+TRIP_0371,Parque Industrial,Tecnoparque,R4,weekday,18-21,3.0,1,0,1,clear,low,industrial,industrial,21.09
+TRIP_0372,Villa Nueva,Hospital Central,R3+R2,weekday,18-21,11.0,3,1,1,rain,high,barrial,central,65.32
+TRIP_0373,Hospital Central,Parque Industrial,R5,weekday,05-07,3.4,1,0,0,clear,high,central,industrial,23.12
+TRIP_0374,Portal Norte,San Pedro,R1,weekday,07-09,11.5,4,0,1,clear,high,terminal,intermedia,52.61
+TRIP_0375,Terminal Sur,Villa Nueva,R3,weekday,18-21,5.2,1,0,1,rain,high,terminal,barrial,30.89
+TRIP_0376,Portal Norte,Tecnoparque,R1+R4,saturday,09-12,12.7,4,1,0,clear,medium,terminal,industrial,54.98
+TRIP_0377,Portal Norte,Aeropuerto,R1+R4,weekday,07-09,21.8,6,1,1,clear,medium,terminal,terminal,85.98
+TRIP_0378,San Pedro,Centro Histórico,R1,weekday,12-15,5.5,2,0,0,clear,medium,intermedia,central,20.68
+TRIP_0379,Tecnoparque,Universidad,R4,saturday,05-07,4.3,1,0,0,clear,medium,industrial,intermedia,20.83
+TRIP_0380,Villa Nueva,Terminal Sur,R3,saturday,12-15,5.2,1,0,0,clear,medium,barrial,terminal,20.14
+TRIP_0381,Villa Nueva,Terminal Sur,R3,weekday,21-23,5.2,1,0,0,clear,medium,barrial,terminal,21.66
+TRIP_0382,Hospital Central,Parque Industrial,R5,weekday,15-18,3.4,1,0,1,rain,medium,central,industrial,24.74
+TRIP_0383,San Pedro,Parque Industrial,R5,saturday,05-07,6.1,2,0,0,clear,low,intermedia,industrial,22.3
+TRIP_0384,San Pedro,Hospital Central,R5,weekday,09-12,2.7,1,0,0,rain,high,intermedia,central,21.98
+TRIP_0385,Mercado Distrital,Lago Azul,R2+R1,weekday,18-21,6.7,3,1,1,clear,medium,barrial,intermedia,42.18
+TRIP_0386,Tecnoparque,Aeropuerto,R4,saturday,09-12,9.1,2,0,0,rain,low,industrial,terminal,30.97
+TRIP_0387,San Pedro,Parque Industrial,R5,weekday,15-18,6.1,2,0,1,clear,high,intermedia,industrial,33.21
+TRIP_0388,Tecnoparque,Parque Industrial,R4,weekday,12-15,3.0,1,0,0,clear,high,industrial,industrial,24.19
+TRIP_0389,Villa Nueva,Mercado Distrital,R3+R2,sunday,21-23,9.2,2,1,0,clear,high,barrial,barrial,41.87
+TRIP_0390,Lago Azul,Parque Industrial,R1+R4,weekday,09-12,12.5,4,1,0,clear,low,intermedia,industrial,55.96
+TRIP_0391,Aeropuerto,Hospital Central,R4+R5,weekday,12-15,9.5,2,1,0,clear,medium,terminal,central,45.64
+TRIP_0392,Hospital Central,Centro Histórico,R2,saturday,15-18,2.1,1,0,1,clear,high,central,central,22.69
+TRIP_0393,Centro Histórico,Hospital Central,R2,saturday,15-18,2.1,1,0,1,clear,high,central,central,24.06
+TRIP_0394,Parque Industrial,Lago Azul,R4+R1,saturday,09-12,12.5,4,1,0,rain,medium,industrial,intermedia,51.22
+TRIP_0395,Centro Histórico,Villa Nueva,R1+R3,weekday,09-12,6.3,2,1,0,clear,medium,central,barrial,31.11
+TRIP_0396,Hospital Central,San Pedro,R5,weekday,12-15,2.7,1,0,0,clear,medium,central,intermedia,15.48
+TRIP_0397,San Pedro,Universidad,R1,weekday,12-15,3.1,1,0,0,clear,high,intermedia,intermedia,23.21
+TRIP_0398,Portal Norte,Parque Industrial,R1+R4,saturday,18-21,15.7,5,1,1,clear,high,terminal,industrial,82.92
+TRIP_0399,Centro Histórico,Villa Nueva,R1+R3,weekday,12-15,6.3,2,1,0,heavy_rain,medium,central,barrial,38.66
+TRIP_0400,Tecnoparque,Centro Histórico,R4+R1,weekday,18-21,6.7,2,1,1,clear,medium,industrial,central,45.18
+TRIP_0401,Hospital Central,Mercado Distrital,R2,weekday,09-12,1.8,1,0,0,rain,medium,central,barrial,19.29
+TRIP_0402,Mercado Distrital,Parque Industrial,R2+R5,weekday,15-18,5.2,2,1,1,heavy_rain,medium,barrial,industrial,40.2
+TRIP_0403,Centro Histórico,Portal Norte,R1,weekday,12-15,6.0,2,0,0,heavy_rain,low,central,terminal,26.09
+TRIP_0404,Parque Industrial,Aeropuerto,R4,weekday,09-12,6.1,1,0,0,clear,medium,industrial,terminal,24.55
+TRIP_0405,Universidad,Villa Nueva,R1+R3,weekday,18-21,8.7,3,1,1,clear,medium,intermedia,barrial,46.85
+TRIP_0406,Portal Norte,San Pedro,R1,weekday,07-09,11.5,4,0,1,clear,high,terminal,intermedia,52.35
+TRIP_0407,Tecnoparque,Centro Histórico,R4+R1,sunday,07-09,6.7,2,1,1,rain,high,industrial,central,43.16
+TRIP_0408,Lago Azul,Centro Histórico,R1,weekday,05-07,2.8,1,0,0,clear,medium,intermedia,central,14.9
+TRIP_0409,Lago Azul,Centro Histórico,R1,sunday,15-18,2.8,1,0,1,rain,high,intermedia,central,24.09
+TRIP_0410,Tecnoparque,Aeropuerto,R4,sunday,07-09,9.1,2,0,1,clear,low,industrial,terminal,33.11
+TRIP_0411,Villa Nueva,Portal Norte,R3+R1,sunday,07-09,6.7,2,1,1,rain,high,barrial,terminal,44.77
+TRIP_0412,Hospital Central,Centro Histórico,R2,weekday,15-18,2.1,1,0,1,clear,medium,central,central,18.3
+TRIP_0413,Parque Industrial,Lago Azul,R4+R1,weekday,09-12,12.5,4,1,0,clear,medium,industrial,intermedia,53.57
+TRIP_0414,Lago Azul,Villa Nueva,R3,sunday,09-12,3.5,1,0,0,rain,low,intermedia,barrial,13.44
+TRIP_0415,Centro Histórico,Tecnoparque,R1+R4,weekday,15-18,6.7,2,1,1,clear,high,central,industrial,47.44
+TRIP_0416,Hospital Central,San Pedro,R5,weekday,05-07,2.7,1,0,0,clear,low,central,intermedia,11.29
+TRIP_0417,Terminal Sur,Universidad,R2+R1,weekday,07-09,10.3,4,1,1,clear,high,terminal,intermedia,58.27
+TRIP_0418,Portal Norte,San Pedro,R1,weekday,12-15,11.5,4,0,0,clear,high,terminal,intermedia,48.84
+TRIP_0419,Aeropuerto,Portal Norte,R4+R1,sunday,15-18,21.8,6,1,1,clear,medium,terminal,terminal,82.54
+TRIP_0420,Lago Azul,Centro Histórico,R1,weekday,18-21,2.8,1,0,1,clear,high,intermedia,central,23.61
+TRIP_0421,Parque Industrial,San Pedro,R5,weekday,05-07,6.1,2,0,0,rain,medium,industrial,intermedia,26.83
+TRIP_0422,Villa Nueva,Centro Histórico,R3+R1,weekday,07-09,6.3,2,1,1,clear,high,barrial,central,42.67
+TRIP_0423,Terminal Sur,Centro Histórico,R2,weekday,18-21,7.9,3,0,1,clear,high,terminal,central,39.81
+TRIP_0424,Parque Industrial,Terminal Sur,R5+R2,saturday,09-12,9.2,3,1,0,clear,medium,industrial,terminal,43.11
+TRIP_0425,Aeropuerto,San Pedro,R4+R5,weekday,07-09,12.2,3,1,1,clear,high,terminal,intermedia,63.68
+TRIP_0426,Centro Histórico,Portal Norte,R1,weekday,05-07,6.0,2,0,0,clear,low,central,terminal,21.12
+TRIP_0427,Lago Azul,Aeropuerto,R1+R4,weekday,12-15,18.6,5,1,0,clear,low,intermedia,terminal,62.65
+TRIP_0428,Aeropuerto,Universidad,R4,weekday,07-09,13.4,3,0,1,clear,high,terminal,intermedia,54.67
+TRIP_0429,Villa Nueva,Universidad,R3+R1,weekday,21-23,8.7,3,1,0,clear,medium,barrial,intermedia,45.86
+TRIP_0430,Lago Azul,Villa Nueva,R3,weekday,15-18,3.5,1,0,1,clear,medium,intermedia,barrial,21.77
+TRIP_0431,Universidad,Mercado Distrital,R1+R2,sunday,09-12,6.3,3,1,0,clear,high,intermedia,barrial,38.06
+TRIP_0432,Tecnoparque,San Pedro,R4+R1,saturday,07-09,7.4,2,1,1,clear,high,industrial,intermedia,48.19
+TRIP_0433,Universidad,Aeropuerto,R4,weekday,18-21,13.4,3,0,1,clear,high,intermedia,terminal,61.69
+TRIP_0434,Aeropuerto,Portal Norte,R4+R1,saturday,05-07,21.8,6,1,0,clear,medium,terminal,terminal,75.38
+TRIP_0435,Parque Industrial,Lago Azul,R4+R1,saturday,12-15,12.5,4,1,0,clear,medium,industrial,intermedia,54.41
+TRIP_0436,Mercado Distrital,Villa Nueva,R2+R3,weekday,05-07,9.2,2,1,0,clear,low,barrial,barrial,32.18
+TRIP_0437,Mercado Distrital,Parque Industrial,R2+R5,saturday,07-09,5.2,2,1,1,clear,medium,barrial,industrial,38.53
+TRIP_0438,Hospital Central,Parque Industrial,R5,sunday,07-09,3.4,1,0,1,rain,medium,central,industrial,21.53
+TRIP_0439,Mercado Distrital,Hospital Central,R2,weekday,07-09,1.8,1,0,1,clear,medium,barrial,central,16.73
+TRIP_0440,Lago Azul,Hospital Central,R1+R2,weekday,12-15,4.9,2,1,0,clear,medium,intermedia,central,31.88
+TRIP_0441,Lago Azul,Aeropuerto,R1+R4,weekday,15-18,18.6,5,1,1,clear,high,intermedia,terminal,92.3
+TRIP_0442,Centro Histórico,San Pedro,R1,weekday,15-18,5.5,2,0,1,clear,high,central,intermedia,28.02
+TRIP_0443,Hospital Central,Universidad,R2+R1,weekday,05-07,4.5,2,1,0,clear,low,central,intermedia,24.89
+TRIP_0444,Tecnoparque,Lago Azul,R4+R1,weekday,15-18,9.5,3,1,1,rain,high,industrial,intermedia,61.58
+TRIP_0445,Aeropuerto,Hospital Central,R4+R5,weekday,07-09,9.5,2,1,1,heavy_rain,medium,terminal,central,55.79
+TRIP_0446,Parque Industrial,Terminal Sur,R5+R2,weekday,15-18,9.2,3,1,1,clear,high,industrial,terminal,52.19
+TRIP_0447,Lago Azul,Parque Industrial,R1+R4,saturday,09-12,12.5,4,1,0,rain,medium,intermedia,industrial,60.08
+TRIP_0448,Aeropuerto,Portal Norte,R4+R1,saturday,18-21,21.8,6,1,1,clear,medium,terminal,terminal,84.99
+TRIP_0449,Universidad,Villa Nueva,R1+R3,weekday,09-12,8.7,3,1,0,clear,low,intermedia,barrial,41.79
+TRIP_0450,Parque Industrial,Portal Norte,R4+R1,weekday,15-18,15.7,5,1,1,clear,medium,industrial,terminal,67.79
+TRIP_0451,Tecnoparque,Lago Azul,R4+R1,weekday,05-07,9.5,3,1,0,clear,medium,industrial,intermedia,43.19
+TRIP_0452,Terminal Sur,Centro Histórico,R2,saturday,09-12,7.9,3,0,0,rain,high,terminal,central,39.11
+TRIP_0453,Universidad,Terminal Sur,R1+R2,weekday,18-21,10.3,4,1,1,clear,high,intermedia,terminal,61.57
+TRIP_0454,Mercado Distrital,Terminal Sur,R2,weekday,12-15,4.0,1,0,0,clear,low,barrial,terminal,16.47
+TRIP_0455,Centro Histórico,Terminal Sur,R2,weekday,18-21,7.9,3,0,1,clear,medium,central,terminal,32.43
+TRIP_0456,Terminal Sur,San Pedro,R2+R5,saturday,09-12,8.5,3,1,0,clear,high,terminal,intermedia,45.93
+TRIP_0457,Hospital Central,Portal Norte,R2+R1,weekday,12-15,8.1,3,1,0,clear,low,central,terminal,37.59
+TRIP_0458,Lago Azul,Centro Histórico,R1,saturday,15-18,2.8,1,0,1,clear,medium,intermedia,central,18.06
+TRIP_0459,Terminal Sur,Villa Nueva,R3,sunday,18-21,5.2,1,0,1,rain,high,terminal,barrial,27.3
+TRIP_0460,Lago Azul,Parque Industrial,R1+R4,weekday,09-12,12.5,4,1,0,clear,low,intermedia,industrial,54.1
+TRIP_0461,Centro Histórico,Portal Norte,R1,sunday,15-18,6.0,2,0,1,clear,high,central,terminal,28.41
+TRIP_0462,Centro Histórico,Portal Norte,R1,weekday,07-09,6.0,2,0,1,clear,high,central,terminal,33.89
+TRIP_0463,Terminal Sur,Parque Industrial,R2+R5,saturday,07-09,9.2,3,1,1,clear,medium,terminal,industrial,48.19
+TRIP_0464,Hospital Central,Lago Azul,R2+R1,weekday,07-09,4.9,2,1,1,clear,high,central,intermedia,39.37
+TRIP_0465,Lago Azul,Mercado Distrital,R1+R2,sunday,05-07,6.7,3,1,0,clear,medium,intermedia,barrial,33.86
+TRIP_0466,Portal Norte,Tecnoparque,R1+R4,weekday,09-12,12.7,4,1,0,clear,high,terminal,industrial,62.71
+TRIP_0467,Hospital Central,Centro Histórico,R2,saturday,15-18,2.1,1,0,1,rain,medium,central,central,20.6
+TRIP_0468,Terminal Sur,Lago Azul,R3,weekday,07-09,8.7,2,0,1,clear,medium,terminal,intermedia,34.39
+TRIP_0469,Hospital Central,Portal Norte,R2+R1,weekday,21-23,8.1,3,1,0,heavy_rain,low,central,terminal,45.43
+TRIP_0470,Mercado Distrital,Portal Norte,R2+R1,saturday,05-07,9.9,4,1,0,clear,low,barrial,terminal,37.67
+TRIP_0471,Universidad,Tecnoparque,R4,saturday,21-23,4.3,1,0,0,clear,low,intermedia,industrial,18.39
+TRIP_0472,Villa Nueva,Terminal Sur,R3,weekday,12-15,5.2,1,0,0,rain,low,barrial,terminal,19.12
+TRIP_0473,Centro Histórico,Hospital Central,R2,weekday,15-18,2.1,1,0,1,rain,medium,central,central,22.3
+TRIP_0474,Universidad,Portal Norte,R1,weekday,12-15,8.4,3,0,0,clear,medium,intermedia,terminal,31.83
+TRIP_0475,Centro Histórico,Aeropuerto,R1+R4,weekday,18-21,15.8,4,1,1,rain,high,central,terminal,81.69
+TRIP_0476,Lago Azul,Villa Nueva,R3,sunday,09-12,3.5,1,0,0,clear,low,intermedia,barrial,12.4
+TRIP_0477,Mercado Distrital,Lago Azul,R2+R1,saturday,15-18,6.7,3,1,1,clear,medium,barrial,intermedia,46.99
+TRIP_0478,Terminal Sur,Universidad,R2+R1,weekday,09-12,10.3,4,1,0,clear,high,terminal,intermedia,55.43
+TRIP_0479,Villa Nueva,Universidad,R3+R1,saturday,15-18,8.7,3,1,1,clear,high,barrial,intermedia,48.74
+TRIP_0480,Centro Histórico,Lago Azul,R1,weekday,12-15,2.8,1,0,0,clear,low,central,intermedia,13.54
+TRIP_0481,Tecnoparque,San Pedro,R4+R1,weekday,09-12,7.4,2,1,0,rain,medium,industrial,intermedia,37.59
+TRIP_0482,Hospital Central,Universidad,R2+R1,weekday,12-15,4.5,2,1,0,clear,high,central,intermedia,33.54
+TRIP_0483,Parque Industrial,Universidad,R4,weekday,07-09,7.3,2,0,1,clear,low,industrial,intermedia,28.16
+TRIP_0484,Lago Azul,Mercado Distrital,R1+R2,weekday,12-15,6.7,3,1,0,clear,low,intermedia,barrial,30.4
+TRIP_0485,Portal Norte,Universidad,R1,weekday,07-09,8.4,3,0,1,clear,high,terminal,intermedia,38.39
+TRIP_0486,Universidad,Parque Industrial,R4,sunday,12-15,7.3,2,0,0,clear,medium,intermedia,industrial,26.43
+TRIP_0487,Hospital Central,Aeropuerto,R5+R4,weekday,09-12,9.5,2,1,0,clear,medium,central,terminal,41.54
+TRIP_0488,Portal Norte,Parque Industrial,R1+R4,weekday,07-09,15.7,5,1,1,clear,high,terminal,industrial,83.04
+TRIP_0489,Lago Azul,Portal Norte,R1,weekday,15-18,3.2,1,0,1,clear,high,intermedia,terminal,25.85
+TRIP_0490,San Pedro,Portal Norte,R1,saturday,12-15,11.5,4,0,0,clear,low,intermedia,terminal,35.4
+TRIP_0491,Universidad,Parque Industrial,R4,sunday,15-18,7.3,2,0,1,clear,low,intermedia,industrial,29.79
+TRIP_0492,Centro Histórico,Parque Industrial,R2+R5,weekday,18-21,5.5,2,1,1,rain,high,central,industrial,47.93
+TRIP_0493,Universidad,San Pedro,R1,saturday,07-09,3.1,1,0,1,clear,medium,intermedia,intermedia,19.76
+TRIP_0494,Tecnoparque,Portal Norte,R4+R1,saturday,18-21,12.7,4,1,1,clear,high,industrial,terminal,72.71
+TRIP_0495,Lago Azul,Mercado Distrital,R1+R2,weekday,18-21,6.7,3,1,1,clear,low,intermedia,barrial,36.38
+TRIP_0496,Tecnoparque,Parque Industrial,R4,weekday,12-15,3.0,1,0,0,rain,medium,industrial,industrial,20.43
+TRIP_0497,Centro Histórico,San Pedro,R1,weekday,07-09,5.5,2,0,1,clear,high,central,intermedia,29.95
+TRIP_0498,Hospital Central,Lago Azul,R2+R1,saturday,09-12,4.9,2,1,0,clear,low,central,intermedia,24.09
+TRIP_0499,Universidad,Portal Norte,R1,weekday,12-15,8.4,3,0,0,clear,medium,intermedia,terminal,30.69
+TRIP_0500,Mercado Distrital,Parque Industrial,R2+R5,weekday,12-15,5.2,2,1,0,clear,medium,barrial,industrial,31.32
+TRIP_0501,San Pedro,Terminal Sur,R5+R2,weekday,18-21,8.5,3,1,1,clear,high,intermedia,terminal,51.36
+TRIP_0502,San Pedro,Aeropuerto,R5+R4,weekday,18-21,12.2,3,1,1,clear,high,intermedia,terminal,70.96
+TRIP_0503,San Pedro,Lago Azul,R1,sunday,12-15,8.3,3,0,0,clear,medium,intermedia,intermedia,28.53
+TRIP_0504,Lago Azul,San Pedro,R1,weekday,15-18,8.3,3,0,1,heavy_rain,medium,intermedia,intermedia,39.29
+TRIP_0505,Hospital Central,Tecnoparque,R5+R4,weekday,15-18,6.4,2,1,1,clear,low,central,industrial,42.24
+TRIP_0506,Portal Norte,Parque Industrial,R1+R4,sunday,18-21,15.7,5,1,1,rain,high,terminal,industrial,83.89
+TRIP_0507,Hospital Central,Aeropuerto,R5+R4,weekday,07-09,9.5,2,1,1,clear,low,central,terminal,43.96
+TRIP_0508,Terminal Sur,Lago Azul,R3,weekday,15-18,8.7,2,0,1,clear,high,terminal,intermedia,40.87
+TRIP_0509,San Pedro,Parque Industrial,R5,weekday,07-09,6.1,2,0,1,clear,medium,intermedia,industrial,29.69
+TRIP_0510,Terminal Sur,Villa Nueva,R3,saturday,12-15,5.2,1,0,0,clear,high,terminal,barrial,24.32
+TRIP_0511,Lago Azul,Aeropuerto,R1+R4,weekday,05-07,18.6,5,1,0,clear,low,intermedia,terminal,64.09
+TRIP_0512,Portal Norte,Universidad,R1,weekday,18-21,8.4,3,0,1,clear,high,terminal,intermedia,40.4
+TRIP_0513,Centro Histórico,Universidad,R1,saturday,12-15,2.4,1,0,0,clear,low,central,intermedia,12.69
+TRIP_0514,Hospital Central,Terminal Sur,R2,sunday,18-21,5.8,2,0,1,clear,high,central,terminal,32.19
+TRIP_0515,Hospital Central,Parque Industrial,R5,weekday,15-18,3.4,1,0,1,rain,high,central,industrial,27.7
+TRIP_0516,Parque Industrial,Portal Norte,R4+R1,sunday,09-12,15.7,5,1,0,clear,low,industrial,terminal,60.63
+TRIP_0517,San Pedro,Aeropuerto,R5+R4,saturday,18-21,12.2,3,1,1,rain,high,intermedia,terminal,68.01
+TRIP_0518,San Pedro,Tecnoparque,R1+R4,saturday,12-15,7.4,2,1,0,clear,medium,intermedia,industrial,35.53
+TRIP_0519,Universidad,Villa Nueva,R1+R3,weekday,12-15,8.7,3,1,0,clear,high,intermedia,barrial,41.03
+TRIP_0520,San Pedro,Centro Histórico,R1,saturday,15-18,5.5,2,0,1,rain,high,intermedia,central,33.35
+TRIP_0521,Hospital Central,San Pedro,R5,weekday,15-18,2.7,1,0,1,clear,high,central,intermedia,26.91
+TRIP_0522,Aeropuerto,Parque Industrial,R4,saturday,07-09,6.1,1,0,1,heavy_rain,high,terminal,industrial,39.26
+TRIP_0523,Tecnoparque,Centro Histórico,R4+R1,saturday,12-15,6.7,2,1,0,clear,medium,industrial,central,34.96
+TRIP_0524,Terminal Sur,Lago Azul,R3,weekday,09-12,8.7,2,0,0,clear,low,terminal,intermedia,27.51
+TRIP_0525,Parque Industrial,Mercado Distrital,R5+R2,weekday,12-15,5.2,2,1,0,clear,medium,industrial,barrial,33.76
+TRIP_0526,Terminal Sur,Portal Norte,R3+R1,weekday,07-09,11.9,3,1,1,clear,high,terminal,terminal,66.52
+TRIP_0527,Mercado Distrital,Parque Industrial,R2+R5,weekday,12-15,5.2,2,1,0,clear,high,barrial,industrial,39.34
+TRIP_0528,Centro Histórico,Tecnoparque,R1+R4,sunday,12-15,6.7,2,1,0,clear,low,central,industrial,33.01
+TRIP_0529,Portal Norte,Hospital Central,R1+R2,sunday,15-18,8.1,3,1,1,clear,high,terminal,central,49.4
+TRIP_0530,Parque Industrial,Portal Norte,R4+R1,weekday,21-23,15.7,5,1,0,rain,high,industrial,terminal,80.66
+TRIP_0531,Universidad,Centro Histórico,R1,weekday,09-12,2.4,1,0,0,clear,medium,intermedia,central,15.83
+TRIP_0532,Hospital Central,Lago Azul,R2+R1,saturday,05-07,4.9,2,1,0,rain,medium,central,intermedia,32.11
+TRIP_0533,Centro Histórico,Terminal Sur,R2,sunday,18-21,7.9,3,0,1,clear,high,central,terminal,36.24
+TRIP_0534,Universidad,San Pedro,R1,weekday,18-21,3.1,1,0,1,clear,low,intermedia,intermedia,18.72
+TRIP_0535,Mercado Distrital,Villa Nueva,R2+R3,weekday,09-12,9.2,2,1,0,clear,medium,barrial,barrial,41.24
+TRIP_0536,Mercado Distrital,Parque Industrial,R2+R5,weekday,07-09,5.2,2,1,1,clear,medium,barrial,industrial,40.79
+TRIP_0537,Terminal Sur,Universidad,R2+R1,weekday,18-21,10.3,4,1,1,clear,high,terminal,intermedia,64.21
+TRIP_0538,San Pedro,Universidad,R1,weekday,21-23,3.1,1,0,0,clear,low,intermedia,intermedia,15.27
+TRIP_0539,Mercado Distrital,Lago Azul,R2+R1,weekday,18-21,6.7,3,1,1,clear,high,barrial,intermedia,43.38
+TRIP_0540,Centro Histórico,Terminal Sur,R2,sunday,12-15,7.9,3,0,0,clear,low,central,terminal,23.68
+TRIP_0541,Hospital Central,Aeropuerto,R5+R4,saturday,12-15,9.5,2,1,0,clear,low,central,terminal,38.16
+TRIP_0542,Terminal Sur,Centro Histórico,R2,weekday,15-18,7.9,3,0,1,clear,medium,terminal,central,38.14
+TRIP_0543,San Pedro,Mercado Distrital,R5+R2,weekday,09-12,4.5,2,1,0,clear,medium,intermedia,barrial,30.95
+TRIP_0544,Aeropuerto,Universidad,R4,weekday,18-21,13.4,3,0,1,clear,medium,terminal,intermedia,49.82
+TRIP_0545,Mercado Distrital,Parque Industrial,R2+R5,weekday,09-12,5.2,2,1,0,clear,low,barrial,industrial,29.27
+TRIP_0546,Terminal Sur,Lago Azul,R3,weekday,12-15,8.7,2,0,0,clear,medium,terminal,intermedia,30.13
+TRIP_0547,Mercado Distrital,Villa Nueva,R2+R3,weekday,07-09,9.2,2,1,1,clear,high,barrial,barrial,50.28
+TRIP_0548,Tecnoparque,Universidad,R4,weekday,07-09,4.3,1,0,1,clear,medium,industrial,intermedia,22.62
+TRIP_0549,Villa Nueva,San Pedro,R3+R1,weekday,05-07,11.8,4,1,0,clear,medium,barrial,intermedia,53.64
+TRIP_0550,Universidad,Tecnoparque,R4,weekday,09-12,4.3,1,0,0,rain,low,intermedia,industrial,21.08
+TRIP_0551,Portal Norte,Tecnoparque,R1+R4,weekday,07-09,12.7,4,1,1,clear,high,terminal,industrial,68.46
+TRIP_0552,Hospital Central,Villa Nueva,R2+R3,saturday,21-23,11.0,3,1,0,rain,high,central,barrial,61.98
+TRIP_0553,Hospital Central,San Pedro,R5,saturday,18-21,2.7,1,0,1,clear,high,central,intermedia,22.59
+TRIP_0554,Mercado Distrital,Terminal Sur,R2,saturday,15-18,4.0,1,0,1,heavy_rain,medium,barrial,terminal,29.87
+TRIP_0555,San Pedro,Lago Azul,R1,sunday,18-21,8.3,3,0,1,clear,high,intermedia,intermedia,37.18
+TRIP_0556,Centro Histórico,Parque Industrial,R2+R5,saturday,09-12,5.5,2,1,0,clear,low,central,industrial,30.02
+TRIP_0557,Portal Norte,Lago Azul,R1,weekday,18-21,3.2,1,0,1,clear,medium,terminal,intermedia,20.84
+TRIP_0558,San Pedro,Lago Azul,R1,weekday,09-12,8.3,3,0,0,clear,low,intermedia,intermedia,29.33
+TRIP_0559,Lago Azul,Centro Histórico,R1,weekday,05-07,2.8,1,0,0,clear,low,intermedia,central,12.79
+TRIP_0560,San Pedro,Centro Histórico,R1,weekday,18-21,5.5,2,0,1,heavy_rain,high,intermedia,central,39.32
+TRIP_0561,Terminal Sur,Parque Industrial,R2+R5,weekday,15-18,9.2,3,1,1,clear,high,terminal,industrial,49.41
+TRIP_0562,Lago Azul,Terminal Sur,R3,sunday,07-09,8.7,2,0,1,clear,high,intermedia,terminal,36.04
+TRIP_0563,Aeropuerto,Hospital Central,R4+R5,weekday,15-18,9.5,2,1,1,clear,medium,terminal,central,50.61
+TRIP_0564,Lago Azul,Hospital Central,R1+R2,weekday,15-18,4.9,2,1,1,rain,high,intermedia,central,42.52
+TRIP_0565,Lago Azul,Aeropuerto,R1+R4,weekday,09-12,18.6,5,1,0,clear,low,intermedia,terminal,67.83
+TRIP_0566,San Pedro,Terminal Sur,R5+R2,sunday,15-18,8.5,3,1,1,clear,medium,intermedia,terminal,45.92
+TRIP_0567,Centro Histórico,Aeropuerto,R1+R4,weekday,09-12,15.8,4,1,0,clear,low,central,terminal,60.36
+TRIP_0568,Villa Nueva,Mercado Distrital,R3+R2,weekday,12-15,9.2,2,1,0,clear,medium,barrial,barrial,38.37
+TRIP_0569,Universidad,Villa Nueva,R1+R3,weekday,18-21,8.7,3,1,1,clear,high,intermedia,barrial,57.51
+TRIP_0570,Villa Nueva,San Pedro,R3+R1,weekday,09-12,11.8,4,1,0,clear,low,barrial,intermedia,47.63
+TRIP_0571,Tecnoparque,Parque Industrial,R4,saturday,15-18,3.0,1,0,1,clear,high,industrial,industrial,27.66
+TRIP_0572,San Pedro,Villa Nueva,R1+R3,weekday,09-12,11.8,4,1,0,clear,low,intermedia,barrial,50.71
+TRIP_0573,Mercado Distrital,Terminal Sur,R2,weekday,07-09,4.0,1,0,1,rain,high,barrial,terminal,30.59
+TRIP_0574,Portal Norte,San Pedro,R1,weekday,15-18,11.5,4,0,1,clear,high,terminal,intermedia,49.91
+TRIP_0575,Parque Industrial,Universidad,R4,weekday,15-18,7.3,2,0,1,clear,medium,industrial,intermedia,34.01
+TRIP_0576,Lago Azul,Tecnoparque,R1+R4,sunday,09-12,9.5,3,1,0,clear,high,intermedia,industrial,46.46
+TRIP_0577,Hospital Central,Lago Azul,R2+R1,saturday,18-21,4.9,2,1,1,clear,high,central,intermedia,38.36
+TRIP_0578,Tecnoparque,Aeropuerto,R4,sunday,07-09,9.1,2,0,1,clear,high,industrial,terminal,40.08
+TRIP_0579,Hospital Central,Villa Nueva,R2+R3,sunday,15-18,11.0,3,1,1,clear,medium,central,barrial,51.68
+TRIP_0580,Centro Histórico,Aeropuerto,R1+R4,saturday,15-18,15.8,4,1,1,clear,medium,central,terminal,67.73
+TRIP_0581,Lago Azul,Tecnoparque,R1+R4,sunday,12-15,9.5,3,1,0,rain,low,intermedia,industrial,42.4
+TRIP_0582,Mercado Distrital,Villa Nueva,R2+R3,weekday,09-12,9.2,2,1,0,clear,medium,barrial,barrial,40.32
+TRIP_0583,Hospital Central,San Pedro,R5,weekday,18-21,2.7,1,0,1,clear,high,central,intermedia,22.68
+TRIP_0584,Aeropuerto,Universidad,R4,saturday,07-09,13.4,3,0,1,rain,high,terminal,intermedia,55.13
+TRIP_0585,Parque Industrial,Centro Histórico,R5+R2,weekday,12-15,5.5,2,1,0,clear,medium,industrial,central,32.66
+TRIP_0586,San Pedro,Parque Industrial,R5,weekday,07-09,6.1,2,0,1,clear,high,intermedia,industrial,33.33
+TRIP_0587,Lago Azul,Centro Histórico,R1,weekday,05-07,2.8,1,0,0,rain,medium,intermedia,central,18.67
+TRIP_0588,Universidad,Tecnoparque,R4,saturday,05-07,4.3,1,0,0,clear,high,intermedia,industrial,24.96
+TRIP_0589,Villa Nueva,Mercado Distrital,R3+R2,weekday,09-12,9.2,2,1,0,clear,medium,barrial,barrial,38.76
+TRIP_0590,San Pedro,Mercado Distrital,R5+R2,weekday,07-09,4.5,2,1,1,clear,medium,intermedia,barrial,31.64
+TRIP_0591,Aeropuerto,Portal Norte,R4+R1,weekday,07-09,21.8,6,1,1,clear,medium,terminal,terminal,81.46
+TRIP_0592,Terminal Sur,Lago Azul,R3,weekday,05-07,8.7,2,0,0,clear,medium,terminal,intermedia,28.96
+TRIP_0593,Portal Norte,Parque Industrial,R1+R4,weekday,07-09,15.7,5,1,1,clear,high,terminal,industrial,85.98
+TRIP_0594,Hospital Central,Tecnoparque,R5+R4,weekday,09-12,6.4,2,1,0,clear,low,central,industrial,28.58
+TRIP_0595,Mercado Distrital,San Pedro,R2+R5,weekday,07-09,4.5,2,1,1,clear,medium,barrial,intermedia,37.37
+TRIP_0596,Centro Histórico,San Pedro,R1,weekday,12-15,5.5,2,0,0,clear,low,central,intermedia,19.98
+TRIP_0597,Universidad,Parque Industrial,R4,weekday,18-21,7.3,2,0,1,clear,high,intermedia,industrial,40.68
+TRIP_0598,Terminal Sur,Universidad,R2+R1,weekday,15-18,10.3,4,1,1,clear,medium,terminal,intermedia,51.09
+TRIP_0599,San Pedro,Parque Industrial,R5,saturday,18-21,6.1,2,0,1,clear,high,intermedia,industrial,34.63
+TRIP_0600,Mercado Distrital,Terminal Sur,R2,weekday,15-18,4.0,1,0,1,clear,medium,barrial,terminal,22.44
+TRIP_0601,Terminal Sur,Parque Industrial,R2+R5,sunday,09-12,9.2,3,1,0,rain,low,terminal,industrial,40.84
+TRIP_0602,Terminal Sur,Lago Azul,R3,weekday,07-09,8.7,2,0,1,clear,medium,terminal,intermedia,35.42
+TRIP_0603,Mercado Distrital,Portal Norte,R2+R1,sunday,15-18,9.9,4,1,1,clear,medium,barrial,terminal,50.53
+TRIP_0604,Mercado Distrital,Universidad,R2+R1,sunday,09-12,6.3,3,1,0,rain,high,barrial,intermedia,37.56
+TRIP_0605,Hospital Central,Universidad,R2+R1,weekday,07-09,4.5,2,1,1,rain,medium,central,intermedia,41.43
+TRIP_0606,Villa Nueva,Mercado Distrital,R3+R2,weekday,15-18,9.2,2,1,1,clear,medium,barrial,barrial,45.73
+TRIP_0607,Hospital Central,Lago Azul,R2+R1,weekday,12-15,4.9,2,1,0,clear,medium,central,intermedia,27.71
+TRIP_0608,Tecnoparque,Universidad,R4,weekday,12-15,4.3,1,0,0,rain,medium,industrial,intermedia,22.05
+TRIP_0609,Lago Azul,Villa Nueva,R3,weekday,07-09,3.5,1,0,1,rain,high,intermedia,barrial,25.64
+TRIP_0610,Centro Histórico,Lago Azul,R1,weekday,15-18,2.8,1,0,1,clear,high,central,intermedia,23.43
+TRIP_0611,Universidad,Terminal Sur,R1+R2,weekday,09-12,10.3,4,1,0,rain,low,intermedia,terminal,50.78
+TRIP_0612,Portal Norte,Villa Nueva,R1+R3,weekday,09-12,6.7,2,1,0,rain,medium,terminal,barrial,35.96
+TRIP_0613,Mercado Distrital,San Pedro,R2+R5,weekday,12-15,4.5,2,1,0,rain,medium,barrial,intermedia,30.47
+TRIP_0614,Villa Nueva,Terminal Sur,R3,weekday,21-23,5.2,1,0,0,clear,medium,barrial,terminal,22.35
+TRIP_0615,Aeropuerto,Hospital Central,R4+R5,saturday,15-18,9.5,2,1,1,clear,high,terminal,central,56.96
+TRIP_0616,San Pedro,Hospital Central,R5,weekday,18-21,2.7,1,0,1,clear,high,intermedia,central,23.4
+TRIP_0617,Portal Norte,Aeropuerto,R1+R4,weekday,12-15,21.8,6,1,0,clear,low,terminal,terminal,74.08
+TRIP_0618,Hospital Central,Portal Norte,R2+R1,weekday,07-09,8.1,3,1,1,clear,medium,central,terminal,45.53
+TRIP_0619,Portal Norte,San Pedro,R1,weekday,09-12,11.5,4,0,0,clear,medium,terminal,intermedia,40.74
+TRIP_0620,Mercado Distrital,Parque Industrial,R2+R5,weekday,07-09,5.2,2,1,1,clear,medium,barrial,industrial,37.05
+TRIP_0621,Terminal Sur,San Pedro,R2+R5,sunday,15-18,8.5,3,1,1,heavy_rain,medium,terminal,intermedia,49.05
+TRIP_0622,Aeropuerto,Lago Azul,R4+R1,sunday,15-18,18.6,5,1,1,rain,high,terminal,intermedia,91.89
+TRIP_0623,Parque Industrial,Universidad,R4,saturday,07-09,7.3,2,0,1,clear,low,industrial,intermedia,27.09
+TRIP_0624,Centro Histórico,Mercado Distrital,R2,saturday,12-15,3.9,2,0,0,rain,low,central,barrial,19.54
+TRIP_0625,Lago Azul,Mercado Distrital,R1+R2,weekday,07-09,6.7,3,1,1,clear,high,intermedia,barrial,39.24
+TRIP_0626,Hospital Central,Lago Azul,R2+R1,saturday,15-18,4.9,2,1,1,clear,low,central,intermedia,30.35
+TRIP_0627,Villa Nueva,Centro Histórico,R3+R1,weekday,09-12,6.3,2,1,0,clear,medium,barrial,central,31.67
+TRIP_0628,Terminal Sur,Portal Norte,R3+R1,weekday,21-23,11.9,3,1,0,clear,low,terminal,terminal,47.89
+TRIP_0629,San Pedro,Villa Nueva,R1+R3,weekday,18-21,11.8,4,1,1,clear,medium,intermedia,barrial,58.1
+TRIP_0630,San Pedro,Lago Azul,R1,sunday,05-07,8.3,3,0,0,rain,medium,intermedia,intermedia,29.46
+TRIP_0631,Centro Histórico,Aeropuerto,R1+R4,sunday,12-15,15.8,4,1,0,clear,medium,central,terminal,62.87
+TRIP_0632,Lago Azul,San Pedro,R1,weekday,15-18,8.3,3,0,1,clear,high,intermedia,intermedia,39.28
+TRIP_0633,Mercado Distrital,Centro Histórico,R2,weekday,07-09,3.9,2,0,1,clear,high,barrial,central,29.36
+TRIP_0634,Hospital Central,Portal Norte,R2+R1,sunday,07-09,8.1,3,1,1,heavy_rain,high,central,terminal,59.46
+TRIP_0635,Parque Industrial,Aeropuerto,R4,saturday,12-15,6.1,1,0,0,clear,high,industrial,terminal,29.17
+TRIP_0636,Portal Norte,Hospital Central,R1+R2,weekday,18-21,8.1,3,1,1,rain,medium,terminal,central,50.52
+TRIP_0637,Universidad,Terminal Sur,R1+R2,weekday,09-12,10.3,4,1,0,clear,low,intermedia,terminal,46.72
+TRIP_0638,Mercado Distrital,Lago Azul,R2+R1,weekday,21-23,6.7,3,1,0,clear,low,barrial,intermedia,34.05
+TRIP_0639,Centro Histórico,Mercado Distrital,R2,weekday,18-21,3.9,2,0,1,clear,medium,central,barrial,20.56
+TRIP_0640,Hospital Central,Terminal Sur,R2,saturday,21-23,5.8,2,0,0,clear,low,central,terminal,20.74
+TRIP_0641,Aeropuerto,San Pedro,R4+R5,sunday,15-18,12.2,3,1,1,clear,high,terminal,intermedia,66.27
+TRIP_0642,Universidad,Hospital Central,R1+R2,weekday,12-15,4.5,2,1,0,rain,medium,intermedia,central,36.27
+TRIP_0643,Villa Nueva,San Pedro,R3+R1,weekday,12-15,11.8,4,1,0,clear,low,barrial,intermedia,50.27
+TRIP_0644,Universidad,Hospital Central,R1+R2,saturday,18-21,4.5,2,1,1,rain,medium,intermedia,central,38.47
+TRIP_0645,Universidad,Portal Norte,R1,sunday,05-07,8.4,3,0,0,clear,low,intermedia,terminal,26.52
+TRIP_0646,Parque Industrial,Aeropuerto,R4,weekday,07-09,6.1,1,0,1,clear,medium,industrial,terminal,27.02
+TRIP_0647,Universidad,Tecnoparque,R4,sunday,12-15,4.3,1,0,0,rain,low,intermedia,industrial,19.69
+TRIP_0648,Portal Norte,Aeropuerto,R1+R4,saturday,21-23,21.8,6,1,0,clear,medium,terminal,terminal,80.85
+TRIP_0649,Villa Nueva,Hospital Central,R3+R2,weekday,15-18,11.0,3,1,1,heavy_rain,high,barrial,central,71.5
+TRIP_0650,San Pedro,Parque Industrial,R5,weekday,09-12,6.1,2,0,0,clear,low,intermedia,industrial,23.35
+TRIP_0651,Lago Azul,Aeropuerto,R1+R4,weekday,07-09,18.6,5,1,1,clear,medium,intermedia,terminal,73.56
+TRIP_0652,Centro Histórico,Portal Norte,R1,weekday,07-09,6.0,2,0,1,clear,high,central,terminal,33.26
+TRIP_0653,Aeropuerto,Parque Industrial,R4,weekday,15-18,6.1,1,0,1,clear,medium,terminal,industrial,31.1
+TRIP_0654,Aeropuerto,Centro Histórico,R4+R1,weekday,09-12,15.8,4,1,0,clear,medium,terminal,central,64.93
+TRIP_0655,Terminal Sur,Mercado Distrital,R2,saturday,15-18,4.0,1,0,1,clear,medium,terminal,barrial,22.7
+TRIP_0656,Hospital Central,Terminal Sur,R2,weekday,18-21,5.8,2,0,1,clear,medium,central,terminal,27.99
+TRIP_0657,Mercado Distrital,Villa Nueva,R2+R3,weekday,07-09,9.2,2,1,1,rain,high,barrial,barrial,55.03
+TRIP_0658,Universidad,Portal Norte,R1,weekday,07-09,8.4,3,0,1,clear,medium,intermedia,terminal,33.64
+TRIP_0659,Universidad,Parque Industrial,R4,weekday,07-09,7.3,2,0,1,clear,low,intermedia,industrial,30.92
+TRIP_0660,Villa Nueva,Mercado Distrital,R3+R2,weekday,12-15,9.2,2,1,0,clear,high,barrial,barrial,48.21
+TRIP_0661,Universidad,Hospital Central,R1+R2,weekday,05-07,4.5,2,1,0,clear,high,intermedia,central,32.91
+TRIP_0662,Aeropuerto,Lago Azul,R4+R1,weekday,12-15,18.6,5,1,0,clear,low,terminal,intermedia,64.19
+TRIP_0663,Parque Industrial,Aeropuerto,R4,weekday,15-18,6.1,1,0,1,clear,medium,industrial,terminal,31.36
+TRIP_0664,Portal Norte,Villa Nueva,R1+R3,weekday,09-12,6.7,2,1,0,clear,high,terminal,barrial,39.11
+TRIP_0665,Hospital Central,Lago Azul,R2+R1,weekday,21-23,4.9,2,1,0,clear,high,central,intermedia,33.95
+TRIP_0666,Lago Azul,Portal Norte,R1,weekday,12-15,3.2,1,0,0,clear,medium,intermedia,terminal,19.36
+TRIP_0667,Hospital Central,Terminal Sur,R2,weekday,15-18,5.8,2,0,1,rain,medium,central,terminal,33.48
+TRIP_0668,Terminal Sur,Mercado Distrital,R2,saturday,07-09,4.0,1,0,1,clear,high,terminal,barrial,25.27
+TRIP_0669,Mercado Distrital,Hospital Central,R2,weekday,07-09,1.8,1,0,1,clear,high,barrial,central,20.59
+TRIP_0670,Mercado Distrital,Centro Histórico,R2,saturday,05-07,3.9,2,0,0,clear,medium,barrial,central,17.62
+TRIP_0671,Lago Azul,Portal Norte,R1,weekday,07-09,3.2,1,0,1,rain,high,intermedia,terminal,25.84
+TRIP_0672,San Pedro,Hospital Central,R5,sunday,07-09,2.7,1,0,1,clear,medium,intermedia,central,18.17
+TRIP_0673,Hospital Central,Universidad,R2+R1,weekday,05-07,4.5,2,1,0,clear,medium,central,intermedia,32.19
+TRIP_0674,Villa Nueva,San Pedro,R3+R1,weekday,15-18,11.8,4,1,1,clear,medium,barrial,intermedia,59.05
+TRIP_0675,Terminal Sur,Hospital Central,R2,weekday,12-15,5.8,2,0,0,clear,low,terminal,central,24.65
+TRIP_0676,Universidad,Parque Industrial,R4,weekday,09-12,7.3,2,0,0,clear,low,intermedia,industrial,27.41
+TRIP_0677,Parque Industrial,Terminal Sur,R5+R2,weekday,21-23,9.2,3,1,0,clear,medium,industrial,terminal,42.81
+TRIP_0678,Centro Histórico,Universidad,R1,saturday,05-07,2.4,1,0,0,clear,low,central,intermedia,11.04
+TRIP_0679,Hospital Central,Tecnoparque,R5+R4,weekday,15-18,6.4,2,1,1,heavy_rain,medium,central,industrial,47.9
+TRIP_0680,Terminal Sur,Mercado Distrital,R2,weekday,15-18,4.0,1,0,1,rain,medium,terminal,barrial,24.78
+TRIP_0681,Universidad,Lago Azul,R1,weekday,09-12,5.2,2,0,0,rain,low,intermedia,intermedia,20.98
+TRIP_0682,Mercado Distrital,Portal Norte,R2+R1,weekday,15-18,9.9,4,1,1,rain,high,barrial,terminal,61.35
+TRIP_0683,Hospital Central,Parque Industrial,R5,sunday,15-18,3.4,1,0,1,rain,medium,central,industrial,24.0
+TRIP_0684,Parque Industrial,Tecnoparque,R4,weekday,07-09,3.0,1,0,1,heavy_rain,high,industrial,industrial,34.27
+TRIP_0685,Universidad,Mercado Distrital,R1+R2,weekday,18-21,6.3,3,1,1,heavy_rain,high,intermedia,barrial,54.63
+TRIP_0686,Villa Nueva,San Pedro,R3+R1,sunday,07-09,11.8,4,1,1,clear,high,barrial,intermedia,67.67
+TRIP_0687,Universidad,San Pedro,R1,weekday,09-12,3.1,1,0,0,clear,low,intermedia,intermedia,15.75
+TRIP_0688,Centro Histórico,Terminal Sur,R2,weekday,18-21,7.9,3,0,1,clear,high,central,terminal,39.83
+TRIP_0689,Universidad,Hospital Central,R1+R2,weekday,07-09,4.5,2,1,1,clear,medium,intermedia,central,33.94
+TRIP_0690,Centro Histórico,Villa Nueva,R1+R3,weekday,09-12,6.3,2,1,0,clear,low,central,barrial,34.33
+TRIP_0691,Centro Histórico,Aeropuerto,R1+R4,weekday,05-07,15.8,4,1,0,clear,high,central,terminal,75.26
+TRIP_0692,Centro Histórico,Portal Norte,R1,weekday,12-15,6.0,2,0,0,rain,high,central,terminal,30.81
+TRIP_0693,Terminal Sur,Lago Azul,R3,sunday,18-21,8.7,2,0,1,clear,high,terminal,intermedia,36.79
+TRIP_0694,San Pedro,Universidad,R1,sunday,09-12,3.1,1,0,0,clear,low,intermedia,intermedia,12.7
+TRIP_0695,Terminal Sur,Hospital Central,R2,sunday,07-09,5.8,2,0,1,clear,medium,terminal,central,28.27
+TRIP_0696,Mercado Distrital,Universidad,R2+R1,saturday,07-09,6.3,3,1,1,clear,medium,barrial,intermedia,40.5
+TRIP_0697,Villa Nueva,Mercado Distrital,R3+R2,weekday,15-18,9.2,2,1,1,rain,high,barrial,barrial,51.6
+TRIP_0698,Portal Norte,Mercado Distrital,R1+R2,weekday,18-21,9.9,4,1,1,clear,high,terminal,barrial,49.99
+TRIP_0699,San Pedro,Villa Nueva,R1+R3,weekday,15-18,11.8,4,1,1,clear,high,intermedia,barrial,64.99
+TRIP_0700,Hospital Central,Mercado Distrital,R2,sunday,09-12,1.8,1,0,0,clear,low,central,barrial,9.17
+TRIP_0701,Hospital Central,Universidad,R2+R1,weekday,07-09,4.5,2,1,1,clear,high,central,intermedia,40.29
+TRIP_0702,Portal Norte,Universidad,R1,sunday,12-15,8.4,3,0,0,clear,low,terminal,intermedia,27.79
+TRIP_0703,Aeropuerto,Portal Norte,R4+R1,weekday,12-15,21.8,6,1,0,clear,medium,terminal,terminal,82.17
+TRIP_0704,Hospital Central,Lago Azul,R2+R1,saturday,07-09,4.9,2,1,1,clear,medium,central,intermedia,33.1
+TRIP_0705,Mercado Distrital,San Pedro,R2+R5,weekday,18-21,4.5,2,1,1,rain,high,barrial,intermedia,39.56
+TRIP_0706,San Pedro,Universidad,R1,weekday,07-09,3.1,1,0,1,clear,high,intermedia,intermedia,23.81
+TRIP_0707,Portal Norte,Aeropuerto,R1+R4,weekday,12-15,21.8,6,1,0,rain,low,terminal,terminal,74.04
+TRIP_0708,Portal Norte,Centro Histórico,R1,weekday,12-15,6.0,2,0,0,rain,medium,terminal,central,28.16
+TRIP_0709,Tecnoparque,Aeropuerto,R4,sunday,12-15,9.1,2,0,0,clear,high,industrial,terminal,37.1
+TRIP_0710,Lago Azul,Portal Norte,R1,weekday,15-18,3.2,1,0,1,clear,medium,intermedia,terminal,20.97
+TRIP_0711,Terminal Sur,Portal Norte,R3+R1,weekday,09-12,11.9,3,1,0,clear,low,terminal,terminal,45.89
+TRIP_0712,Parque Industrial,San Pedro,R5,weekday,15-18,6.1,2,0,1,clear,high,industrial,intermedia,35.01
+TRIP_0713,Terminal Sur,Centro Histórico,R2,sunday,09-12,7.9,3,0,0,rain,low,terminal,central,30.52
+TRIP_0714,Parque Industrial,Mercado Distrital,R5+R2,weekday,07-09,5.2,2,1,1,heavy_rain,high,industrial,barrial,54.72
+TRIP_0715,Centro Histórico,Mercado Distrital,R2,sunday,15-18,3.9,2,0,1,clear,medium,central,barrial,20.35
+TRIP_0716,Universidad,Parque Industrial,R4,saturday,15-18,7.3,2,0,1,clear,high,intermedia,industrial,40.48
+TRIP_0717,Aeropuerto,San Pedro,R4+R5,saturday,12-15,12.2,3,1,0,heavy_rain,medium,terminal,intermedia,56.38
+TRIP_0718,Centro Histórico,Parque Industrial,R2+R5,weekday,12-15,5.5,2,1,0,clear,medium,central,industrial,33.44
+TRIP_0719,Terminal Sur,Parque Industrial,R2+R5,weekday,09-12,9.2,3,1,0,clear,medium,terminal,industrial,43.57
+TRIP_0720,Terminal Sur,Hospital Central,R2,weekday,09-12,5.8,2,0,0,clear,medium,terminal,central,27.91
+TRIP_0721,Terminal Sur,Hospital Central,R2,weekday,07-09,5.8,2,0,1,clear,high,terminal,central,33.65
+TRIP_0722,Terminal Sur,Portal Norte,R3+R1,weekday,09-12,11.9,3,1,0,clear,low,terminal,terminal,47.34
+TRIP_0723,San Pedro,Lago Azul,R1,weekday,15-18,8.3,3,0,1,rain,medium,intermedia,intermedia,35.11
+TRIP_0724,Villa Nueva,Lago Azul,R3,weekday,15-18,3.5,1,0,1,clear,medium,barrial,intermedia,20.99
+TRIP_0725,Mercado Distrital,Lago Azul,R2+R1,saturday,15-18,6.7,3,1,1,clear,medium,barrial,intermedia,35.81
+TRIP_0726,Tecnoparque,Centro Histórico,R4+R1,weekday,09-12,6.7,2,1,0,clear,medium,industrial,central,34.23
+TRIP_0727,Hospital Central,Aeropuerto,R5+R4,saturday,09-12,9.5,2,1,0,clear,low,central,terminal,40.38
+TRIP_0728,Terminal Sur,Villa Nueva,R3,sunday,18-21,5.2,1,0,1,clear,high,terminal,barrial,27.18
+TRIP_0729,Universidad,Terminal Sur,R1+R2,weekday,09-12,10.3,4,1,0,clear,low,intermedia,terminal,47.55
+TRIP_0730,Parque Industrial,Centro Histórico,R5+R2,weekday,18-21,5.5,2,1,1,rain,high,industrial,central,43.73
+TRIP_0731,Mercado Distrital,Centro Histórico,R2,sunday,15-18,3.9,2,0,1,clear,high,barrial,central,28.13
+TRIP_0732,Villa Nueva,Centro Histórico,R3+R1,weekday,12-15,6.3,2,1,0,clear,high,barrial,central,35.55
+TRIP_0733,Centro Histórico,Portal Norte,R1,saturday,15-18,6.0,2,0,1,rain,high,central,terminal,33.21
+TRIP_0734,Villa Nueva,Universidad,R3+R1,weekday,09-12,8.7,3,1,0,clear,medium,barrial,intermedia,38.61
+TRIP_0735,San Pedro,Hospital Central,R5,saturday,15-18,2.7,1,0,1,rain,medium,intermedia,central,20.34
+TRIP_0736,Terminal Sur,Lago Azul,R3,saturday,15-18,8.7,2,0,1,clear,high,terminal,intermedia,38.37
+TRIP_0737,San Pedro,Centro Histórico,R1,sunday,12-15,5.5,2,0,0,rain,low,intermedia,central,19.95
+TRIP_0738,Villa Nueva,Terminal Sur,R3,weekday,15-18,5.2,1,0,1,clear,high,barrial,terminal,28.09
+TRIP_0739,San Pedro,Mercado Distrital,R5+R2,weekday,15-18,4.5,2,1,1,clear,medium,intermedia,barrial,32.29
+TRIP_0740,Aeropuerto,Centro Histórico,R4+R1,weekday,05-07,15.8,4,1,0,clear,medium,terminal,central,65.39
+TRIP_0741,Hospital Central,Aeropuerto,R5+R4,weekday,18-21,9.5,2,1,1,clear,medium,central,terminal,51.33
+TRIP_0742,Parque Industrial,Centro Histórico,R5+R2,sunday,18-21,5.5,2,1,1,clear,medium,industrial,central,37.4
+TRIP_0743,Centro Histórico,Villa Nueva,R1+R3,weekday,15-18,6.3,2,1,1,clear,high,central,barrial,47.3
+TRIP_0744,Portal Norte,San Pedro,R1,saturday,09-12,11.5,4,0,0,clear,low,terminal,intermedia,35.66
+TRIP_0745,Tecnoparque,Hospital Central,R4+R5,weekday,12-15,6.4,2,1,0,clear,medium,industrial,central,35.46
+TRIP_0746,Terminal Sur,Lago Azul,R3,weekday,15-18,8.7,2,0,1,clear,high,terminal,intermedia,39.57
+TRIP_0747,Centro Histórico,Portal Norte,R1,weekday,07-09,6.0,2,0,1,clear,medium,central,terminal,26.82
+TRIP_0748,Hospital Central,Aeropuerto,R5+R4,weekday,09-12,9.5,2,1,0,rain,high,central,terminal,48.91
+TRIP_0749,Parque Industrial,Tecnoparque,R4,weekday,12-15,3.0,1,0,0,clear,medium,industrial,industrial,17.1
+TRIP_0750,Portal Norte,Parque Industrial,R1+R4,sunday,05-07,15.7,5,1,0,clear,low,terminal,industrial,62.24
+TRIP_0751,Portal Norte,San Pedro,R1,weekday,18-21,11.5,4,0,1,rain,medium,terminal,intermedia,44.44
+TRIP_0752,Lago Azul,Universidad,R1,weekday,21-23,5.2,2,0,0,clear,high,intermedia,intermedia,27.64
+TRIP_0753,San Pedro,Terminal Sur,R5+R2,weekday,09-12,8.5,3,1,0,clear,low,intermedia,terminal,38.03
+TRIP_0754,Universidad,Aeropuerto,R4,weekday,12-15,13.4,3,0,0,clear,low,intermedia,terminal,40.87
+TRIP_0755,Lago Azul,San Pedro,R1,weekday,15-18,8.3,3,0,1,clear,medium,intermedia,intermedia,34.48
+TRIP_0756,San Pedro,Mercado Distrital,R5+R2,weekday,09-12,4.5,2,1,0,clear,high,intermedia,barrial,35.88
+TRIP_0757,Parque Industrial,San Pedro,R5,weekday,15-18,6.1,2,0,1,clear,high,industrial,intermedia,34.65
+TRIP_0758,San Pedro,Lago Azul,R1,sunday,09-12,8.3,3,0,0,rain,low,intermedia,intermedia,26.51
+TRIP_0759,Hospital Central,Universidad,R2+R1,saturday,09-12,4.5,2,1,0,clear,high,central,intermedia,31.69
+TRIP_0760,San Pedro,Portal Norte,R1,weekday,18-21,11.5,4,0,1,rain,high,intermedia,terminal,54.28
+TRIP_0761,Terminal Sur,Portal Norte,R3+R1,saturday,09-12,11.9,3,1,0,clear,medium,terminal,terminal,50.75
+TRIP_0762,Centro Histórico,Universidad,R1,saturday,18-21,2.4,1,0,1,clear,high,central,intermedia,23.42
+TRIP_0763,Aeropuerto,Hospital Central,R4+R5,weekday,12-15,9.5,2,1,0,clear,medium,terminal,central,42.26
+TRIP_0764,Centro Histórico,Aeropuerto,R1+R4,weekday,09-12,15.8,4,1,0,clear,high,central,terminal,71.46
+TRIP_0765,Centro Histórico,Aeropuerto,R1+R4,weekday,07-09,15.8,4,1,1,clear,high,central,terminal,78.71
+TRIP_0766,Portal Norte,Parque Industrial,R1+R4,weekday,18-21,15.7,5,1,1,clear,high,terminal,industrial,82.04
+TRIP_0767,Portal Norte,Villa Nueva,R1+R3,weekday,18-21,6.7,2,1,1,rain,high,terminal,barrial,45.09
+TRIP_0768,Universidad,Villa Nueva,R1+R3,weekday,12-15,8.7,3,1,0,clear,low,intermedia,barrial,37.11
+TRIP_0769,Parque Industrial,Terminal Sur,R5+R2,weekday,09-12,9.2,3,1,0,clear,high,industrial,terminal,46.12
+TRIP_0770,Parque Industrial,Lago Azul,R4+R1,weekday,15-18,12.5,4,1,1,clear,high,industrial,intermedia,74.67
+TRIP_0771,San Pedro,Terminal Sur,R5+R2,weekday,18-21,8.5,3,1,1,clear,medium,intermedia,terminal,47.34
+TRIP_0772,Centro Histórico,Tecnoparque,R1+R4,weekday,12-15,6.7,2,1,0,clear,medium,central,industrial,35.62
+TRIP_0773,Portal Norte,Centro Histórico,R1,weekday,18-21,6.0,2,0,1,clear,high,terminal,central,35.07
+TRIP_0774,Universidad,Aeropuerto,R4,saturday,07-09,13.4,3,0,1,clear,high,intermedia,terminal,58.41
+TRIP_0775,Centro Histórico,San Pedro,R1,weekday,07-09,5.5,2,0,1,clear,medium,central,intermedia,25.53
+TRIP_0776,San Pedro,Villa Nueva,R1+R3,weekday,05-07,11.8,4,1,0,rain,low,intermedia,barrial,48.56
+TRIP_0777,Hospital Central,Parque Industrial,R5,sunday,18-21,3.4,1,0,1,clear,medium,central,industrial,20.2
+TRIP_0778,Terminal Sur,Centro Histórico,R2,weekday,07-09,7.9,3,0,1,clear,high,terminal,central,39.44
+TRIP_0779,Lago Azul,San Pedro,R1,weekday,07-09,8.3,3,0,1,clear,medium,intermedia,intermedia,35.89
+TRIP_0780,Parque Industrial,Tecnoparque,R4,sunday,09-12,3.0,1,0,0,clear,medium,industrial,industrial,16.15
+TRIP_0781,Centro Histórico,Villa Nueva,R1+R3,weekday,12-15,6.3,2,1,0,clear,medium,central,barrial,34.66
+TRIP_0782,Mercado Distrital,Lago Azul,R2+R1,weekday,15-18,6.7,3,1,1,clear,medium,barrial,intermedia,44.17
+TRIP_0783,Hospital Central,Terminal Sur,R2,weekday,07-09,5.8,2,0,1,rain,high,central,terminal,35.05
+TRIP_0784,Parque Industrial,Tecnoparque,R4,weekday,09-12,3.0,1,0,0,clear,medium,industrial,industrial,17.55
+TRIP_0785,San Pedro,Lago Azul,R1,weekday,05-07,8.3,3,0,0,clear,high,intermedia,intermedia,36.86
+TRIP_0786,Lago Azul,Hospital Central,R1+R2,sunday,18-21,4.9,2,1,1,rain,high,intermedia,central,40.55
+TRIP_0787,Mercado Distrital,Hospital Central,R2,saturday,07-09,1.8,1,0,1,rain,high,barrial,central,23.44
+TRIP_0788,Aeropuerto,Tecnoparque,R4,weekday,07-09,9.1,2,0,1,clear,high,terminal,industrial,41.25
+TRIP_0789,Hospital Central,Universidad,R2+R1,weekday,09-12,4.5,2,1,0,rain,medium,central,intermedia,32.35
+TRIP_0790,Aeropuerto,Tecnoparque,R4,sunday,07-09,9.1,2,0,1,clear,medium,terminal,industrial,36.19
+TRIP_0791,Portal Norte,Terminal Sur,R1+R3,weekday,05-07,11.9,3,1,0,clear,high,terminal,terminal,60.41
+TRIP_0792,Universidad,Mercado Distrital,R1+R2,weekday,09-12,6.3,3,1,0,clear,medium,intermedia,barrial,34.85
+TRIP_0793,Aeropuerto,San Pedro,R4+R5,sunday,09-12,12.2,3,1,0,clear,low,terminal,intermedia,46.86
+TRIP_0794,Mercado Distrital,Hospital Central,R2,weekday,07-09,1.8,1,0,1,clear,high,barrial,central,20.28
+TRIP_0795,Lago Azul,Portal Norte,R1,saturday,15-18,3.2,1,0,1,clear,medium,intermedia,terminal,18.09
+TRIP_0796,Hospital Central,Universidad,R2+R1,saturday,18-21,4.5,2,1,1,clear,medium,central,intermedia,31.96
+TRIP_0797,San Pedro,Universidad,R1,saturday,15-18,3.1,1,0,1,clear,medium,intermedia,intermedia,19.91
+TRIP_0798,San Pedro,Hospital Central,R5,weekday,18-21,2.7,1,0,1,rain,high,intermedia,central,24.75
+TRIP_0799,Hospital Central,Universidad,R2+R1,weekday,07-09,4.5,2,1,1,rain,high,central,intermedia,43.79
+TRIP_0800,Centro Histórico,Terminal Sur,R2,saturday,18-21,7.9,3,0,1,clear,medium,central,terminal,37.8
+TRIP_0801,Universidad,Tecnoparque,R4,weekday,18-21,4.3,1,0,1,clear,high,intermedia,industrial,32.04
+TRIP_0802,Tecnoparque,Centro Histórico,R4+R1,weekday,07-09,6.7,2,1,1,clear,high,industrial,central,42.82
+TRIP_0803,Tecnoparque,Hospital Central,R4+R5,weekday,09-12,6.4,2,1,0,clear,medium,industrial,central,33.54
+TRIP_0804,Lago Azul,Parque Industrial,R1+R4,saturday,07-09,12.5,4,1,1,clear,medium,intermedia,industrial,58.34
+TRIP_0805,San Pedro,Villa Nueva,R1+R3,weekday,07-09,11.8,4,1,1,rain,medium,intermedia,barrial,59.97
+TRIP_0806,Villa Nueva,Universidad,R3+R1,weekday,15-18,8.7,3,1,1,clear,low,barrial,intermedia,40.33
+TRIP_0807,Lago Azul,Parque Industrial,R1+R4,weekday,12-15,12.5,4,1,0,rain,low,intermedia,industrial,55.61
+TRIP_0808,Universidad,Lago Azul,R1,sunday,18-21,5.2,2,0,1,rain,high,intermedia,intermedia,32.16
+TRIP_0809,Portal Norte,Parque Industrial,R1+R4,weekday,15-18,15.7,5,1,1,clear,high,terminal,industrial,81.35
+TRIP_0810,Terminal Sur,Portal Norte,R3+R1,weekday,07-09,11.9,3,1,1,rain,high,terminal,terminal,69.62
+TRIP_0811,Tecnoparque,Universidad,R4,saturday,09-12,4.3,1,0,0,clear,medium,industrial,intermedia,20.29
+TRIP_0812,Centro Histórico,Portal Norte,R1,saturday,07-09,6.0,2,0,1,rain,high,central,terminal,33.71
+TRIP_0813,Terminal Sur,Portal Norte,R3+R1,weekday,15-18,11.9,3,1,1,clear,medium,terminal,terminal,58.19
+TRIP_0814,Universidad,Centro Histórico,R1,saturday,15-18,2.4,1,0,1,clear,high,intermedia,central,19.77
+TRIP_0815,San Pedro,Terminal Sur,R5+R2,sunday,07-09,8.5,3,1,1,clear,medium,intermedia,terminal,41.35
+TRIP_0816,Lago Azul,Portal Norte,R1,weekday,21-23,3.2,1,0,0,clear,low,intermedia,terminal,15.49
+TRIP_0817,San Pedro,Mercado Distrital,R5+R2,sunday,18-21,4.5,2,1,1,clear,medium,intermedia,barrial,36.51
+TRIP_0818,Aeropuerto,Hospital Central,R4+R5,saturday,07-09,9.5,2,1,1,clear,high,terminal,central,53.77
+TRIP_0819,Centro Histórico,Universidad,R1,weekday,07-09,2.4,1,0,1,clear,medium,central,intermedia,18.73
+TRIP_0820,Universidad,Mercado Distrital,R1+R2,weekday,09-12,6.3,3,1,0,rain,medium,intermedia,barrial,36.34
+TRIP_0821,Universidad,Terminal Sur,R1+R2,weekday,09-12,10.3,4,1,0,clear,high,intermedia,terminal,55.05
+TRIP_0822,Centro Histórico,Parque Industrial,R2+R5,weekday,09-12,5.5,2,1,0,clear,medium,central,industrial,31.07
+TRIP_0823,Portal Norte,Lago Azul,R1,sunday,09-12,3.2,1,0,0,clear,high,terminal,intermedia,20.75
+TRIP_0824,San Pedro,Villa Nueva,R1+R3,weekday,09-12,11.8,4,1,0,rain,medium,intermedia,barrial,54.41
+TRIP_0825,Hospital Central,Centro Histórico,R2,weekday,05-07,2.1,1,0,0,heavy_rain,medium,central,central,22.33
+TRIP_0826,Terminal Sur,San Pedro,R2+R5,weekday,21-23,8.5,3,1,0,clear,medium,terminal,intermedia,41.82
+TRIP_0827,Portal Norte,Mercado Distrital,R1+R2,weekday,15-18,9.9,4,1,1,rain,high,terminal,barrial,57.86
+TRIP_0828,Universidad,San Pedro,R1,weekday,18-21,3.1,1,0,1,clear,medium,intermedia,intermedia,20.62
+TRIP_0829,Centro Histórico,Terminal Sur,R2,weekday,07-09,7.9,3,0,1,rain,medium,central,terminal,37.65
+TRIP_0830,Mercado Distrital,Hospital Central,R2,weekday,21-23,1.8,1,0,0,clear,high,barrial,central,18.44
+TRIP_0831,Terminal Sur,San Pedro,R2+R5,saturday,15-18,8.5,3,1,1,heavy_rain,high,terminal,intermedia,62.66
+TRIP_0832,Aeropuerto,Parque Industrial,R4,weekday,15-18,6.1,1,0,1,clear,low,terminal,industrial,27.2
+TRIP_0833,Aeropuerto,Centro Histórico,R4+R1,sunday,09-12,15.8,4,1,0,clear,low,terminal,central,59.83
+TRIP_0834,Portal Norte,San Pedro,R1,sunday,12-15,11.5,4,0,0,clear,low,terminal,intermedia,33.3
+TRIP_0835,Aeropuerto,Hospital Central,R4+R5,saturday,05-07,9.5,2,1,0,clear,medium,terminal,central,40.96
+TRIP_0836,San Pedro,Terminal Sur,R5+R2,weekday,18-21,8.5,3,1,1,clear,low,intermedia,terminal,39.67
+TRIP_0837,Universidad,Centro Histórico,R1,weekday,12-15,2.4,1,0,0,clear,medium,intermedia,central,16.47
+TRIP_0838,Hospital Central,Aeropuerto,R5+R4,weekday,09-12,9.5,2,1,0,clear,medium,central,terminal,35.7
+TRIP_0839,Mercado Distrital,Portal Norte,R2+R1,saturday,07-09,9.9,4,1,1,clear,low,barrial,terminal,42.64
+TRIP_0840,San Pedro,Lago Azul,R1,saturday,09-12,8.3,3,0,0,clear,low,intermedia,intermedia,25.34
+TRIP_0841,Hospital Central,Villa Nueva,R2+R3,weekday,07-09,11.0,3,1,1,rain,high,central,barrial,67.01
+TRIP_0842,San Pedro,Centro Histórico,R1,weekday,18-21,5.5,2,0,1,rain,medium,intermedia,central,26.75
+TRIP_0843,Villa Nueva,Universidad,R3+R1,weekday,12-15,8.7,3,1,0,clear,low,barrial,intermedia,38.66
+TRIP_0844,Mercado Distrital,Universidad,R2+R1,weekday,18-21,6.3,3,1,1,clear,high,barrial,intermedia,45.32
+TRIP_0845,Hospital Central,Terminal Sur,R2,weekday,18-21,5.8,2,0,1,clear,high,central,terminal,31.64
+TRIP_0846,San Pedro,Tecnoparque,R1+R4,weekday,07-09,7.4,2,1,1,clear,medium,intermedia,industrial,41.98
+TRIP_0847,Tecnoparque,Hospital Central,R4+R5,weekday,15-18,6.4,2,1,1,rain,high,industrial,central,50.14
+TRIP_0848,Centro Histórico,Aeropuerto,R1+R4,saturday,09-12,15.8,4,1,0,clear,high,central,terminal,69.38
+TRIP_0849,Terminal Sur,Hospital Central,R2,saturday,05-07,5.8,2,0,0,clear,medium,terminal,central,26.2
+TRIP_0850,Portal Norte,San Pedro,R1,saturday,05-07,11.5,4,0,0,clear,medium,terminal,intermedia,39.92
+TRIP_0851,Hospital Central,Universidad,R2+R1,saturday,07-09,4.5,2,1,1,clear,high,central,intermedia,41.1
+TRIP_0852,Lago Azul,Tecnoparque,R1+R4,saturday,05-07,9.5,3,1,0,clear,high,intermedia,industrial,46.59
+TRIP_0853,Lago Azul,Hospital Central,R1+R2,weekday,09-12,4.9,2,1,0,rain,medium,intermedia,central,34.13
+TRIP_0854,Terminal Sur,Hospital Central,R2,weekday,21-23,5.8,2,0,0,clear,medium,terminal,central,27.25
+TRIP_0855,San Pedro,Lago Azul,R1,weekday,15-18,8.3,3,0,1,rain,high,intermedia,intermedia,43.11
+TRIP_0856,Portal Norte,Terminal Sur,R1+R3,sunday,21-23,11.9,3,1,0,heavy_rain,low,terminal,terminal,51.55
+TRIP_0857,Hospital Central,Universidad,R2+R1,weekday,12-15,4.5,2,1,0,clear,medium,central,intermedia,25.61
+TRIP_0858,Portal Norte,Villa Nueva,R1+R3,weekday,18-21,6.7,2,1,1,rain,high,terminal,barrial,41.51
+TRIP_0859,Terminal Sur,San Pedro,R2+R5,weekday,09-12,8.5,3,1,0,rain,high,terminal,intermedia,48.4
+TRIP_0860,Mercado Distrital,Universidad,R2+R1,weekday,07-09,6.3,3,1,1,clear,high,barrial,intermedia,43.04
+TRIP_0861,Universidad,Villa Nueva,R1+R3,sunday,21-23,8.7,3,1,0,clear,medium,intermedia,barrial,35.95
+TRIP_0862,Portal Norte,Lago Azul,R1,sunday,18-21,3.2,1,0,1,rain,high,terminal,intermedia,25.08
+TRIP_0863,Villa Nueva,Lago Azul,R3,weekday,15-18,3.5,1,0,1,clear,high,barrial,intermedia,25.76
+TRIP_0864,Lago Azul,Aeropuerto,R1+R4,weekday,09-12,18.6,5,1,0,clear,medium,intermedia,terminal,70.26
+TRIP_0865,Tecnoparque,Aeropuerto,R4,saturday,18-21,9.1,2,0,1,clear,high,industrial,terminal,44.27
+TRIP_0866,Hospital Central,Terminal Sur,R2,saturday,15-18,5.8,2,0,1,clear,high,central,terminal,32.09
+TRIP_0867,Centro Histórico,San Pedro,R1,weekday,15-18,5.5,2,0,1,rain,high,central,intermedia,34.95
+TRIP_0868,Parque Industrial,Universidad,R4,weekday,15-18,7.3,2,0,1,clear,high,industrial,intermedia,39.4
+TRIP_0869,San Pedro,Villa Nueva,R1+R3,weekday,15-18,11.8,4,1,1,clear,medium,intermedia,barrial,52.56
+TRIP_0870,Universidad,Mercado Distrital,R1+R2,weekday,07-09,6.3,3,1,1,clear,medium,intermedia,barrial,40.33
+TRIP_0871,Parque Industrial,Lago Azul,R4+R1,sunday,07-09,12.5,4,1,1,clear,high,industrial,intermedia,73.77
+TRIP_0872,Mercado Distrital,Hospital Central,R2,weekday,05-07,1.8,1,0,0,rain,medium,barrial,central,17.76
+TRIP_0873,Portal Norte,Parque Industrial,R1+R4,weekday,12-15,15.7,5,1,0,clear,medium,terminal,industrial,59.29
+TRIP_0874,Mercado Distrital,Villa Nueva,R2+R3,saturday,15-18,9.2,2,1,1,clear,medium,barrial,barrial,44.31
+TRIP_0875,Aeropuerto,Universidad,R4,weekday,07-09,13.4,3,0,1,clear,high,terminal,intermedia,58.01
+TRIP_0876,Centro Histórico,San Pedro,R1,weekday,09-12,5.5,2,0,0,clear,medium,central,intermedia,21.19
+TRIP_0877,San Pedro,Terminal Sur,R5+R2,weekday,07-09,8.5,3,1,1,clear,high,intermedia,terminal,52.94
+TRIP_0878,Lago Azul,Tecnoparque,R1+R4,weekday,18-21,9.5,3,1,1,clear,high,intermedia,industrial,49.93
+TRIP_0879,Aeropuerto,Lago Azul,R4+R1,weekday,05-07,18.6,5,1,0,rain,low,terminal,intermedia,68.76
+TRIP_0880,Villa Nueva,Hospital Central,R3+R2,sunday,15-18,11.0,3,1,1,clear,medium,barrial,central,51.79
+TRIP_0881,Aeropuerto,Lago Azul,R4+R1,weekday,07-09,18.6,5,1,1,clear,high,terminal,intermedia,88.49
+TRIP_0882,Parque Industrial,Hospital Central,R5,weekday,12-15,3.4,1,0,0,clear,medium,industrial,central,19.73
+TRIP_0883,Aeropuerto,Universidad,R4,saturday,18-21,13.4,3,0,1,rain,medium,terminal,intermedia,52.03
+TRIP_0884,Terminal Sur,Lago Azul,R3,weekday,07-09,8.7,2,0,1,clear,high,terminal,intermedia,38.75
+TRIP_0885,Aeropuerto,San Pedro,R4+R5,saturday,15-18,12.2,3,1,1,clear,medium,terminal,intermedia,58.12
+TRIP_0886,Mercado Distrital,Terminal Sur,R2,weekday,05-07,4.0,1,0,0,clear,medium,barrial,terminal,19.56
+TRIP_0887,San Pedro,Hospital Central,R5,weekday,05-07,2.7,1,0,0,clear,medium,intermedia,central,16.71
+TRIP_0888,Lago Azul,Parque Industrial,R1+R4,saturday,09-12,12.5,4,1,0,clear,low,intermedia,industrial,46.68
+TRIP_0889,Lago Azul,Universidad,R1,weekday,15-18,5.2,2,0,1,clear,high,intermedia,intermedia,30.68
+TRIP_0890,Universidad,Terminal Sur,R1+R2,weekday,12-15,10.3,4,1,0,heavy_rain,high,intermedia,terminal,65.98
+TRIP_0891,Hospital Central,Terminal Sur,R2,weekday,15-18,5.8,2,0,1,clear,high,central,terminal,33.69
+TRIP_0892,Terminal Sur,Universidad,R2+R1,saturday,09-12,10.3,4,1,0,clear,medium,terminal,intermedia,50.29
+TRIP_0893,Mercado Distrital,Parque Industrial,R2+R5,saturday,21-23,5.2,2,1,0,rain,medium,barrial,industrial,34.65
+TRIP_0894,Lago Azul,Hospital Central,R1+R2,saturday,18-21,4.9,2,1,1,rain,high,intermedia,central,43.08
+TRIP_0895,Portal Norte,Parque Industrial,R1+R4,weekday,18-21,15.7,5,1,1,rain,high,terminal,industrial,86.42
+TRIP_0896,Parque Industrial,Tecnoparque,R4,weekday,15-18,3.0,1,0,1,clear,low,industrial,industrial,21.04
+TRIP_0897,San Pedro,Hospital Central,R5,sunday,21-23,2.7,1,0,0,rain,low,intermedia,central,13.02
+TRIP_0898,Villa Nueva,Lago Azul,R3,sunday,07-09,3.5,1,0,1,clear,high,barrial,intermedia,22.94
+TRIP_0899,Tecnoparque,San Pedro,R4+R1,weekday,05-07,7.4,2,1,0,heavy_rain,high,industrial,intermedia,51.12
+TRIP_0900,Centro Histórico,Parque Industrial,R2+R5,weekday,09-12,5.5,2,1,0,clear,low,central,industrial,29.36
+TRIP_0901,Hospital Central,Tecnoparque,R5+R4,weekday,09-12,6.4,2,1,0,clear,low,central,industrial,32.19
+TRIP_0902,Aeropuerto,Lago Azul,R4+R1,weekday,05-07,18.6,5,1,0,clear,low,terminal,intermedia,68.03
+TRIP_0903,Hospital Central,Centro Histórico,R2,sunday,15-18,2.1,1,0,1,clear,medium,central,central,15.73
+TRIP_0904,Hospital Central,Universidad,R2+R1,weekday,07-09,4.5,2,1,1,clear,medium,central,intermedia,36.39
+TRIP_0905,Portal Norte,Hospital Central,R1+R2,weekday,07-09,8.1,3,1,1,rain,high,terminal,central,54.71
+TRIP_0906,Terminal Sur,San Pedro,R2+R5,sunday,07-09,8.5,3,1,1,clear,high,terminal,intermedia,43.92
+TRIP_0907,Tecnoparque,Portal Norte,R4+R1,saturday,12-15,12.7,4,1,0,clear,medium,industrial,terminal,56.84
+TRIP_0908,Portal Norte,Terminal Sur,R1+R3,weekday,12-15,11.9,3,1,0,heavy_rain,medium,terminal,terminal,55.26
+TRIP_0909,Lago Azul,Portal Norte,R1,weekday,07-09,3.2,1,0,1,clear,medium,intermedia,terminal,18.76
+TRIP_0910,Centro Histórico,Mercado Distrital,R2,sunday,21-23,3.9,2,0,0,clear,low,central,barrial,16.9
+TRIP_0911,Terminal Sur,San Pedro,R2+R5,weekday,07-09,8.5,3,1,1,heavy_rain,high,terminal,intermedia,62.54
+TRIP_0912,Parque Industrial,San Pedro,R5,sunday,05-07,6.1,2,0,0,clear,low,industrial,intermedia,20.75
+TRIP_0913,Centro Histórico,Lago Azul,R1,weekday,09-12,2.8,1,0,0,clear,low,central,intermedia,14.44
+TRIP_0914,Lago Azul,Portal Norte,R1,weekday,15-18,3.2,1,0,1,clear,medium,intermedia,terminal,17.96
+TRIP_0915,Universidad,Tecnoparque,R4,weekday,07-09,4.3,1,0,1,clear,medium,intermedia,industrial,24.53
+TRIP_0916,Lago Azul,Villa Nueva,R3,weekday,15-18,3.5,1,0,1,rain,high,intermedia,barrial,27.83
+TRIP_0917,Terminal Sur,Hospital Central,R2,saturday,15-18,5.8,2,0,1,clear,medium,terminal,central,29.69
+TRIP_0918,Centro Histórico,Lago Azul,R1,weekday,05-07,2.8,1,0,0,rain,medium,central,intermedia,19.42
+TRIP_0919,Tecnoparque,San Pedro,R4+R1,weekday,18-21,7.4,2,1,1,clear,high,industrial,intermedia,49.57
+TRIP_0920,Portal Norte,Villa Nueva,R1+R3,weekday,09-12,6.7,2,1,0,clear,medium,terminal,barrial,29.39
+TRIP_0921,Aeropuerto,San Pedro,R4+R5,weekday,05-07,12.2,3,1,0,clear,high,terminal,intermedia,61.75
+TRIP_0922,Villa Nueva,San Pedro,R3+R1,saturday,15-18,11.8,4,1,1,clear,high,barrial,intermedia,61.55
+TRIP_0923,Mercado Distrital,Portal Norte,R2+R1,weekday,12-15,9.9,4,1,0,clear,medium,barrial,terminal,42.28
+TRIP_0924,Terminal Sur,Lago Azul,R3,weekday,21-23,8.7,2,0,0,clear,medium,terminal,intermedia,31.72
+TRIP_0925,Centro Histórico,Parque Industrial,R2+R5,saturday,09-12,5.5,2,1,0,clear,low,central,industrial,27.38
+TRIP_0926,Aeropuerto,Lago Azul,R4+R1,saturday,09-12,18.6,5,1,0,clear,low,terminal,intermedia,66.76
+TRIP_0927,San Pedro,Terminal Sur,R5+R2,weekday,09-12,8.5,3,1,0,clear,medium,intermedia,terminal,40.25
+TRIP_0928,Aeropuerto,Tecnoparque,R4,weekday,09-12,9.1,2,0,0,clear,medium,terminal,industrial,32.09
+TRIP_0929,Tecnoparque,Lago Azul,R4+R1,saturday,07-09,9.5,3,1,1,clear,low,industrial,intermedia,46.68
+TRIP_0930,Villa Nueva,Hospital Central,R3+R2,weekday,15-18,11.0,3,1,1,clear,low,barrial,central,50.0
+TRIP_0931,Lago Azul,Hospital Central,R1+R2,weekday,18-21,4.9,2,1,1,heavy_rain,high,intermedia,central,50.84
+TRIP_0932,Hospital Central,Lago Azul,R2+R1,weekday,09-12,4.9,2,1,0,rain,high,central,intermedia,37.07
+TRIP_0933,Hospital Central,Centro Histórico,R2,weekday,07-09,2.1,1,0,1,rain,medium,central,central,21.59
+TRIP_0934,San Pedro,Villa Nueva,R1+R3,saturday,05-07,11.8,4,1,0,rain,low,intermedia,barrial,49.12
+TRIP_0935,Hospital Central,San Pedro,R5,weekday,12-15,2.7,1,0,0,clear,low,central,intermedia,11.68
+TRIP_0936,Terminal Sur,Centro Histórico,R2,saturday,05-07,7.9,3,0,0,rain,low,terminal,central,32.77
+TRIP_0937,Parque Industrial,Terminal Sur,R5+R2,saturday,12-15,9.2,3,1,0,clear,high,industrial,terminal,43.07
+TRIP_0938,San Pedro,Mercado Distrital,R5+R2,sunday,18-21,4.5,2,1,1,heavy_rain,medium,intermedia,barrial,41.31
+TRIP_0939,Terminal Sur,Universidad,R2+R1,weekday,07-09,10.3,4,1,1,heavy_rain,medium,terminal,intermedia,59.83
+TRIP_0940,Universidad,Villa Nueva,R1+R3,saturday,18-21,8.7,3,1,1,clear,high,intermedia,barrial,49.33
+TRIP_0941,Portal Norte,Universidad,R1,sunday,07-09,8.4,3,0,1,clear,high,terminal,intermedia,37.37
+TRIP_0942,Universidad,Villa Nueva,R1+R3,weekday,07-09,8.7,3,1,1,clear,high,intermedia,barrial,54.06
+TRIP_0943,Parque Industrial,Terminal Sur,R5+R2,weekday,18-21,9.2,3,1,1,clear,medium,industrial,terminal,45.97
+TRIP_0944,Aeropuerto,Centro Histórico,R4+R1,saturday,09-12,15.8,4,1,0,clear,medium,terminal,central,62.04
+TRIP_0945,Parque Industrial,Terminal Sur,R5+R2,sunday,18-21,9.2,3,1,1,rain,high,industrial,terminal,54.61
+TRIP_0946,Hospital Central,Terminal Sur,R2,saturday,12-15,5.8,2,0,0,clear,medium,central,terminal,22.91
+TRIP_0947,Mercado Distrital,Lago Azul,R2+R1,weekday,07-09,6.7,3,1,1,clear,medium,barrial,intermedia,38.95
+TRIP_0948,Lago Azul,Aeropuerto,R1+R4,weekday,15-18,18.6,5,1,1,clear,medium,intermedia,terminal,73.2
+TRIP_0949,Mercado Distrital,Parque Industrial,R2+R5,weekday,07-09,5.2,2,1,1,clear,high,barrial,industrial,41.33
+TRIP_0950,Portal Norte,Universidad,R1,saturday,09-12,8.4,3,0,0,clear,medium,terminal,intermedia,30.73
+TRIP_0951,Universidad,Mercado Distrital,R1+R2,weekday,15-18,6.3,3,1,1,rain,high,intermedia,barrial,47.35
+TRIP_0952,Centro Histórico,Aeropuerto,R1+R4,weekday,07-09,15.8,4,1,1,heavy_rain,medium,central,terminal,72.48
+TRIP_0953,Hospital Central,Aeropuerto,R5+R4,weekday,07-09,9.5,2,1,1,clear,high,central,terminal,51.65
+TRIP_0954,Lago Azul,Parque Industrial,R1+R4,saturday,07-09,12.5,4,1,1,clear,low,intermedia,industrial,55.43
+TRIP_0955,Lago Azul,Aeropuerto,R1+R4,saturday,21-23,18.6,5,1,0,clear,medium,intermedia,terminal,73.5
+TRIP_0956,Portal Norte,San Pedro,R1,weekday,18-21,11.5,4,0,1,clear,medium,terminal,intermedia,44.82
+TRIP_0957,Universidad,Villa Nueva,R1+R3,sunday,15-18,8.7,3,1,1,clear,high,intermedia,barrial,49.98
+TRIP_0958,Hospital Central,San Pedro,R5,weekday,07-09,2.7,1,0,1,clear,high,central,intermedia,23.5
+TRIP_0959,Tecnoparque,Portal Norte,R4+R1,weekday,07-09,12.7,4,1,1,rain,high,industrial,terminal,71.53
+TRIP_0960,Lago Azul,Aeropuerto,R1+R4,sunday,12-15,18.6,5,1,0,clear,medium,intermedia,terminal,74.25
+TRIP_0961,Universidad,Hospital Central,R1+R2,weekday,07-09,4.5,2,1,1,clear,high,intermedia,central,36.59
+TRIP_0962,Hospital Central,San Pedro,R5,weekday,12-15,2.7,1,0,0,clear,medium,central,intermedia,14.84
+TRIP_0963,Villa Nueva,Universidad,R3+R1,saturday,12-15,8.7,3,1,0,clear,low,barrial,intermedia,40.1
+TRIP_0964,Universidad,Villa Nueva,R1+R3,weekday,18-21,8.7,3,1,1,clear,high,intermedia,barrial,55.87
+TRIP_0965,Centro Histórico,Hospital Central,R2,weekday,12-15,2.1,1,0,0,heavy_rain,medium,central,central,22.85
+TRIP_0966,Portal Norte,Tecnoparque,R1+R4,weekday,07-09,12.7,4,1,1,clear,high,terminal,industrial,68.7
+TRIP_0967,Mercado Distrital,Villa Nueva,R2+R3,weekday,15-18,9.2,2,1,1,clear,high,barrial,barrial,50.94
+TRIP_0968,Aeropuerto,Hospital Central,R4+R5,sunday,05-07,9.5,2,1,0,clear,low,terminal,central,34.51
+TRIP_0969,Centro Histórico,Terminal Sur,R2,weekday,12-15,7.9,3,0,0,rain,medium,central,terminal,32.41
+TRIP_0970,Centro Histórico,Portal Norte,R1,weekday,15-18,6.0,2,0,1,clear,medium,central,terminal,27.99
+TRIP_0971,Centro Histórico,Aeropuerto,R1+R4,weekday,15-18,15.8,4,1,1,clear,medium,central,terminal,69.12
+TRIP_0972,Tecnoparque,Portal Norte,R4+R1,weekday,07-09,12.7,4,1,1,clear,high,industrial,terminal,70.92
+TRIP_0973,Universidad,San Pedro,R1,weekday,05-07,3.1,1,0,0,clear,high,intermedia,intermedia,20.07
+TRIP_0974,Villa Nueva,Portal Norte,R3+R1,weekday,07-09,6.7,2,1,1,clear,high,barrial,terminal,42.12
+TRIP_0975,San Pedro,Universidad,R1,weekday,18-21,3.1,1,0,1,clear,medium,intermedia,intermedia,19.79
+TRIP_0976,Portal Norte,Mercado Distrital,R1+R2,saturday,07-09,9.9,4,1,1,rain,medium,terminal,barrial,48.03
+TRIP_0977,Tecnoparque,Aeropuerto,R4,weekday,09-12,9.1,2,0,0,rain,low,industrial,terminal,32.18
+TRIP_0978,Centro Histórico,Terminal Sur,R2,weekday,07-09,7.9,3,0,1,heavy_rain,high,central,terminal,52.09
+TRIP_0979,San Pedro,Villa Nueva,R1+R3,weekday,12-15,11.8,4,1,0,rain,medium,intermedia,barrial,52.72
+TRIP_0980,Terminal Sur,Hospital Central,R2,weekday,15-18,5.8,2,0,1,clear,high,terminal,central,32.77
+TRIP_0981,Aeropuerto,Portal Norte,R4+R1,saturday,12-15,21.8,6,1,0,rain,low,terminal,terminal,82.08
+TRIP_0982,Villa Nueva,Universidad,R3+R1,sunday,18-21,8.7,3,1,1,clear,medium,barrial,intermedia,46.61
+TRIP_0983,San Pedro,Portal Norte,R1,saturday,21-23,11.5,4,0,0,clear,low,intermedia,terminal,35.97
+TRIP_0984,Lago Azul,San Pedro,R1,weekday,07-09,8.3,3,0,1,clear,medium,intermedia,intermedia,35.9
+TRIP_0985,Portal Norte,San Pedro,R1,sunday,07-09,11.5,4,0,1,clear,low,terminal,intermedia,40.45
+TRIP_0986,Universidad,San Pedro,R1,weekday,21-23,3.1,1,0,0,clear,medium,intermedia,intermedia,18.78
+TRIP_0987,Tecnoparque,Parque Industrial,R4,weekday,18-21,3.0,1,0,1,clear,low,industrial,industrial,20.85
+TRIP_0988,Portal Norte,Aeropuerto,R1+R4,weekday,12-15,21.8,6,1,0,clear,medium,terminal,terminal,77.64
+TRIP_0989,Terminal Sur,Mercado Distrital,R2,sunday,12-15,4.0,1,0,0,rain,low,terminal,barrial,20.47
+TRIP_0990,Villa Nueva,Mercado Distrital,R3+R2,weekday,05-07,9.2,2,1,0,rain,low,barrial,barrial,38.44
+TRIP_0991,Tecnoparque,Lago Azul,R4+R1,weekday,18-21,9.5,3,1,1,clear,high,industrial,intermedia,61.94
+TRIP_0992,Portal Norte,Terminal Sur,R1+R3,weekday,12-15,11.9,3,1,0,clear,medium,terminal,terminal,49.1
+TRIP_0993,Hospital Central,Parque Industrial,R5,weekday,18-21,3.4,1,0,1,clear,high,central,industrial,26.45
+TRIP_0994,San Pedro,Villa Nueva,R1+R3,saturday,12-15,11.8,4,1,0,clear,high,intermedia,barrial,66.79
+TRIP_0995,Centro Histórico,Universidad,R1,weekday,15-18,2.4,1,0,1,clear,medium,central,intermedia,19.22
+TRIP_0996,Terminal Sur,Parque Industrial,R2+R5,weekday,15-18,9.2,3,1,1,rain,high,terminal,industrial,53.85
+TRIP_0997,Centro Histórico,Parque Industrial,R2+R5,sunday,18-21,5.5,2,1,1,clear,high,central,industrial,42.48
+TRIP_0998,Hospital Central,Universidad,R2+R1,sunday,18-21,4.5,2,1,1,clear,medium,central,intermedia,35.1
+TRIP_0999,Lago Azul,Parque Industrial,R1+R4,weekday,07-09,12.5,4,1,1,clear,high,intermedia,industrial,72.95
+TRIP_1000,San Pedro,Terminal Sur,R5+R2,weekday,07-09,8.5,3,1,1,clear,high,intermedia,terminal,51.84
+TRIP_1001,Lago Azul,Tecnoparque,R1+R4,weekday,15-18,9.5,3,1,1,clear,high,intermedia,industrial,51.28
+TRIP_1002,Hospital Central,San Pedro,R5,weekday,09-12,2.7,1,0,0,clear,medium,central,intermedia,15.41
+TRIP_1003,Lago Azul,Portal Norte,R1,weekday,05-07,3.2,1,0,0,clear,medium,intermedia,terminal,15.21
+TRIP_1004,San Pedro,Terminal Sur,R5+R2,weekday,18-21,8.5,3,1,1,rain,medium,intermedia,terminal,45.71
+TRIP_1005,Lago Azul,Portal Norte,R1,saturday,09-12,3.2,1,0,0,clear,medium,intermedia,terminal,15.93
+TRIP_1006,Hospital Central,Aeropuerto,R5+R4,weekday,05-07,9.5,2,1,0,clear,medium,central,terminal,36.3
+TRIP_1007,Villa Nueva,Lago Azul,R3,weekday,15-18,3.5,1,0,1,rain,high,barrial,intermedia,27.45
+TRIP_1008,Portal Norte,San Pedro,R1,sunday,09-12,11.5,4,0,0,clear,low,terminal,intermedia,37.21
+TRIP_1009,Terminal Sur,Villa Nueva,R3,weekday,18-21,5.2,1,0,1,clear,medium,terminal,barrial,25.11
+TRIP_1010,Mercado Distrital,Hospital Central,R2,sunday,12-15,1.8,1,0,0,clear,low,barrial,central,8.64
+TRIP_1011,Centro Histórico,San Pedro,R1,weekday,09-12,5.5,2,0,0,clear,low,central,intermedia,20.98
+TRIP_1012,Terminal Sur,Lago Azul,R3,weekday,15-18,8.7,2,0,1,rain,high,terminal,intermedia,43.54
+TRIP_1013,Portal Norte,Villa Nueva,R1+R3,weekday,12-15,6.7,2,1,0,rain,low,terminal,barrial,31.73
+TRIP_1014,Tecnoparque,Aeropuerto,R4,weekday,15-18,9.1,2,0,1,clear,medium,industrial,terminal,39.15
+TRIP_1015,Universidad,Hospital Central,R1+R2,sunday,09-12,4.5,2,1,0,rain,low,intermedia,central,26.43
+TRIP_1016,Portal Norte,Parque Industrial,R1+R4,weekday,12-15,15.7,5,1,0,clear,medium,terminal,industrial,61.3
+TRIP_1017,Tecnoparque,Lago Azul,R4+R1,weekday,18-21,9.5,3,1,1,clear,low,industrial,intermedia,51.88
+TRIP_1018,Mercado Distrital,San Pedro,R2+R5,weekday,18-21,4.5,2,1,1,clear,high,barrial,intermedia,43.93
+TRIP_1019,Centro Histórico,Hospital Central,R2,weekday,07-09,2.1,1,0,1,clear,high,central,central,21.24
+TRIP_1020,Hospital Central,Mercado Distrital,R2,sunday,15-18,1.8,1,0,1,clear,high,central,barrial,19.42
+TRIP_1021,Portal Norte,Terminal Sur,R1+R3,weekday,21-23,11.9,3,1,0,heavy_rain,medium,terminal,terminal,53.46
+TRIP_1022,San Pedro,Parque Industrial,R5,weekday,07-09,6.1,2,0,1,clear,medium,intermedia,industrial,32.08
+TRIP_1023,Universidad,Lago Azul,R1,sunday,05-07,5.2,2,0,0,clear,low,intermedia,intermedia,16.62
+TRIP_1024,Universidad,Aeropuerto,R4,weekday,12-15,13.4,3,0,0,clear,medium,intermedia,terminal,41.06
+TRIP_1025,Lago Azul,Portal Norte,R1,weekday,12-15,3.2,1,0,0,clear,medium,intermedia,terminal,18.21
+TRIP_1026,Mercado Distrital,Lago Azul,R2+R1,weekday,09-12,6.7,3,1,0,rain,high,barrial,intermedia,40.32
+TRIP_1027,Mercado Distrital,Portal Norte,R2+R1,weekday,12-15,9.9,4,1,0,clear,medium,barrial,terminal,46.95
+TRIP_1028,Mercado Distrital,Portal Norte,R2+R1,weekday,07-09,9.9,4,1,1,rain,low,barrial,terminal,54.44
+TRIP_1029,Centro Histórico,Aeropuerto,R1+R4,weekday,12-15,15.8,4,1,0,clear,medium,central,terminal,62.9
+TRIP_1030,Hospital Central,Terminal Sur,R2,saturday,21-23,5.8,2,0,0,clear,medium,central,terminal,25.54
+TRIP_1031,Villa Nueva,San Pedro,R3+R1,sunday,09-12,11.8,4,1,0,clear,low,barrial,intermedia,48.78
+TRIP_1032,Villa Nueva,Terminal Sur,R3,saturday,09-12,5.2,1,0,0,clear,medium,barrial,terminal,21.56
+TRIP_1033,Universidad,Tecnoparque,R4,weekday,21-23,4.3,1,0,0,clear,medium,intermedia,industrial,22.11
+TRIP_1034,Mercado Distrital,Universidad,R2+R1,weekday,15-18,6.3,3,1,1,rain,high,barrial,intermedia,51.68
+TRIP_1035,Universidad,Hospital Central,R1+R2,weekday,12-15,4.5,2,1,0,clear,medium,intermedia,central,28.68
+TRIP_1036,Terminal Sur,Mercado Distrital,R2,saturday,15-18,4.0,1,0,1,rain,high,terminal,barrial,30.74
+TRIP_1037,San Pedro,Lago Azul,R1,saturday,12-15,8.3,3,0,0,clear,medium,intermedia,intermedia,27.8
+TRIP_1038,Aeropuerto,Centro Histórico,R4+R1,weekday,07-09,15.8,4,1,1,clear,medium,terminal,central,69.89
+TRIP_1039,Mercado Distrital,Parque Industrial,R2+R5,weekday,12-15,5.2,2,1,0,rain,medium,barrial,industrial,38.78
+TRIP_1040,Tecnoparque,Hospital Central,R4+R5,weekday,18-21,6.4,2,1,1,clear,high,industrial,central,49.63
+TRIP_1041,Portal Norte,Tecnoparque,R1+R4,saturday,09-12,12.7,4,1,0,clear,medium,terminal,industrial,55.34
+TRIP_1042,Portal Norte,Universidad,R1,weekday,07-09,8.4,3,0,1,clear,high,terminal,intermedia,40.01
+TRIP_1043,Hospital Central,Villa Nueva,R2+R3,saturday,09-12,11.0,3,1,0,rain,medium,central,barrial,45.33
+TRIP_1044,Hospital Central,Lago Azul,R2+R1,weekday,12-15,4.9,2,1,0,rain,medium,central,intermedia,30.98
+TRIP_1045,Portal Norte,Lago Azul,R1,weekday,05-07,3.2,1,0,0,heavy_rain,low,terminal,intermedia,21.56
+TRIP_1046,Villa Nueva,Portal Norte,R3+R1,sunday,09-12,6.7,2,1,0,clear,low,barrial,terminal,28.6
+TRIP_1047,Parque Industrial,Tecnoparque,R4,weekday,12-15,3.0,1,0,0,clear,medium,industrial,industrial,20.46
+TRIP_1048,Portal Norte,Mercado Distrital,R1+R2,weekday,18-21,9.9,4,1,1,clear,medium,terminal,barrial,53.48
+TRIP_1049,Parque Industrial,Lago Azul,R4+R1,weekday,07-09,12.5,4,1,1,rain,high,industrial,intermedia,70.47
+TRIP_1050,Lago Azul,Tecnoparque,R1+R4,weekday,05-07,9.5,3,1,0,clear,high,intermedia,industrial,52.25
+TRIP_1051,San Pedro,Lago Azul,R1,weekday,09-12,8.3,3,0,0,heavy_rain,low,intermedia,intermedia,32.97
+TRIP_1052,Tecnoparque,Universidad,R4,weekday,09-12,4.3,1,0,0,rain,low,industrial,intermedia,21.0
+TRIP_1053,San Pedro,Universidad,R1,weekday,07-09,3.1,1,0,1,clear,medium,intermedia,intermedia,21.42
+TRIP_1054,Lago Azul,Mercado Distrital,R1+R2,sunday,09-12,6.7,3,1,0,clear,medium,intermedia,barrial,31.41
+TRIP_1055,Universidad,Aeropuerto,R4,saturday,12-15,13.4,3,0,0,clear,high,intermedia,terminal,54.35
+TRIP_1056,Parque Industrial,Universidad,R4,saturday,18-21,7.3,2,0,1,rain,medium,industrial,intermedia,36.35
+TRIP_1057,Hospital Central,Villa Nueva,R2+R3,weekday,07-09,11.0,3,1,1,clear,high,central,barrial,58.0
+TRIP_1058,Parque Industrial,Hospital Central,R5,weekday,12-15,3.4,1,0,0,clear,low,industrial,central,16.06
+TRIP_1059,Mercado Distrital,Terminal Sur,R2,weekday,12-15,4.0,1,0,0,clear,low,barrial,terminal,15.31
+TRIP_1060,Mercado Distrital,Terminal Sur,R2,weekday,07-09,4.0,1,0,1,heavy_rain,high,barrial,terminal,36.89
+TRIP_1061,Aeropuerto,Portal Norte,R4+R1,saturday,18-21,21.8,6,1,1,clear,high,terminal,terminal,97.53
+TRIP_1062,Universidad,Terminal Sur,R1+R2,weekday,21-23,10.3,4,1,0,rain,medium,intermedia,terminal,55.33
+TRIP_1063,Mercado Distrital,San Pedro,R2+R5,weekday,18-21,4.5,2,1,1,clear,high,barrial,intermedia,38.21
+TRIP_1064,Mercado Distrital,Lago Azul,R2+R1,weekday,15-18,6.7,3,1,1,clear,medium,barrial,intermedia,44.73
+TRIP_1065,Hospital Central,San Pedro,R5,weekday,15-18,2.7,1,0,1,rain,medium,central,intermedia,19.73
+TRIP_1066,Universidad,San Pedro,R1,saturday,12-15,3.1,1,0,0,clear,medium,intermedia,intermedia,14.05
+TRIP_1067,Hospital Central,Aeropuerto,R5+R4,saturday,18-21,9.5,2,1,1,heavy_rain,medium,central,terminal,52.34
+TRIP_1068,Parque Industrial,Universidad,R4,saturday,18-21,7.3,2,0,1,clear,high,industrial,intermedia,38.25
+TRIP_1069,Aeropuerto,Parque Industrial,R4,weekday,12-15,6.1,1,0,0,clear,medium,terminal,industrial,24.69
+TRIP_1070,San Pedro,Hospital Central,R5,weekday,21-23,2.7,1,0,0,rain,medium,intermedia,central,17.75
+TRIP_1071,Mercado Distrital,Portal Norte,R2+R1,saturday,09-12,9.9,4,1,0,clear,medium,barrial,terminal,42.88
+TRIP_1072,Universidad,Terminal Sur,R1+R2,weekday,12-15,10.3,4,1,0,clear,medium,intermedia,terminal,52.27
+TRIP_1073,Lago Azul,San Pedro,R1,sunday,07-09,8.3,3,0,1,rain,high,intermedia,intermedia,38.66
+TRIP_1074,San Pedro,Portal Norte,R1,weekday,21-23,11.5,4,0,0,clear,medium,intermedia,terminal,39.57
+TRIP_1075,Portal Norte,Universidad,R1,weekday,15-18,8.4,3,0,1,clear,high,terminal,intermedia,39.5
+TRIP_1076,Mercado Distrital,Terminal Sur,R2,weekday,15-18,4.0,1,0,1,clear,medium,barrial,terminal,23.56
+TRIP_1077,Universidad,Villa Nueva,R1+R3,weekday,12-15,8.7,3,1,0,clear,medium,intermedia,barrial,41.73
+TRIP_1078,Portal Norte,Villa Nueva,R1+R3,weekday,21-23,6.7,2,1,0,clear,low,terminal,barrial,33.29
+TRIP_1079,Terminal Sur,Universidad,R2+R1,weekday,15-18,10.3,4,1,1,clear,high,terminal,intermedia,63.59
+TRIP_1080,San Pedro,Mercado Distrital,R5+R2,weekday,15-18,4.5,2,1,1,rain,high,intermedia,barrial,37.28
+TRIP_1081,Aeropuerto,Lago Azul,R4+R1,weekday,15-18,18.6,5,1,1,clear,high,terminal,intermedia,92.37
+TRIP_1082,Mercado Distrital,Universidad,R2+R1,weekday,05-07,6.3,3,1,0,clear,high,barrial,intermedia,41.67
+TRIP_1083,San Pedro,Aeropuerto,R5+R4,sunday,18-21,12.2,3,1,1,clear,low,intermedia,terminal,53.28
+TRIP_1084,Lago Azul,Portal Norte,R1,weekday,18-21,3.2,1,0,1,clear,high,intermedia,terminal,24.02
+TRIP_1085,San Pedro,Universidad,R1,weekday,15-18,3.1,1,0,1,rain,high,intermedia,intermedia,26.7
+TRIP_1086,Terminal Sur,Parque Industrial,R2+R5,saturday,05-07,9.2,3,1,0,clear,low,terminal,industrial,39.95
+TRIP_1087,Villa Nueva,Centro Histórico,R3+R1,saturday,07-09,6.3,2,1,1,clear,medium,barrial,central,40.17
+TRIP_1088,Universidad,Centro Histórico,R1,weekday,15-18,2.4,1,0,1,heavy_rain,high,intermedia,central,30.79
+TRIP_1089,Hospital Central,Terminal Sur,R2,weekday,09-12,5.8,2,0,0,clear,high,central,terminal,29.23
+TRIP_1090,Universidad,Aeropuerto,R4,weekday,15-18,13.4,3,0,1,clear,medium,intermedia,terminal,49.01
+TRIP_1091,Aeropuerto,San Pedro,R4+R5,weekday,12-15,12.2,3,1,0,clear,low,terminal,intermedia,56.51
+TRIP_1092,Tecnoparque,Portal Norte,R4+R1,weekday,05-07,12.7,4,1,0,clear,medium,industrial,terminal,54.4
+TRIP_1093,Parque Industrial,Hospital Central,R5,weekday,21-23,3.4,1,0,0,clear,low,industrial,central,17.02
+TRIP_1094,Centro Histórico,Aeropuerto,R1+R4,weekday,15-18,15.8,4,1,1,clear,high,central,terminal,82.06
+TRIP_1095,Tecnoparque,Hospital Central,R4+R5,weekday,18-21,6.4,2,1,1,clear,medium,industrial,central,43.12
+TRIP_1096,Portal Norte,Centro Histórico,R1,weekday,09-12,6.0,2,0,0,clear,low,terminal,central,24.27
+TRIP_1097,Portal Norte,Universidad,R1,weekday,21-23,8.4,3,0,0,clear,medium,terminal,intermedia,31.38
+TRIP_1098,Villa Nueva,Hospital Central,R3+R2,weekday,15-18,11.0,3,1,1,clear,high,barrial,central,62.29
+TRIP_1099,Lago Azul,San Pedro,R1,weekday,05-07,8.3,3,0,0,clear,medium,intermedia,intermedia,30.5
+TRIP_1100,Tecnoparque,Hospital Central,R4+R5,sunday,12-15,6.4,2,1,0,rain,low,industrial,central,31.37
+TRIP_1101,Portal Norte,Universidad,R1,sunday,09-12,8.4,3,0,0,clear,low,terminal,intermedia,26.76
+TRIP_1102,Tecnoparque,Aeropuerto,R4,weekday,15-18,9.1,2,0,1,clear,medium,industrial,terminal,38.98
+TRIP_1103,Parque Industrial,Portal Norte,R4+R1,weekday,05-07,15.7,5,1,0,clear,medium,industrial,terminal,59.69
+TRIP_1104,Terminal Sur,San Pedro,R2+R5,sunday,15-18,8.5,3,1,1,clear,medium,terminal,intermedia,44.02
+TRIP_1105,Hospital Central,Parque Industrial,R5,sunday,12-15,3.4,1,0,0,clear,low,central,industrial,13.8
+TRIP_1106,Universidad,Villa Nueva,R1+R3,weekday,15-18,8.7,3,1,1,rain,medium,intermedia,barrial,47.13
+TRIP_1107,Villa Nueva,Lago Azul,R3,weekday,07-09,3.5,1,0,1,clear,medium,barrial,intermedia,18.35
+TRIP_1108,Villa Nueva,Lago Azul,R3,sunday,07-09,3.5,1,0,1,clear,high,barrial,intermedia,22.07
+TRIP_1109,Centro Histórico,Aeropuerto,R1+R4,saturday,07-09,15.8,4,1,1,clear,medium,central,terminal,70.02
+TRIP_1110,San Pedro,Parque Industrial,R5,sunday,18-21,6.1,2,0,1,rain,high,intermedia,industrial,32.93
+TRIP_1111,Villa Nueva,Centro Histórico,R3+R1,weekday,15-18,6.3,2,1,1,clear,high,barrial,central,43.98
+TRIP_1112,Parque Industrial,Centro Histórico,R5+R2,weekday,12-15,5.5,2,1,0,heavy_rain,medium,industrial,central,37.57
+TRIP_1113,Universidad,Terminal Sur,R1+R2,weekday,15-18,10.3,4,1,1,clear,high,intermedia,terminal,58.53
+TRIP_1114,San Pedro,Mercado Distrital,R5+R2,weekday,07-09,4.5,2,1,1,rain,high,intermedia,barrial,40.64
+TRIP_1115,Hospital Central,Mercado Distrital,R2,weekday,09-12,1.8,1,0,0,clear,medium,central,barrial,14.6
+TRIP_1116,San Pedro,Universidad,R1,sunday,12-15,3.1,1,0,0,rain,low,intermedia,intermedia,14.14
+TRIP_1117,Universidad,San Pedro,R1,weekday,05-07,3.1,1,0,0,clear,low,intermedia,intermedia,12.11
+TRIP_1118,Hospital Central,Centro Histórico,R2,sunday,15-18,2.1,1,0,1,clear,high,central,central,20.42
+TRIP_1119,Parque Industrial,Lago Azul,R4+R1,weekday,15-18,12.5,4,1,1,clear,medium,industrial,intermedia,62.55
+TRIP_1120,Mercado Distrital,Villa Nueva,R2+R3,weekday,12-15,9.2,2,1,0,clear,medium,barrial,barrial,38.84
+TRIP_1121,Villa Nueva,Terminal Sur,R3,weekday,18-21,5.2,1,0,1,clear,medium,barrial,terminal,24.66
+TRIP_1122,Mercado Distrital,Terminal Sur,R2,weekday,12-15,4.0,1,0,0,clear,low,barrial,terminal,14.75
+TRIP_1123,Aeropuerto,Hospital Central,R4+R5,weekday,07-09,9.5,2,1,1,clear,medium,terminal,central,47.35
+TRIP_1124,Centro Histórico,San Pedro,R1,weekday,18-21,5.5,2,0,1,clear,medium,central,intermedia,25.46
+TRIP_1125,Terminal Sur,Mercado Distrital,R2,weekday,21-23,4.0,1,0,0,clear,medium,terminal,barrial,18.53
+TRIP_1126,Portal Norte,Centro Histórico,R1,weekday,18-21,6.0,2,0,1,clear,medium,terminal,central,32.21
+TRIP_1127,Lago Azul,Terminal Sur,R3,sunday,09-12,8.7,2,0,0,clear,medium,intermedia,terminal,28.5
+TRIP_1128,Mercado Distrital,Hospital Central,R2,weekday,09-12,1.8,1,0,0,clear,high,barrial,central,17.54
+TRIP_1129,Universidad,Terminal Sur,R1+R2,sunday,21-23,10.3,4,1,0,clear,high,intermedia,terminal,54.13
+TRIP_1130,San Pedro,Centro Histórico,R1,sunday,18-21,5.5,2,0,1,clear,low,intermedia,central,20.14
+TRIP_1131,Lago Azul,Portal Norte,R1,sunday,07-09,3.2,1,0,1,rain,high,intermedia,terminal,24.39
+TRIP_1132,Portal Norte,Lago Azul,R1,weekday,09-12,3.2,1,0,0,clear,high,terminal,intermedia,19.24
+TRIP_1133,Mercado Distrital,Portal Norte,R2+R1,weekday,18-21,9.9,4,1,1,clear,high,barrial,terminal,54.95
+TRIP_1134,Terminal Sur,San Pedro,R2+R5,sunday,12-15,8.5,3,1,0,clear,medium,terminal,intermedia,34.52
+TRIP_1135,Mercado Distrital,Villa Nueva,R2+R3,weekday,09-12,9.2,2,1,0,rain,medium,barrial,barrial,40.0
+TRIP_1136,Villa Nueva,Lago Azul,R3,weekday,18-21,3.5,1,0,1,clear,high,barrial,intermedia,27.02
+TRIP_1137,San Pedro,Tecnoparque,R1+R4,weekday,15-18,7.4,2,1,1,clear,medium,intermedia,industrial,43.72
+TRIP_1138,Portal Norte,Universidad,R1,sunday,05-07,8.4,3,0,0,rain,low,terminal,intermedia,30.12
+TRIP_1139,Tecnoparque,Aeropuerto,R4,weekday,12-15,9.1,2,0,0,heavy_rain,medium,industrial,terminal,36.48
+TRIP_1140,Tecnoparque,Lago Azul,R4+R1,sunday,09-12,9.5,3,1,0,clear,medium,industrial,intermedia,41.04
+TRIP_1141,Portal Norte,Parque Industrial,R1+R4,weekday,15-18,15.7,5,1,1,rain,medium,terminal,industrial,75.11
+TRIP_1142,Tecnoparque,San Pedro,R4+R1,weekday,15-18,7.4,2,1,1,rain,high,industrial,intermedia,52.5
+TRIP_1143,San Pedro,Aeropuerto,R5+R4,sunday,15-18,12.2,3,1,1,rain,medium,intermedia,terminal,53.94
+TRIP_1144,San Pedro,Hospital Central,R5,weekday,15-18,2.7,1,0,1,clear,high,intermedia,central,23.13
+TRIP_1145,Tecnoparque,San Pedro,R4+R1,weekday,07-09,7.4,2,1,1,heavy_rain,high,industrial,intermedia,54.06
+TRIP_1146,San Pedro,Tecnoparque,R1+R4,weekday,18-21,7.4,2,1,1,clear,high,intermedia,industrial,46.02
+TRIP_1147,Terminal Sur,San Pedro,R2+R5,weekday,09-12,8.5,3,1,0,clear,medium,terminal,intermedia,40.11
+TRIP_1148,Centro Histórico,Mercado Distrital,R2,weekday,09-12,3.9,2,0,0,rain,low,central,barrial,18.99
+TRIP_1149,Tecnoparque,Centro Histórico,R4+R1,weekday,12-15,6.7,2,1,0,clear,medium,industrial,central,35.18
+TRIP_1150,Centro Histórico,Tecnoparque,R1+R4,weekday,15-18,6.7,2,1,1,clear,high,central,industrial,46.81
+TRIP_1151,Universidad,Parque Industrial,R4,weekday,05-07,7.3,2,0,0,clear,high,intermedia,industrial,33.14
+TRIP_1152,Tecnoparque,Parque Industrial,R4,sunday,05-07,3.0,1,0,0,clear,medium,industrial,industrial,16.52
+TRIP_1153,Mercado Distrital,Centro Histórico,R2,weekday,12-15,3.9,2,0,0,clear,medium,barrial,central,19.34
+TRIP_1154,Lago Azul,San Pedro,R1,saturday,09-12,8.3,3,0,0,rain,medium,intermedia,intermedia,32.74
+TRIP_1155,Portal Norte,Centro Histórico,R1,weekday,09-12,6.0,2,0,0,rain,high,terminal,central,32.88
+TRIP_1156,Parque Industrial,Mercado Distrital,R5+R2,weekday,18-21,5.2,2,1,1,rain,medium,industrial,barrial,39.64
+TRIP_1157,San Pedro,Portal Norte,R1,weekday,05-07,11.5,4,0,0,clear,medium,intermedia,terminal,39.06
+TRIP_1158,Villa Nueva,Centro Histórico,R3+R1,weekday,05-07,6.3,2,1,0,clear,medium,barrial,central,35.6
+TRIP_1159,Villa Nueva,Mercado Distrital,R3+R2,weekday,05-07,9.2,2,1,0,heavy_rain,medium,barrial,barrial,44.62
+TRIP_1160,Parque Industrial,Portal Norte,R4+R1,sunday,07-09,15.7,5,1,1,clear,high,industrial,terminal,77.91
+TRIP_1161,San Pedro,Aeropuerto,R5+R4,weekday,21-23,12.2,3,1,0,clear,high,intermedia,terminal,61.07
+TRIP_1162,Tecnoparque,Centro Histórico,R4+R1,saturday,12-15,6.7,2,1,0,clear,medium,industrial,central,34.39
+TRIP_1163,Villa Nueva,Lago Azul,R3,sunday,09-12,3.5,1,0,0,clear,low,barrial,intermedia,12.4
+TRIP_1164,Mercado Distrital,Centro Histórico,R2,weekday,07-09,3.9,2,0,1,clear,high,barrial,central,29.41
+TRIP_1165,Universidad,Tecnoparque,R4,weekday,12-15,4.3,1,0,0,clear,low,intermedia,industrial,18.63
+TRIP_1166,Aeropuerto,Portal Norte,R4+R1,weekday,15-18,21.8,6,1,1,heavy_rain,high,terminal,terminal,114.56
+TRIP_1167,Aeropuerto,Tecnoparque,R4,weekday,21-23,9.1,2,0,0,clear,medium,terminal,industrial,33.52
+TRIP_1168,Universidad,San Pedro,R1,weekday,21-23,3.1,1,0,0,clear,low,intermedia,intermedia,15.7
+TRIP_1169,Terminal Sur,Universidad,R2+R1,weekday,15-18,10.3,4,1,1,rain,high,terminal,intermedia,64.17
+TRIP_1170,San Pedro,Universidad,R1,weekday,12-15,3.1,1,0,0,clear,low,intermedia,intermedia,14.29
+TRIP_1171,Universidad,Mercado Distrital,R1+R2,saturday,12-15,6.3,3,1,0,rain,medium,intermedia,barrial,39.62
+TRIP_1172,Portal Norte,Centro Histórico,R1,saturday,07-09,6.0,2,0,1,clear,high,terminal,central,35.46
+TRIP_1173,Villa Nueva,Terminal Sur,R3,weekday,12-15,5.2,1,0,0,rain,medium,barrial,terminal,23.21
+TRIP_1174,Mercado Distrital,Portal Norte,R2+R1,weekday,15-18,9.9,4,1,1,clear,low,barrial,terminal,46.23
+TRIP_1175,Lago Azul,Hospital Central,R1+R2,weekday,15-18,4.9,2,1,1,rain,high,intermedia,central,41.13
+TRIP_1176,Lago Azul,Parque Industrial,R1+R4,weekday,09-12,12.5,4,1,0,clear,low,intermedia,industrial,54.64
+TRIP_1177,Universidad,Villa Nueva,R1+R3,saturday,15-18,8.7,3,1,1,clear,high,intermedia,barrial,44.49
+TRIP_1178,Villa Nueva,Centro Histórico,R3+R1,weekday,15-18,6.3,2,1,1,clear,low,barrial,central,34.43
+TRIP_1179,Universidad,Hospital Central,R1+R2,weekday,18-21,4.5,2,1,1,clear,high,intermedia,central,36.15
+TRIP_1180,Universidad,San Pedro,R1,saturday,12-15,3.1,1,0,0,clear,high,intermedia,intermedia,20.65
+TRIP_1181,San Pedro,Terminal Sur,R5+R2,sunday,21-23,8.5,3,1,0,rain,low,intermedia,terminal,39.49
+TRIP_1182,Universidad,Hospital Central,R1+R2,weekday,09-12,4.5,2,1,0,rain,medium,intermedia,central,35.81
+TRIP_1183,Centro Histórico,Portal Norte,R1,weekday,05-07,6.0,2,0,0,clear,medium,central,terminal,25.55
+TRIP_1184,Hospital Central,Centro Histórico,R2,weekday,15-18,2.1,1,0,1,clear,medium,central,central,18.85
+TRIP_1185,Centro Histórico,Portal Norte,R1,weekday,09-12,6.0,2,0,0,clear,medium,central,terminal,22.02
+TRIP_1186,Lago Azul,Aeropuerto,R1+R4,sunday,09-12,18.6,5,1,0,clear,medium,intermedia,terminal,65.84
+TRIP_1187,Portal Norte,Hospital Central,R1+R2,saturday,15-18,8.1,3,1,1,clear,medium,terminal,central,46.76
+TRIP_1188,Universidad,Tecnoparque,R4,weekday,15-18,4.3,1,0,1,clear,medium,intermedia,industrial,28.51
+TRIP_1189,Lago Azul,Villa Nueva,R3,sunday,05-07,3.5,1,0,0,clear,medium,intermedia,barrial,16.23
+TRIP_1190,Parque Industrial,Aeropuerto,R4,saturday,18-21,6.1,1,0,1,rain,high,industrial,terminal,36.19
+TRIP_1191,San Pedro,Portal Norte,R1,weekday,18-21,11.5,4,0,1,rain,high,intermedia,terminal,53.0
+TRIP_1192,Villa Nueva,Centro Histórico,R3+R1,sunday,15-18,6.3,2,1,1,rain,high,barrial,central,40.41
+TRIP_1193,Universidad,Mercado Distrital,R1+R2,sunday,05-07,6.3,3,1,0,clear,low,intermedia,barrial,26.48
+TRIP_1194,Centro Histórico,Tecnoparque,R1+R4,weekday,18-21,6.7,2,1,1,clear,low,central,industrial,41.97
+TRIP_1195,Mercado Distrital,Portal Norte,R2+R1,weekday,18-21,9.9,4,1,1,rain,high,barrial,terminal,61.07
+TRIP_1196,Lago Azul,Terminal Sur,R3,weekday,07-09,8.7,2,0,1,rain,high,intermedia,terminal,40.16
+TRIP_1197,Aeropuerto,Centro Histórico,R4+R1,sunday,09-12,15.8,4,1,0,clear,low,terminal,central,59.61
+TRIP_1198,Villa Nueva,Hospital Central,R3+R2,weekday,12-15,11.0,3,1,0,clear,medium,barrial,central,48.28
+TRIP_1199,Parque Industrial,Mercado Distrital,R5+R2,sunday,09-12,5.2,2,1,0,clear,low,industrial,barrial,29.45
+TRIP_1200,Centro Histórico,Aeropuerto,R1+R4,sunday,09-12,15.8,4,1,0,rain,low,central,terminal,63.63
+TRIP_1201,San Pedro,Centro Histórico,R1,weekday,15-18,5.5,2,0,1,clear,high,intermedia,central,30.75
+TRIP_1202,Mercado Distrital,Portal Norte,R2+R1,weekday,09-12,9.9,4,1,0,clear,high,barrial,terminal,50.52
+TRIP_1203,Centro Histórico,Lago Azul,R1,saturday,18-21,2.8,1,0,1,clear,medium,central,intermedia,18.14
+TRIP_1204,Mercado Distrital,Parque Industrial,R2+R5,sunday,09-12,5.2,2,1,0,clear,low,barrial,industrial,28.94
+TRIP_1205,Hospital Central,Parque Industrial,R5,weekday,21-23,3.4,1,0,0,heavy_rain,low,central,industrial,19.67
+TRIP_1206,Universidad,Portal Norte,R1,weekday,18-21,8.4,3,0,1,rain,medium,intermedia,terminal,39.09
+TRIP_1207,Centro Histórico,Aeropuerto,R1+R4,weekday,05-07,15.8,4,1,0,clear,high,central,terminal,72.19
+TRIP_1208,Mercado Distrital,Portal Norte,R2+R1,weekday,09-12,9.9,4,1,0,rain,low,barrial,terminal,41.07
+TRIP_1209,Portal Norte,Parque Industrial,R1+R4,saturday,15-18,15.7,5,1,1,clear,medium,terminal,industrial,66.74
+TRIP_1210,Terminal Sur,Centro Histórico,R2,weekday,07-09,7.9,3,0,1,heavy_rain,high,terminal,central,52.79
+TRIP_1211,Centro Histórico,Aeropuerto,R1+R4,weekday,15-18,15.8,4,1,1,clear,high,central,terminal,76.79
+TRIP_1212,Mercado Distrital,Universidad,R2+R1,sunday,09-12,6.3,3,1,0,clear,medium,barrial,intermedia,35.05
+TRIP_1213,Mercado Distrital,Parque Industrial,R2+R5,sunday,18-21,5.2,2,1,1,rain,medium,barrial,industrial,39.74
+TRIP_1214,Terminal Sur,Universidad,R2+R1,weekday,15-18,10.3,4,1,1,clear,medium,terminal,intermedia,53.85
+TRIP_1215,Universidad,Tecnoparque,R4,weekday,12-15,4.3,1,0,0,clear,low,intermedia,industrial,17.8
+TRIP_1216,Mercado Distrital,Universidad,R2+R1,weekday,12-15,6.3,3,1,0,clear,high,barrial,intermedia,33.67
+TRIP_1217,Tecnoparque,Universidad,R4,weekday,07-09,4.3,1,0,1,clear,medium,industrial,intermedia,25.0
+TRIP_1218,Centro Histórico,Hospital Central,R2,weekday,09-12,2.1,1,0,0,clear,medium,central,central,15.69
+TRIP_1219,Centro Histórico,Hospital Central,R2,sunday,15-18,2.1,1,0,1,clear,high,central,central,18.95
+TRIP_1220,San Pedro,Tecnoparque,R1+R4,weekday,12-15,7.4,2,1,0,clear,medium,intermedia,industrial,36.97
+TRIP_1221,Mercado Distrital,Hospital Central,R2,weekday,09-12,1.8,1,0,0,rain,medium,barrial,central,17.95
+TRIP_1222,Parque Industrial,Tecnoparque,R4,saturday,15-18,3.0,1,0,1,rain,medium,industrial,industrial,25.94
+TRIP_1223,Mercado Distrital,Hospital Central,R2,weekday,07-09,1.8,1,0,1,clear,medium,barrial,central,17.71
+TRIP_1224,Parque Industrial,Lago Azul,R4+R1,weekday,12-15,12.5,4,1,0,clear,medium,industrial,intermedia,56.07
+TRIP_1225,Terminal Sur,San Pedro,R2+R5,sunday,09-12,8.5,3,1,0,heavy_rain,medium,terminal,intermedia,47.46
+TRIP_1226,Centro Histórico,Terminal Sur,R2,weekday,18-21,7.9,3,0,1,clear,medium,central,terminal,32.85
+TRIP_1227,Mercado Distrital,Universidad,R2+R1,weekday,18-21,6.3,3,1,1,clear,medium,barrial,intermedia,41.03
+TRIP_1228,Lago Azul,Villa Nueva,R3,sunday,15-18,3.5,1,0,1,clear,medium,intermedia,barrial,18.86
+TRIP_1229,Universidad,Terminal Sur,R1+R2,weekday,18-21,10.3,4,1,1,clear,high,intermedia,terminal,55.71
+TRIP_1230,Mercado Distrital,Hospital Central,R2,sunday,21-23,1.8,1,0,0,clear,high,barrial,central,17.56
+TRIP_1231,Parque Industrial,Lago Azul,R4+R1,weekday,05-07,12.5,4,1,0,clear,low,industrial,intermedia,50.65
+TRIP_1232,Portal Norte,Terminal Sur,R1+R3,saturday,07-09,11.9,3,1,1,rain,medium,terminal,terminal,57.55
+TRIP_1233,Portal Norte,Aeropuerto,R1+R4,weekday,18-21,21.8,6,1,1,rain,high,terminal,terminal,102.83
+TRIP_1234,San Pedro,Terminal Sur,R5+R2,weekday,15-18,8.5,3,1,1,clear,high,intermedia,terminal,50.78
+TRIP_1235,Universidad,Tecnoparque,R4,weekday,09-12,4.3,1,0,0,clear,medium,intermedia,industrial,20.2
+TRIP_1236,Hospital Central,Terminal Sur,R2,weekday,12-15,5.8,2,0,0,clear,medium,central,terminal,25.74
+TRIP_1237,Centro Histórico,Aeropuerto,R1+R4,sunday,09-12,15.8,4,1,0,clear,medium,central,terminal,61.01
+TRIP_1238,Lago Azul,San Pedro,R1,weekday,15-18,8.3,3,0,1,clear,high,intermedia,intermedia,39.06
+TRIP_1239,Portal Norte,Mercado Distrital,R1+R2,saturday,09-12,9.9,4,1,0,clear,medium,terminal,barrial,43.2
+TRIP_1240,Hospital Central,Universidad,R2+R1,saturday,15-18,4.5,2,1,1,clear,high,central,intermedia,37.61
+TRIP_1241,Tecnoparque,Universidad,R4,weekday,07-09,4.3,1,0,1,clear,high,industrial,intermedia,27.15
+TRIP_1242,Villa Nueva,Portal Norte,R3+R1,weekday,05-07,6.7,2,1,0,clear,low,barrial,terminal,29.63
+TRIP_1243,Parque Industrial,Mercado Distrital,R5+R2,saturday,12-15,5.2,2,1,0,rain,medium,industrial,barrial,32.93
+TRIP_1244,Centro Histórico,Lago Azul,R1,weekday,12-15,2.8,1,0,0,clear,medium,central,intermedia,15.17
+TRIP_1245,Lago Azul,San Pedro,R1,saturday,07-09,8.3,3,0,1,clear,high,intermedia,intermedia,40.6
+TRIP_1246,San Pedro,Aeropuerto,R5+R4,weekday,15-18,12.2,3,1,1,clear,low,intermedia,terminal,58.48
+TRIP_1247,Mercado Distrital,Terminal Sur,R2,saturday,07-09,4.0,1,0,1,clear,high,barrial,terminal,25.38
+TRIP_1248,Tecnoparque,Hospital Central,R4+R5,sunday,07-09,6.4,2,1,1,clear,high,industrial,central,45.6
+TRIP_1249,Tecnoparque,San Pedro,R4+R1,sunday,07-09,7.4,2,1,1,rain,high,industrial,intermedia,43.64
+TRIP_1250,Universidad,Aeropuerto,R4,weekday,07-09,13.4,3,0,1,clear,high,intermedia,terminal,57.01
+TRIP_1251,Villa Nueva,Centro Histórico,R3+R1,weekday,09-12,6.3,2,1,0,clear,medium,barrial,central,29.76
+TRIP_1252,Mercado Distrital,Hospital Central,R2,weekday,09-12,1.8,1,0,0,heavy_rain,medium,barrial,central,19.52
+TRIP_1253,Tecnoparque,Aeropuerto,R4,weekday,09-12,9.1,2,0,0,clear,low,industrial,terminal,31.9
+TRIP_1254,Terminal Sur,Hospital Central,R2,saturday,12-15,5.8,2,0,0,clear,medium,terminal,central,26.61
+TRIP_1255,Mercado Distrital,Villa Nueva,R2+R3,saturday,07-09,9.2,2,1,1,clear,high,barrial,barrial,48.42
+TRIP_1256,Villa Nueva,Mercado Distrital,R3+R2,weekday,09-12,9.2,2,1,0,clear,high,barrial,barrial,46.88
+TRIP_1257,Parque Industrial,Tecnoparque,R4,weekday,05-07,3.0,1,0,0,clear,high,industrial,industrial,21.7
+TRIP_1258,Universidad,Tecnoparque,R4,saturday,07-09,4.3,1,0,1,heavy_rain,high,intermedia,industrial,37.29
+TRIP_1259,Portal Norte,Centro Histórico,R1,weekday,15-18,6.0,2,0,1,rain,high,terminal,central,35.8
+TRIP_1260,Hospital Central,San Pedro,R5,weekday,15-18,2.7,1,0,1,clear,medium,central,intermedia,19.86
+TRIP_1261,Lago Azul,Portal Norte,R1,saturday,07-09,3.2,1,0,1,rain,high,intermedia,terminal,27.21
+TRIP_1262,Lago Azul,Mercado Distrital,R1+R2,weekday,05-07,6.7,3,1,0,heavy_rain,high,intermedia,barrial,51.86
+TRIP_1263,Mercado Distrital,Villa Nueva,R2+R3,sunday,15-18,9.2,2,1,1,clear,high,barrial,barrial,49.65
+TRIP_1264,Tecnoparque,Aeropuerto,R4,weekday,12-15,9.1,2,0,0,clear,medium,industrial,terminal,32.73
+TRIP_1265,Hospital Central,San Pedro,R5,weekday,09-12,2.7,1,0,0,clear,medium,central,intermedia,17.53
+TRIP_1266,Portal Norte,Universidad,R1,weekday,07-09,8.4,3,0,1,rain,high,terminal,intermedia,41.67
+TRIP_1267,Parque Industrial,Tecnoparque,R4,saturday,15-18,3.0,1,0,1,clear,high,industrial,industrial,28.39
+TRIP_1268,Portal Norte,Tecnoparque,R1+R4,weekday,12-15,12.7,4,1,0,clear,high,terminal,industrial,62.64
+TRIP_1269,Universidad,Portal Norte,R1,saturday,07-09,8.4,3,0,1,clear,high,intermedia,terminal,40.28
+TRIP_1270,Portal Norte,Universidad,R1,weekday,18-21,8.4,3,0,1,rain,medium,terminal,intermedia,35.76
+TRIP_1271,Portal Norte,Aeropuerto,R1+R4,weekday,12-15,21.8,6,1,0,clear,medium,terminal,terminal,84.24
+TRIP_1272,Mercado Distrital,Villa Nueva,R2+R3,weekday,07-09,9.2,2,1,1,rain,high,barrial,barrial,53.28
+TRIP_1273,Mercado Distrital,Villa Nueva,R2+R3,weekday,05-07,9.2,2,1,0,clear,high,barrial,barrial,43.43
+TRIP_1274,Terminal Sur,Centro Histórico,R2,weekday,18-21,7.9,3,0,1,clear,medium,terminal,central,37.8
+TRIP_1275,Portal Norte,Aeropuerto,R1+R4,sunday,09-12,21.8,6,1,0,clear,medium,terminal,terminal,74.65
+TRIP_1276,Universidad,Tecnoparque,R4,saturday,12-15,4.3,1,0,0,clear,medium,intermedia,industrial,18.58
+TRIP_1277,Centro Histórico,Hospital Central,R2,saturday,15-18,2.1,1,0,1,clear,high,central,central,23.53
+TRIP_1278,Parque Industrial,Lago Azul,R4+R1,sunday,07-09,12.5,4,1,1,clear,medium,industrial,intermedia,57.39
+TRIP_1279,Mercado Distrital,Parque Industrial,R2+R5,saturday,15-18,5.2,2,1,1,heavy_rain,high,barrial,industrial,52.83
+TRIP_1280,Terminal Sur,Parque Industrial,R2+R5,weekday,05-07,9.2,3,1,0,clear,medium,terminal,industrial,42.18
+TRIP_1281,Terminal Sur,Parque Industrial,R2+R5,weekday,05-07,9.2,3,1,0,rain,medium,terminal,industrial,45.65
+TRIP_1282,Centro Histórico,Universidad,R1,weekday,15-18,2.4,1,0,1,clear,low,central,intermedia,17.8
+TRIP_1283,Parque Industrial,Universidad,R4,saturday,15-18,7.3,2,0,1,clear,medium,industrial,intermedia,35.16
+TRIP_1284,Portal Norte,Mercado Distrital,R1+R2,weekday,09-12,9.9,4,1,0,heavy_rain,medium,terminal,barrial,50.62
+TRIP_1285,Centro Histórico,Mercado Distrital,R2,weekday,07-09,3.9,2,0,1,clear,high,central,barrial,27.69
+TRIP_1286,Mercado Distrital,Villa Nueva,R2+R3,weekday,15-18,9.2,2,1,1,clear,high,barrial,barrial,49.53
+TRIP_1287,Villa Nueva,Hospital Central,R3+R2,weekday,07-09,11.0,3,1,1,clear,medium,barrial,central,55.0
+TRIP_1288,San Pedro,Hospital Central,R5,weekday,12-15,2.7,1,0,0,clear,medium,intermedia,central,18.22
+TRIP_1289,Portal Norte,Parque Industrial,R1+R4,weekday,12-15,15.7,5,1,0,clear,medium,terminal,industrial,66.21
+TRIP_1290,Tecnoparque,Centro Histórico,R4+R1,weekday,09-12,6.7,2,1,0,clear,medium,industrial,central,38.43
+TRIP_1291,Parque Industrial,San Pedro,R5,weekday,18-21,6.1,2,0,1,heavy_rain,medium,industrial,intermedia,33.2
+TRIP_1292,Universidad,Terminal Sur,R1+R2,weekday,12-15,10.3,4,1,0,clear,medium,intermedia,terminal,47.85
+TRIP_1293,San Pedro,Universidad,R1,sunday,05-07,3.1,1,0,0,clear,low,intermedia,intermedia,12.32
+TRIP_1294,Mercado Distrital,Universidad,R2+R1,sunday,05-07,6.3,3,1,0,clear,high,barrial,intermedia,33.97
+TRIP_1295,Lago Azul,San Pedro,R1,saturday,15-18,8.3,3,0,1,rain,high,intermedia,intermedia,41.2
+TRIP_1296,Villa Nueva,San Pedro,R3+R1,saturday,18-21,11.8,4,1,1,clear,medium,barrial,intermedia,55.85
+TRIP_1297,Universidad,Villa Nueva,R1+R3,saturday,12-15,8.7,3,1,0,clear,low,intermedia,barrial,35.61
+TRIP_1298,Portal Norte,Lago Azul,R1,weekday,07-09,3.2,1,0,1,clear,medium,terminal,intermedia,21.28
+TRIP_1299,Universidad,San Pedro,R1,weekday,09-12,3.1,1,0,0,clear,medium,intermedia,intermedia,17.09
+TRIP_1300,Tecnoparque,Aeropuerto,R4,weekday,09-12,9.1,2,0,0,clear,low,industrial,terminal,30.0
+TRIP_1301,Villa Nueva,Portal Norte,R3+R1,weekday,07-09,6.7,2,1,1,clear,high,barrial,terminal,42.22
+TRIP_1302,Portal Norte,Parque Industrial,R1+R4,weekday,15-18,15.7,5,1,1,rain,high,terminal,industrial,87.03
+TRIP_1303,Hospital Central,Tecnoparque,R5+R4,weekday,09-12,6.4,2,1,0,clear,medium,central,industrial,34.76
+TRIP_1304,Villa Nueva,Universidad,R3+R1,saturday,07-09,8.7,3,1,1,clear,medium,barrial,intermedia,45.11
+TRIP_1305,Terminal Sur,Villa Nueva,R3,saturday,07-09,5.2,1,0,1,clear,high,terminal,barrial,28.61
+TRIP_1306,Portal Norte,Villa Nueva,R1+R3,sunday,15-18,6.7,2,1,1,clear,high,terminal,barrial,39.78
+TRIP_1307,Hospital Central,Villa Nueva,R2+R3,weekday,07-09,11.0,3,1,1,clear,medium,central,barrial,53.3
+TRIP_1308,Centro Histórico,Hospital Central,R2,weekday,07-09,2.1,1,0,1,clear,high,central,central,22.16
+TRIP_1309,Lago Azul,Aeropuerto,R1+R4,weekday,21-23,18.6,5,1,0,clear,medium,intermedia,terminal,66.79
+TRIP_1310,Tecnoparque,Portal Norte,R4+R1,weekday,15-18,12.7,4,1,1,rain,medium,industrial,terminal,60.82
+TRIP_1311,San Pedro,Lago Azul,R1,weekday,15-18,8.3,3,0,1,clear,high,intermedia,intermedia,40.35
+TRIP_1312,Parque Industrial,Mercado Distrital,R5+R2,saturday,18-21,5.2,2,1,1,rain,high,industrial,barrial,42.55
+TRIP_1313,Tecnoparque,Aeropuerto,R4,weekday,12-15,9.1,2,0,0,clear,medium,industrial,terminal,33.0
+TRIP_1314,Tecnoparque,Aeropuerto,R4,weekday,07-09,9.1,2,0,1,rain,high,industrial,terminal,44.83
+TRIP_1315,Hospital Central,Portal Norte,R2+R1,sunday,18-21,8.1,3,1,1,heavy_rain,high,central,terminal,55.62
+TRIP_1316,Mercado Distrital,Terminal Sur,R2,weekday,18-21,4.0,1,0,1,rain,high,barrial,terminal,29.27
+TRIP_1317,San Pedro,Portal Norte,R1,weekday,15-18,11.5,4,0,1,rain,high,intermedia,terminal,55.06
+TRIP_1318,San Pedro,Aeropuerto,R5+R4,weekday,21-23,12.2,3,1,0,clear,medium,intermedia,terminal,50.26
+TRIP_1319,Aeropuerto,Tecnoparque,R4,weekday,15-18,9.1,2,0,1,rain,medium,terminal,industrial,42.62
+TRIP_1320,Portal Norte,San Pedro,R1,weekday,07-09,11.5,4,0,1,clear,high,terminal,intermedia,50.2
+TRIP_1321,Hospital Central,Terminal Sur,R2,saturday,21-23,5.8,2,0,0,clear,low,central,terminal,20.55
+TRIP_1322,San Pedro,Aeropuerto,R5+R4,sunday,21-23,12.2,3,1,0,clear,low,intermedia,terminal,43.9
+TRIP_1323,Hospital Central,Centro Histórico,R2,sunday,12-15,2.1,1,0,0,clear,low,central,central,9.58
+TRIP_1324,San Pedro,Hospital Central,R5,weekday,12-15,2.7,1,0,0,rain,low,intermedia,central,14.91
+TRIP_1325,Tecnoparque,San Pedro,R4+R1,weekday,18-21,7.4,2,1,1,clear,medium,industrial,intermedia,42.52
+TRIP_1326,Villa Nueva,Lago Azul,R3,weekday,05-07,3.5,1,0,0,clear,low,barrial,intermedia,14.73
+TRIP_1327,Mercado Distrital,Universidad,R2+R1,saturday,05-07,6.3,3,1,0,rain,medium,barrial,intermedia,37.04
+TRIP_1328,Tecnoparque,Centro Histórico,R4+R1,weekday,07-09,6.7,2,1,1,clear,medium,industrial,central,38.7
+TRIP_1329,Lago Azul,San Pedro,R1,sunday,15-18,8.3,3,0,1,clear,high,intermedia,intermedia,39.58
+TRIP_1330,San Pedro,Mercado Distrital,R5+R2,weekday,07-09,4.5,2,1,1,clear,high,intermedia,barrial,41.25
+TRIP_1331,Centro Histórico,Villa Nueva,R1+R3,weekday,18-21,6.3,2,1,1,rain,high,central,barrial,46.99
+TRIP_1332,Portal Norte,Universidad,R1,weekday,12-15,8.4,3,0,0,rain,high,terminal,intermedia,38.89
+TRIP_1333,Villa Nueva,Universidad,R3+R1,weekday,09-12,8.7,3,1,0,clear,high,barrial,intermedia,47.4
+TRIP_1334,Parque Industrial,Tecnoparque,R4,weekday,09-12,3.0,1,0,0,rain,low,industrial,industrial,18.36
+TRIP_1335,Universidad,Centro Histórico,R1,saturday,15-18,2.4,1,0,1,clear,low,intermedia,central,16.91
+TRIP_1336,Parque Industrial,San Pedro,R5,weekday,12-15,6.1,2,0,0,clear,high,industrial,intermedia,29.54
+TRIP_1337,Villa Nueva,Lago Azul,R3,saturday,15-18,3.5,1,0,1,clear,high,barrial,intermedia,22.36
+TRIP_1338,San Pedro,Mercado Distrital,R5+R2,weekday,09-12,4.5,2,1,0,clear,medium,intermedia,barrial,31.88
+TRIP_1339,Terminal Sur,Villa Nueva,R3,weekday,18-21,5.2,1,0,1,clear,high,terminal,barrial,28.24
+TRIP_1340,Lago Azul,Universidad,R1,weekday,18-21,5.2,2,0,1,clear,high,intermedia,intermedia,29.8
+TRIP_1341,Portal Norte,Mercado Distrital,R1+R2,weekday,18-21,9.9,4,1,1,clear,high,terminal,barrial,57.69
+TRIP_1342,Tecnoparque,Hospital Central,R4+R5,weekday,18-21,6.4,2,1,1,clear,medium,industrial,central,37.22
+TRIP_1343,Tecnoparque,Portal Norte,R4+R1,sunday,18-21,12.7,4,1,1,clear,high,industrial,terminal,70.06
+TRIP_1344,Mercado Distrital,Terminal Sur,R2,weekday,05-07,4.0,1,0,0,clear,medium,barrial,terminal,20.44
+TRIP_1345,Centro Histórico,Mercado Distrital,R2,saturday,05-07,3.9,2,0,0,clear,medium,central,barrial,19.08
+TRIP_1346,Universidad,Portal Norte,R1,sunday,15-18,8.4,3,0,1,clear,high,intermedia,terminal,38.85
+TRIP_1347,Centro Histórico,Tecnoparque,R1+R4,weekday,15-18,6.7,2,1,1,clear,high,central,industrial,45.24
+TRIP_1348,Tecnoparque,Hospital Central,R4+R5,weekday,09-12,6.4,2,1,0,rain,medium,industrial,central,36.46
+TRIP_1349,Parque Industrial,Universidad,R4,sunday,12-15,7.3,2,0,0,clear,low,industrial,intermedia,21.92
+TRIP_1350,Centro Histórico,Universidad,R1,weekday,12-15,2.4,1,0,0,clear,low,central,intermedia,12.91
+TRIP_1351,San Pedro,Portal Norte,R1,weekday,05-07,11.5,4,0,0,clear,high,intermedia,terminal,49.65
+TRIP_1352,Mercado Distrital,Universidad,R2+R1,sunday,15-18,6.3,3,1,1,heavy_rain,medium,barrial,intermedia,48.44
+TRIP_1353,Parque Industrial,Mercado Distrital,R5+R2,saturday,07-09,5.2,2,1,1,clear,medium,industrial,barrial,38.63
+TRIP_1354,Villa Nueva,Terminal Sur,R3,weekday,09-12,5.2,1,0,0,clear,medium,barrial,terminal,24.06
+TRIP_1355,Aeropuerto,Universidad,R4,saturday,15-18,13.4,3,0,1,clear,medium,terminal,intermedia,50.73
+TRIP_1356,Aeropuerto,San Pedro,R4+R5,weekday,05-07,12.2,3,1,0,clear,low,terminal,intermedia,45.64
+TRIP_1357,Lago Azul,Portal Norte,R1,weekday,15-18,3.2,1,0,1,clear,medium,intermedia,terminal,19.27
+TRIP_1358,Portal Norte,Centro Histórico,R1,weekday,09-12,6.0,2,0,0,clear,high,terminal,central,30.59
+TRIP_1359,Aeropuerto,Tecnoparque,R4,weekday,15-18,9.1,2,0,1,rain,high,terminal,industrial,49.01
+TRIP_1360,Tecnoparque,Parque Industrial,R4,weekday,21-23,3.0,1,0,0,clear,medium,industrial,industrial,16.55
+TRIP_1361,Portal Norte,Villa Nueva,R1+R3,sunday,07-09,6.7,2,1,1,clear,high,terminal,barrial,40.37
+TRIP_1362,Mercado Distrital,Hospital Central,R2,weekday,18-21,1.8,1,0,1,heavy_rain,medium,barrial,central,24.65
+TRIP_1363,Universidad,San Pedro,R1,weekday,15-18,3.1,1,0,1,clear,high,intermedia,intermedia,24.82
+TRIP_1364,Terminal Sur,San Pedro,R2+R5,weekday,15-18,8.5,3,1,1,clear,medium,terminal,intermedia,43.16
+TRIP_1365,Portal Norte,Tecnoparque,R1+R4,saturday,05-07,12.7,4,1,0,clear,low,terminal,industrial,47.78
+TRIP_1366,Portal Norte,Centro Histórico,R1,weekday,09-12,6.0,2,0,0,clear,medium,terminal,central,28.71
+TRIP_1367,Villa Nueva,Mercado Distrital,R3+R2,weekday,07-09,9.2,2,1,1,clear,medium,barrial,barrial,47.83
+TRIP_1368,Portal Norte,Villa Nueva,R1+R3,weekday,09-12,6.7,2,1,0,clear,low,terminal,barrial,30.04
+TRIP_1369,Centro Histórico,Universidad,R1,weekday,07-09,2.4,1,0,1,rain,high,central,intermedia,26.98
+TRIP_1370,Portal Norte,Terminal Sur,R1+R3,saturday,05-07,11.9,3,1,0,clear,low,terminal,terminal,48.06
+TRIP_1371,Villa Nueva,Lago Azul,R3,saturday,12-15,3.5,1,0,0,rain,medium,barrial,intermedia,16.54
+TRIP_1372,Lago Azul,Universidad,R1,weekday,12-15,5.2,2,0,0,clear,medium,intermedia,intermedia,24.74
+TRIP_1373,Universidad,Parque Industrial,R4,weekday,07-09,7.3,2,0,1,heavy_rain,high,intermedia,industrial,42.98
+TRIP_1374,Portal Norte,Tecnoparque,R1+R4,weekday,09-12,12.7,4,1,0,clear,medium,terminal,industrial,59.14
+TRIP_1375,Tecnoparque,Hospital Central,R4+R5,weekday,07-09,6.4,2,1,1,clear,high,industrial,central,46.84
+TRIP_1376,Lago Azul,Tecnoparque,R1+R4,weekday,15-18,9.5,3,1,1,clear,high,intermedia,industrial,61.38
+TRIP_1377,Universidad,Portal Norte,R1,saturday,09-12,8.4,3,0,0,clear,medium,intermedia,terminal,31.38
+TRIP_1378,Villa Nueva,Mercado Distrital,R3+R2,weekday,09-12,9.2,2,1,0,clear,medium,barrial,barrial,38.26
+TRIP_1379,Portal Norte,Lago Azul,R1,weekday,05-07,3.2,1,0,0,clear,medium,terminal,intermedia,18.95
+TRIP_1380,Parque Industrial,Tecnoparque,R4,weekday,18-21,3.0,1,0,1,clear,medium,industrial,industrial,23.77
+TRIP_1381,San Pedro,Mercado Distrital,R5+R2,saturday,07-09,4.5,2,1,1,clear,high,intermedia,barrial,37.45
+TRIP_1382,Parque Industrial,Aeropuerto,R4,weekday,15-18,6.1,1,0,1,rain,medium,industrial,terminal,31.94
+TRIP_1383,Centro Histórico,Mercado Distrital,R2,sunday,18-21,3.9,2,0,1,rain,medium,central,barrial,24.38
+TRIP_1384,Portal Norte,Tecnoparque,R1+R4,weekday,09-12,12.7,4,1,0,rain,high,terminal,industrial,62.44
+TRIP_1385,Parque Industrial,Hospital Central,R5,weekday,12-15,3.4,1,0,0,clear,high,industrial,central,22.62
+TRIP_1386,San Pedro,Mercado Distrital,R5+R2,weekday,18-21,4.5,2,1,1,clear,medium,intermedia,barrial,33.87
+TRIP_1387,Aeropuerto,Portal Norte,R4+R1,weekday,18-21,21.8,6,1,1,clear,medium,terminal,terminal,84.94
+TRIP_1388,San Pedro,Hospital Central,R5,weekday,05-07,2.7,1,0,0,clear,high,intermedia,central,19.74
+TRIP_1389,Aeropuerto,Centro Histórico,R4+R1,weekday,07-09,15.8,4,1,1,clear,medium,terminal,central,72.66
+TRIP_1390,Centro Histórico,Villa Nueva,R1+R3,sunday,09-12,6.3,2,1,0,rain,low,central,barrial,27.2
+TRIP_1391,Lago Azul,Mercado Distrital,R1+R2,weekday,15-18,6.7,3,1,1,clear,high,intermedia,barrial,44.19
+TRIP_1392,Mercado Distrital,Portal Norte,R2+R1,weekday,15-18,9.9,4,1,1,clear,medium,barrial,terminal,47.26
+TRIP_1393,Portal Norte,San Pedro,R1,saturday,09-12,11.5,4,0,0,clear,medium,terminal,intermedia,39.93
+TRIP_1394,Lago Azul,Portal Norte,R1,saturday,07-09,3.2,1,0,1,clear,high,intermedia,terminal,23.33
+TRIP_1395,Portal Norte,Universidad,R1,saturday,05-07,8.4,3,0,0,rain,medium,terminal,intermedia,30.99
+TRIP_1396,Villa Nueva,Terminal Sur,R3,weekday,21-23,5.2,1,0,0,clear,medium,barrial,terminal,22.35
+TRIP_1397,Villa Nueva,Terminal Sur,R3,weekday,15-18,5.2,1,0,1,clear,high,barrial,terminal,28.84
+TRIP_1398,Villa Nueva,San Pedro,R3+R1,saturday,15-18,11.8,4,1,1,rain,medium,barrial,intermedia,56.64
+TRIP_1399,Villa Nueva,Lago Azul,R3,weekday,07-09,3.5,1,0,1,heavy_rain,medium,barrial,intermedia,28.08
+TRIP_1400,Lago Azul,Centro Histórico,R1,weekday,12-15,2.8,1,0,0,rain,medium,intermedia,central,18.04
+TRIP_1401,Parque Industrial,Mercado Distrital,R5+R2,saturday,07-09,5.2,2,1,1,clear,high,industrial,barrial,43.37
+TRIP_1402,Aeropuerto,Centro Histórico,R4+R1,saturday,15-18,15.8,4,1,1,clear,high,terminal,central,81.37
+TRIP_1403,Centro Histórico,Tecnoparque,R1+R4,saturday,15-18,6.7,2,1,1,clear,high,central,industrial,45.97
+TRIP_1404,Universidad,Terminal Sur,R1+R2,weekday,15-18,10.3,4,1,1,clear,medium,intermedia,terminal,57.88
+TRIP_1405,Portal Norte,Parque Industrial,R1+R4,sunday,18-21,15.7,5,1,1,clear,medium,terminal,industrial,67.42
+TRIP_1406,Portal Norte,Mercado Distrital,R1+R2,weekday,12-15,9.9,4,1,0,clear,medium,terminal,barrial,43.01
+TRIP_1407,Lago Azul,Aeropuerto,R1+R4,saturday,18-21,18.6,5,1,1,clear,medium,intermedia,terminal,72.96
+TRIP_1408,Terminal Sur,San Pedro,R2+R5,saturday,12-15,8.5,3,1,0,clear,medium,terminal,intermedia,39.26
+TRIP_1409,Centro Histórico,Aeropuerto,R1+R4,sunday,15-18,15.8,4,1,1,clear,high,central,terminal,78.56
+TRIP_1410,Aeropuerto,Lago Azul,R4+R1,weekday,07-09,18.6,5,1,1,clear,high,terminal,intermedia,89.26
+TRIP_1411,Hospital Central,Aeropuerto,R5+R4,weekday,07-09,9.5,2,1,1,clear,medium,central,terminal,41.65
+TRIP_1412,Terminal Sur,San Pedro,R2+R5,sunday,05-07,8.5,3,1,0,clear,low,terminal,intermedia,37.71
+TRIP_1413,Centro Histórico,Tecnoparque,R1+R4,weekday,12-15,6.7,2,1,0,clear,medium,central,industrial,32.82
+TRIP_1414,Lago Azul,Centro Histórico,R1,weekday,09-12,2.8,1,0,0,heavy_rain,medium,intermedia,central,21.45
+TRIP_1415,Terminal Sur,Universidad,R2+R1,sunday,09-12,10.3,4,1,0,heavy_rain,medium,terminal,intermedia,51.29
+TRIP_1416,Terminal Sur,Mercado Distrital,R2,sunday,18-21,4.0,1,0,1,clear,high,terminal,barrial,24.09
+TRIP_1417,Parque Industrial,Tecnoparque,R4,weekday,07-09,3.0,1,0,1,clear,medium,industrial,industrial,22.06
+TRIP_1418,Centro Histórico,San Pedro,R1,weekday,15-18,5.5,2,0,1,clear,high,central,intermedia,31.06
+TRIP_1419,Terminal Sur,Parque Industrial,R2+R5,weekday,15-18,9.2,3,1,1,clear,high,terminal,industrial,54.77
+TRIP_1420,Universidad,Lago Azul,R1,weekday,18-21,5.2,2,0,1,rain,high,intermedia,intermedia,32.72
+TRIP_1421,Hospital Central,Mercado Distrital,R2,weekday,12-15,1.8,1,0,0,clear,medium,central,barrial,14.37
+TRIP_1422,Portal Norte,Aeropuerto,R1+R4,saturday,07-09,21.8,6,1,1,clear,high,terminal,terminal,98.83
+TRIP_1423,Parque Industrial,Universidad,R4,weekday,18-21,7.3,2,0,1,clear,high,industrial,intermedia,39.07
+TRIP_1424,Mercado Distrital,Lago Azul,R2+R1,sunday,09-12,6.7,3,1,0,clear,low,barrial,intermedia,30.96
+TRIP_1425,Universidad,Villa Nueva,R1+R3,weekday,07-09,8.7,3,1,1,rain,medium,intermedia,barrial,47.2
+TRIP_1426,Portal Norte,Terminal Sur,R1+R3,weekday,05-07,11.9,3,1,0,clear,medium,terminal,terminal,50.4
+TRIP_1427,Centro Histórico,Terminal Sur,R2,weekday,15-18,7.9,3,0,1,clear,high,central,terminal,41.07
+TRIP_1428,Hospital Central,Terminal Sur,R2,weekday,07-09,5.8,2,0,1,clear,medium,central,terminal,25.84
+TRIP_1429,Villa Nueva,Portal Norte,R3+R1,weekday,07-09,6.7,2,1,1,clear,medium,barrial,terminal,37.92
+TRIP_1430,Villa Nueva,Centro Histórico,R3+R1,weekday,18-21,6.3,2,1,1,rain,high,barrial,central,46.05
+TRIP_1431,Portal Norte,Centro Histórico,R1,saturday,07-09,6.0,2,0,1,clear,medium,terminal,central,28.66
+TRIP_1432,Universidad,Terminal Sur,R1+R2,weekday,07-09,10.3,4,1,1,clear,high,intermedia,terminal,61.61
+TRIP_1433,Parque Industrial,Centro Histórico,R5+R2,weekday,15-18,5.5,2,1,1,clear,medium,industrial,central,38.9
+TRIP_1434,Aeropuerto,San Pedro,R4+R5,sunday,09-12,12.2,3,1,0,heavy_rain,medium,terminal,intermedia,55.61
+TRIP_1435,Tecnoparque,Parque Industrial,R4,weekday,09-12,3.0,1,0,0,clear,low,industrial,industrial,14.44
+TRIP_1436,Villa Nueva,Mercado Distrital,R3+R2,saturday,18-21,9.2,2,1,1,rain,high,barrial,barrial,50.31
+TRIP_1437,Tecnoparque,Lago Azul,R4+R1,weekday,18-21,9.5,3,1,1,clear,high,industrial,intermedia,54.36
+TRIP_1438,Terminal Sur,Centro Histórico,R2,weekday,05-07,7.9,3,0,0,clear,high,terminal,central,38.91
+TRIP_1439,Hospital Central,Universidad,R2+R1,saturday,07-09,4.5,2,1,1,rain,medium,central,intermedia,34.43
+TRIP_1440,San Pedro,Portal Norte,R1,weekday,09-12,11.5,4,0,0,rain,high,intermedia,terminal,49.36
+TRIP_1441,Hospital Central,Parque Industrial,R5,weekday,05-07,3.4,1,0,0,rain,medium,central,industrial,22.07
+TRIP_1442,Universidad,Hospital Central,R1+R2,saturday,05-07,4.5,2,1,0,rain,high,intermedia,central,37.1
+TRIP_1443,Centro Histórico,Hospital Central,R2,weekday,21-23,2.1,1,0,0,rain,medium,central,central,17.87
+TRIP_1444,Lago Azul,Aeropuerto,R1+R4,saturday,09-12,18.6,5,1,0,clear,medium,intermedia,terminal,67.66
+TRIP_1445,Aeropuerto,Tecnoparque,R4,weekday,07-09,9.1,2,0,1,clear,high,terminal,industrial,40.53
+TRIP_1446,Lago Azul,Parque Industrial,R1+R4,weekday,07-09,12.5,4,1,1,rain,medium,intermedia,industrial,59.43
+TRIP_1447,San Pedro,Lago Azul,R1,weekday,09-12,8.3,3,0,0,clear,low,intermedia,intermedia,27.92
+TRIP_1448,Lago Azul,Aeropuerto,R1+R4,weekday,09-12,18.6,5,1,0,clear,medium,intermedia,terminal,68.27
+TRIP_1449,Mercado Distrital,Villa Nueva,R2+R3,weekday,18-21,9.2,2,1,1,clear,high,barrial,barrial,52.78
+TRIP_1450,Terminal Sur,Portal Norte,R3+R1,weekday,05-07,11.9,3,1,0,rain,low,terminal,terminal,54.23
+TRIP_1451,Parque Industrial,Mercado Distrital,R5+R2,weekday,09-12,5.2,2,1,0,clear,high,industrial,barrial,40.34
+TRIP_1452,Tecnoparque,Universidad,R4,sunday,09-12,4.3,1,0,0,clear,high,industrial,intermedia,23.53
+TRIP_1453,Portal Norte,Aeropuerto,R1+R4,weekday,05-07,21.8,6,1,0,clear,medium,terminal,terminal,80.26
+TRIP_1454,Aeropuerto,Universidad,R4,weekday,15-18,13.4,3,0,1,rain,high,terminal,intermedia,62.04
+TRIP_1455,San Pedro,Tecnoparque,R1+R4,saturday,07-09,7.4,2,1,1,heavy_rain,high,intermedia,industrial,53.05
+TRIP_1456,Villa Nueva,Portal Norte,R3+R1,weekday,15-18,6.7,2,1,1,clear,low,barrial,terminal,40.02
+TRIP_1457,Aeropuerto,Tecnoparque,R4,weekday,15-18,9.1,2,0,1,clear,high,terminal,industrial,44.63
+TRIP_1458,Mercado Distrital,Universidad,R2+R1,saturday,05-07,6.3,3,1,0,clear,medium,barrial,intermedia,31.89
+TRIP_1459,Terminal Sur,San Pedro,R2+R5,saturday,07-09,8.5,3,1,1,clear,high,terminal,intermedia,48.55
+TRIP_1460,Hospital Central,Universidad,R2+R1,weekday,15-18,4.5,2,1,1,clear,high,central,intermedia,38.26
+TRIP_1461,Parque Industrial,Lago Azul,R4+R1,weekday,07-09,12.5,4,1,1,rain,medium,industrial,intermedia,59.0
+TRIP_1462,Universidad,Portal Norte,R1,weekday,12-15,8.4,3,0,0,clear,medium,intermedia,terminal,33.02
+TRIP_1463,Centro Histórico,Portal Norte,R1,weekday,12-15,6.0,2,0,0,clear,medium,central,terminal,23.36
+TRIP_1464,Centro Histórico,Mercado Distrital,R2,weekday,09-12,3.9,2,0,0,rain,medium,central,barrial,23.36
+TRIP_1465,Terminal Sur,Villa Nueva,R3,weekday,21-23,5.2,1,0,0,clear,low,terminal,barrial,18.81
+TRIP_1466,San Pedro,Aeropuerto,R5+R4,saturday,18-21,12.2,3,1,1,clear,medium,intermedia,terminal,58.9
+TRIP_1467,Parque Industrial,Hospital Central,R5,sunday,12-15,3.4,1,0,0,clear,low,industrial,central,15.33
+TRIP_1468,Centro Histórico,Tecnoparque,R1+R4,saturday,18-21,6.7,2,1,1,clear,medium,central,industrial,44.38
+TRIP_1469,Terminal Sur,Portal Norte,R3+R1,sunday,12-15,11.9,3,1,0,clear,low,terminal,terminal,46.54
+TRIP_1470,Parque Industrial,Centro Histórico,R5+R2,saturday,09-12,5.5,2,1,0,clear,low,industrial,central,29.05
+TRIP_1471,Aeropuerto,San Pedro,R4+R5,weekday,07-09,12.2,3,1,1,clear,medium,terminal,intermedia,58.51
+TRIP_1472,Terminal Sur,Centro Histórico,R2,weekday,07-09,7.9,3,0,1,clear,low,terminal,central,32.41
+TRIP_1473,Mercado Distrital,Parque Industrial,R2+R5,saturday,07-09,5.2,2,1,1,rain,medium,barrial,industrial,40.99
+TRIP_1474,Portal Norte,San Pedro,R1,weekday,07-09,11.5,4,0,1,clear,high,terminal,intermedia,49.11
+TRIP_1475,Centro Histórico,Parque Industrial,R2+R5,weekday,07-09,5.5,2,1,1,clear,medium,central,industrial,39.6
+TRIP_1476,Universidad,Terminal Sur,R1+R2,saturday,15-18,10.3,4,1,1,clear,high,intermedia,terminal,63.24
+TRIP_1477,Portal Norte,Villa Nueva,R1+R3,weekday,18-21,6.7,2,1,1,clear,high,terminal,barrial,45.61
+TRIP_1478,Tecnoparque,Universidad,R4,weekday,15-18,4.3,1,0,1,clear,high,industrial,intermedia,32.96
+TRIP_1479,Centro Histórico,Portal Norte,R1,saturday,09-12,6.0,2,0,0,rain,low,central,terminal,22.75
+TRIP_1480,Tecnoparque,Centro Histórico,R4+R1,weekday,12-15,6.7,2,1,0,clear,low,industrial,central,32.1
+TRIP_1481,Parque Industrial,Centro Histórico,R5+R2,weekday,05-07,5.5,2,1,0,clear,high,industrial,central,37.92
+TRIP_1482,Hospital Central,Centro Histórico,R2,weekday,15-18,2.1,1,0,1,clear,medium,central,central,18.07
+TRIP_1483,Lago Azul,Parque Industrial,R1+R4,weekday,07-09,12.5,4,1,1,rain,high,intermedia,industrial,70.35
+TRIP_1484,Villa Nueva,Centro Histórico,R3+R1,weekday,09-12,6.3,2,1,0,clear,high,barrial,central,33.62
+TRIP_1485,Villa Nueva,Portal Norte,R3+R1,weekday,05-07,6.7,2,1,0,heavy_rain,high,barrial,terminal,43.82
+TRIP_1486,Universidad,Villa Nueva,R1+R3,saturday,07-09,8.7,3,1,1,clear,medium,intermedia,barrial,49.89
+TRIP_1487,Hospital Central,Parque Industrial,R5,weekday,21-23,3.4,1,0,0,clear,low,central,industrial,14.54
+TRIP_1488,Lago Azul,Centro Histórico,R1,saturday,05-07,2.8,1,0,0,heavy_rain,medium,intermedia,central,20.86
+TRIP_1489,Mercado Distrital,Lago Azul,R2+R1,sunday,07-09,6.7,3,1,1,clear,medium,barrial,intermedia,37.99
+TRIP_1490,Terminal Sur,San Pedro,R2+R5,weekday,12-15,8.5,3,1,0,heavy_rain,high,terminal,intermedia,55.04
+TRIP_1491,Terminal Sur,San Pedro,R2+R5,weekday,09-12,8.5,3,1,0,clear,low,terminal,intermedia,39.35
+TRIP_1492,Tecnoparque,Universidad,R4,weekday,07-09,4.3,1,0,1,clear,high,industrial,intermedia,26.24
+TRIP_1493,Centro Histórico,Villa Nueva,R1+R3,weekday,09-12,6.3,2,1,0,clear,medium,central,barrial,30.77
+TRIP_1494,Universidad,Centro Histórico,R1,weekday,15-18,2.4,1,0,1,clear,low,intermedia,central,16.27
+TRIP_1495,Universidad,Tecnoparque,R4,weekday,15-18,4.3,1,0,1,clear,high,intermedia,industrial,32.14
+TRIP_1496,Tecnoparque,Lago Azul,R4+R1,weekday,21-23,9.5,3,1,0,clear,low,industrial,intermedia,40.0
+TRIP_1497,Lago Azul,Tecnoparque,R1+R4,weekday,12-15,9.5,3,1,0,rain,medium,intermedia,industrial,45.96
+TRIP_1498,Hospital Central,Terminal Sur,R2,sunday,18-21,5.8,2,0,1,clear,high,central,terminal,30.85
+TRIP_1499,Portal Norte,Mercado Distrital,R1+R2,weekday,15-18,9.9,4,1,1,clear,high,terminal,barrial,56.43
+TRIP_1500,Universidad,Parque Industrial,R4,sunday,15-18,7.3,2,0,1,clear,low,intermedia,industrial,28.94
+TRIP_1501,Villa Nueva,San Pedro,R3+R1,weekday,05-07,11.8,4,1,0,clear,medium,barrial,intermedia,48.63
+TRIP_1502,Hospital Central,Tecnoparque,R5+R4,weekday,18-21,6.4,2,1,1,clear,high,central,industrial,46.3
+TRIP_1503,San Pedro,Lago Azul,R1,weekday,07-09,8.3,3,0,1,clear,high,intermedia,intermedia,40.75
+TRIP_1504,Mercado Distrital,San Pedro,R2+R5,weekday,15-18,4.5,2,1,1,clear,medium,barrial,intermedia,36.07
+TRIP_1505,Tecnoparque,Parque Industrial,R4,weekday,21-23,3.0,1,0,0,clear,high,industrial,industrial,23.1
+TRIP_1506,Hospital Central,Tecnoparque,R5+R4,weekday,15-18,6.4,2,1,1,clear,medium,central,industrial,43.4
+TRIP_1507,Lago Azul,Tecnoparque,R1+R4,saturday,05-07,9.5,3,1,0,heavy_rain,low,intermedia,industrial,40.83
+TRIP_1508,San Pedro,Tecnoparque,R1+R4,sunday,18-21,7.4,2,1,1,clear,medium,intermedia,industrial,42.17
+TRIP_1509,Villa Nueva,Centro Histórico,R3+R1,sunday,09-12,6.3,2,1,0,clear,low,barrial,central,31.61
+TRIP_1510,Mercado Distrital,San Pedro,R2+R5,weekday,18-21,4.5,2,1,1,clear,high,barrial,intermedia,37.42
+TRIP_1511,Tecnoparque,Portal Norte,R4+R1,weekday,05-07,12.7,4,1,0,clear,low,industrial,terminal,51.14
+TRIP_1512,Portal Norte,Universidad,R1,weekday,09-12,8.4,3,0,0,rain,low,terminal,intermedia,29.7
+TRIP_1513,Mercado Distrital,Terminal Sur,R2,weekday,07-09,4.0,1,0,1,rain,high,barrial,terminal,32.97
+TRIP_1514,Mercado Distrital,Portal Norte,R2+R1,saturday,09-12,9.9,4,1,0,clear,medium,barrial,terminal,41.57
+TRIP_1515,Hospital Central,Portal Norte,R2+R1,weekday,09-12,8.1,3,1,0,clear,medium,central,terminal,39.28
+TRIP_1516,Portal Norte,Universidad,R1,weekday,09-12,8.4,3,0,0,clear,medium,terminal,intermedia,32.89
+TRIP_1517,Universidad,Mercado Distrital,R1+R2,weekday,12-15,6.3,3,1,0,clear,medium,intermedia,barrial,31.0
+TRIP_1518,Hospital Central,Parque Industrial,R5,sunday,07-09,3.4,1,0,1,clear,medium,central,industrial,19.97
+TRIP_1519,Centro Histórico,Mercado Distrital,R2,saturday,05-07,3.9,2,0,0,rain,low,central,barrial,19.71
+TRIP_1520,Centro Histórico,Terminal Sur,R2,weekday,07-09,7.9,3,0,1,clear,low,central,terminal,32.41
+TRIP_1521,San Pedro,Universidad,R1,weekday,18-21,3.1,1,0,1,clear,medium,intermedia,intermedia,18.17
+TRIP_1522,Portal Norte,Villa Nueva,R1+R3,weekday,15-18,6.7,2,1,1,clear,high,terminal,barrial,44.68
+TRIP_1523,Centro Histórico,Parque Industrial,R2+R5,saturday,12-15,5.5,2,1,0,clear,low,central,industrial,28.94
+TRIP_1524,Portal Norte,Parque Industrial,R1+R4,weekday,09-12,15.7,5,1,0,clear,medium,terminal,industrial,60.45
+TRIP_1525,Aeropuerto,Universidad,R4,weekday,05-07,13.4,3,0,0,clear,high,terminal,intermedia,53.53
+TRIP_1526,Hospital Central,Villa Nueva,R2+R3,saturday,15-18,11.0,3,1,1,clear,low,central,barrial,54.2
+TRIP_1527,Tecnoparque,Hospital Central,R4+R5,weekday,15-18,6.4,2,1,1,clear,high,industrial,central,49.22
+TRIP_1528,Aeropuerto,Universidad,R4,weekday,09-12,13.4,3,0,0,clear,low,terminal,intermedia,37.87
+TRIP_1529,Centro Histórico,Universidad,R1,weekday,09-12,2.4,1,0,0,clear,high,central,intermedia,18.79
+TRIP_1530,Villa Nueva,Lago Azul,R3,sunday,09-12,3.5,1,0,0,clear,low,barrial,intermedia,12.73
+TRIP_1531,San Pedro,Centro Histórico,R1,sunday,18-21,5.5,2,0,1,heavy_rain,medium,intermedia,central,28.0
+TRIP_1532,Mercado Distrital,San Pedro,R2+R5,weekday,12-15,4.5,2,1,0,clear,medium,barrial,intermedia,33.76
+TRIP_1533,Villa Nueva,Terminal Sur,R3,weekday,09-12,5.2,1,0,0,clear,low,barrial,terminal,20.33
+TRIP_1534,Lago Azul,Hospital Central,R1+R2,weekday,21-23,4.9,2,1,0,clear,high,intermedia,central,36.61
+TRIP_1535,Universidad,Centro Histórico,R1,sunday,18-21,2.4,1,0,1,clear,medium,intermedia,central,17.83
+TRIP_1536,Portal Norte,Hospital Central,R1+R2,weekday,05-07,8.1,3,1,0,clear,medium,terminal,central,42.26
+TRIP_1537,Hospital Central,Universidad,R2+R1,sunday,07-09,4.5,2,1,1,clear,high,central,intermedia,38.04
+TRIP_1538,Mercado Distrital,Universidad,R2+R1,weekday,07-09,6.3,3,1,1,clear,medium,barrial,intermedia,40.64
+TRIP_1539,Parque Industrial,Aeropuerto,R4,weekday,21-23,6.1,1,0,0,clear,high,industrial,terminal,29.72
+TRIP_1540,Aeropuerto,Lago Azul,R4+R1,weekday,18-21,18.6,5,1,1,clear,medium,terminal,intermedia,72.85
+TRIP_1541,San Pedro,Mercado Distrital,R5+R2,weekday,07-09,4.5,2,1,1,clear,medium,intermedia,barrial,34.17
+TRIP_1542,San Pedro,Villa Nueva,R1+R3,weekday,05-07,11.8,4,1,0,clear,high,intermedia,barrial,68.21
+TRIP_1543,Hospital Central,Villa Nueva,R2+R3,weekday,15-18,11.0,3,1,1,rain,high,central,barrial,65.8
+TRIP_1544,San Pedro,Tecnoparque,R1+R4,weekday,12-15,7.4,2,1,0,clear,high,intermedia,industrial,41.36
+TRIP_1545,Parque Industrial,San Pedro,R5,saturday,12-15,6.1,2,0,0,clear,medium,industrial,intermedia,26.17
+TRIP_1546,Aeropuerto,Lago Azul,R4+R1,saturday,18-21,18.6,5,1,1,clear,medium,terminal,intermedia,78.96
+TRIP_1547,Parque Industrial,Portal Norte,R4+R1,saturday,09-12,15.7,5,1,0,clear,high,industrial,terminal,76.57
+TRIP_1548,Hospital Central,Centro Histórico,R2,weekday,07-09,2.1,1,0,1,clear,high,central,central,21.13
+TRIP_1549,San Pedro,Universidad,R1,weekday,15-18,3.1,1,0,1,clear,low,intermedia,intermedia,16.93
+TRIP_1550,Parque Industrial,Tecnoparque,R4,weekday,15-18,3.0,1,0,1,clear,medium,industrial,industrial,24.97
+TRIP_1551,Mercado Distrital,Terminal Sur,R2,weekday,15-18,4.0,1,0,1,clear,low,barrial,terminal,19.74
+TRIP_1552,Mercado Distrital,Lago Azul,R2+R1,weekday,07-09,6.7,3,1,1,clear,high,barrial,intermedia,42.64
+TRIP_1553,Parque Industrial,Tecnoparque,R4,weekday,12-15,3.0,1,0,0,clear,low,industrial,industrial,15.37
+TRIP_1554,Universidad,Tecnoparque,R4,weekday,05-07,4.3,1,0,0,clear,medium,intermedia,industrial,21.56
+TRIP_1555,Terminal Sur,Mercado Distrital,R2,weekday,07-09,4.0,1,0,1,clear,high,terminal,barrial,25.01
+TRIP_1556,Hospital Central,Aeropuerto,R5+R4,weekday,05-07,9.5,2,1,0,clear,medium,central,terminal,46.33
+TRIP_1557,Hospital Central,San Pedro,R5,sunday,07-09,2.7,1,0,1,rain,high,central,intermedia,24.32
+TRIP_1558,Portal Norte,Universidad,R1,sunday,12-15,8.4,3,0,0,clear,low,terminal,intermedia,22.93
+TRIP_1559,Tecnoparque,San Pedro,R4+R1,weekday,07-09,7.4,2,1,1,clear,high,industrial,intermedia,46.53
+TRIP_1560,Centro Histórico,Universidad,R1,saturday,12-15,2.4,1,0,0,clear,medium,central,intermedia,14.77
+TRIP_1561,San Pedro,Tecnoparque,R1+R4,saturday,05-07,7.4,2,1,0,clear,low,intermedia,industrial,31.49
+TRIP_1562,Lago Azul,San Pedro,R1,weekday,07-09,8.3,3,0,1,clear,high,intermedia,intermedia,40.29
+TRIP_1563,Centro Histórico,Villa Nueva,R1+R3,weekday,05-07,6.3,2,1,0,clear,medium,central,barrial,31.49
+TRIP_1564,Mercado Distrital,Hospital Central,R2,weekday,15-18,1.8,1,0,1,clear,medium,barrial,central,17.34
+TRIP_1565,Lago Azul,Mercado Distrital,R1+R2,weekday,21-23,6.7,3,1,0,clear,low,intermedia,barrial,29.49
+TRIP_1566,Universidad,Tecnoparque,R4,sunday,18-21,4.3,1,0,1,clear,high,intermedia,industrial,29.81
+TRIP_1567,San Pedro,Terminal Sur,R5+R2,weekday,05-07,8.5,3,1,0,clear,medium,intermedia,terminal,40.9
+TRIP_1568,Hospital Central,Parque Industrial,R5,weekday,05-07,3.4,1,0,0,rain,medium,central,industrial,20.18
+TRIP_1569,Centro Histórico,Aeropuerto,R1+R4,weekday,18-21,15.8,4,1,1,clear,low,central,terminal,66.09
+TRIP_1570,Terminal Sur,Centro Histórico,R2,sunday,15-18,7.9,3,0,1,clear,high,terminal,central,38.39
+TRIP_1571,Universidad,Mercado Distrital,R1+R2,sunday,15-18,6.3,3,1,1,clear,high,intermedia,barrial,44.9
+TRIP_1572,Mercado Distrital,Portal Norte,R2+R1,saturday,07-09,9.9,4,1,1,clear,high,barrial,terminal,54.68
+TRIP_1573,Universidad,Portal Norte,R1,sunday,18-21,8.4,3,0,1,clear,medium,intermedia,terminal,32.27
+TRIP_1574,Terminal Sur,Centro Histórico,R2,weekday,09-12,7.9,3,0,0,clear,medium,terminal,central,32.0
+TRIP_1575,Centro Histórico,Hospital Central,R2,sunday,05-07,2.1,1,0,0,rain,medium,central,central,15.81
+TRIP_1576,Aeropuerto,Portal Norte,R4+R1,sunday,09-12,21.8,6,1,0,clear,medium,terminal,terminal,77.49
+TRIP_1577,Universidad,Parque Industrial,R4,saturday,09-12,7.3,2,0,0,rain,medium,intermedia,industrial,29.61
+TRIP_1578,Terminal Sur,Lago Azul,R3,weekday,18-21,8.7,2,0,1,clear,high,terminal,intermedia,40.95
+TRIP_1579,Portal Norte,Universidad,R1,saturday,09-12,8.4,3,0,0,clear,medium,terminal,intermedia,32.05
+TRIP_1580,Portal Norte,Universidad,R1,weekday,21-23,8.4,3,0,0,clear,medium,terminal,intermedia,30.04
+TRIP_1581,Hospital Central,Centro Histórico,R2,weekday,18-21,2.1,1,0,1,clear,medium,central,central,17.48
+TRIP_1582,Portal Norte,Aeropuerto,R1+R4,sunday,15-18,21.8,6,1,1,rain,high,terminal,terminal,102.66
+TRIP_1583,Hospital Central,Parque Industrial,R5,weekday,18-21,3.4,1,0,1,heavy_rain,high,central,industrial,34.56
+TRIP_1584,Hospital Central,Lago Azul,R2+R1,sunday,07-09,4.9,2,1,1,clear,medium,central,intermedia,34.1
+TRIP_1585,Villa Nueva,Lago Azul,R3,saturday,12-15,3.5,1,0,0,clear,high,barrial,intermedia,20.16
+TRIP_1586,Lago Azul,Villa Nueva,R3,weekday,18-21,3.5,1,0,1,clear,medium,intermedia,barrial,20.32
+TRIP_1587,Centro Histórico,Hospital Central,R2,weekday,15-18,2.1,1,0,1,clear,high,central,central,22.08
+TRIP_1588,Hospital Central,Aeropuerto,R5+R4,saturday,18-21,9.5,2,1,1,rain,high,central,terminal,56.31
+TRIP_1589,Centro Histórico,Universidad,R1,weekday,18-21,2.4,1,0,1,clear,medium,central,intermedia,18.27
+TRIP_1590,Parque Industrial,Universidad,R4,weekday,09-12,7.3,2,0,0,clear,medium,industrial,intermedia,29.28
+TRIP_1591,Lago Azul,Parque Industrial,R1+R4,saturday,21-23,12.5,4,1,0,rain,low,intermedia,industrial,57.77
+TRIP_1592,Aeropuerto,Lago Azul,R4+R1,weekday,07-09,18.6,5,1,1,clear,medium,terminal,intermedia,71.85
+TRIP_1593,Universidad,Hospital Central,R1+R2,sunday,12-15,4.5,2,1,0,clear,medium,intermedia,central,29.36
+TRIP_1594,Parque Industrial,Terminal Sur,R5+R2,saturday,18-21,9.2,3,1,1,clear,high,industrial,terminal,54.6
+TRIP_1595,Hospital Central,Villa Nueva,R2+R3,weekday,21-23,11.0,3,1,0,rain,medium,central,barrial,50.26
+TRIP_1596,Centro Histórico,Terminal Sur,R2,weekday,12-15,7.9,3,0,0,clear,high,central,terminal,34.16
+TRIP_1597,Villa Nueva,Portal Norte,R3+R1,weekday,07-09,6.7,2,1,1,clear,medium,barrial,terminal,39.89
+TRIP_1598,Aeropuerto,Tecnoparque,R4,weekday,15-18,9.1,2,0,1,rain,high,terminal,industrial,50.82
+TRIP_1599,Hospital Central,Aeropuerto,R5+R4,weekday,09-12,9.5,2,1,0,clear,medium,central,terminal,41.14
+TRIP_1600,Aeropuerto,San Pedro,R4+R5,weekday,05-07,12.2,3,1,0,clear,high,terminal,intermedia,64.37
+TRIP_1601,Lago Azul,Portal Norte,R1,weekday,15-18,3.2,1,0,1,rain,high,intermedia,terminal,25.54
+TRIP_1602,Universidad,Villa Nueva,R1+R3,weekday,12-15,8.7,3,1,0,clear,medium,intermedia,barrial,41.02
+TRIP_1603,Terminal Sur,Mercado Distrital,R2,sunday,15-18,4.0,1,0,1,clear,high,terminal,barrial,23.92
+TRIP_1604,Parque Industrial,Universidad,R4,weekday,07-09,7.3,2,0,1,clear,medium,industrial,intermedia,33.21
+TRIP_1605,Aeropuerto,Centro Histórico,R4+R1,weekday,18-21,15.8,4,1,1,clear,high,terminal,central,85.36
+TRIP_1606,Villa Nueva,Mercado Distrital,R3+R2,saturday,15-18,9.2,2,1,1,clear,medium,barrial,barrial,46.48
+TRIP_1607,Centro Histórico,Aeropuerto,R1+R4,saturday,05-07,15.8,4,1,0,clear,medium,central,terminal,62.28
+TRIP_1608,Lago Azul,Villa Nueva,R3,sunday,12-15,3.5,1,0,0,rain,low,intermedia,barrial,16.85
+TRIP_1609,Universidad,Hospital Central,R1+R2,weekday,07-09,4.5,2,1,1,heavy_rain,high,intermedia,central,48.13
+TRIP_1610,Lago Azul,Portal Norte,R1,weekday,18-21,3.2,1,0,1,rain,high,intermedia,terminal,27.08
+TRIP_1611,Lago Azul,Portal Norte,R1,weekday,07-09,3.2,1,0,1,clear,high,intermedia,terminal,23.14
+TRIP_1612,Portal Norte,Lago Azul,R1,weekday,05-07,3.2,1,0,0,clear,medium,terminal,intermedia,16.88
+TRIP_1613,San Pedro,Centro Histórico,R1,weekday,18-21,5.5,2,0,1,clear,high,intermedia,central,30.29
+TRIP_1614,Portal Norte,Villa Nueva,R1+R3,weekday,15-18,6.7,2,1,1,clear,medium,terminal,barrial,43.11
+TRIP_1615,Lago Azul,Tecnoparque,R1+R4,weekday,07-09,9.5,3,1,1,clear,medium,intermedia,industrial,48.79
+TRIP_1616,Parque Industrial,Tecnoparque,R4,weekday,15-18,3.0,1,0,1,clear,medium,industrial,industrial,25.35
+TRIP_1617,Universidad,Aeropuerto,R4,weekday,15-18,13.4,3,0,1,clear,high,intermedia,terminal,58.76
+TRIP_1618,Portal Norte,Parque Industrial,R1+R4,weekday,18-21,15.7,5,1,1,clear,high,terminal,industrial,82.31
+TRIP_1619,San Pedro,Portal Norte,R1,weekday,09-12,11.5,4,0,0,clear,medium,intermedia,terminal,38.07
+TRIP_1620,Universidad,Centro Histórico,R1,saturday,15-18,2.4,1,0,1,clear,medium,intermedia,central,17.82
+TRIP_1621,Centro Histórico,Universidad,R1,weekday,05-07,2.4,1,0,0,clear,medium,central,intermedia,14.46
+TRIP_1622,Tecnoparque,Aeropuerto,R4,weekday,18-21,9.1,2,0,1,clear,high,industrial,terminal,46.75
+TRIP_1623,Portal Norte,Centro Histórico,R1,weekday,15-18,6.0,2,0,1,clear,high,terminal,central,34.84
+TRIP_1624,San Pedro,Mercado Distrital,R5+R2,weekday,18-21,4.5,2,1,1,clear,low,intermedia,barrial,29.47
+TRIP_1625,Portal Norte,Centro Histórico,R1,sunday,12-15,6.0,2,0,0,clear,high,terminal,central,28.13
+TRIP_1626,Hospital Central,Universidad,R2+R1,weekday,07-09,4.5,2,1,1,clear,medium,central,intermedia,30.83
+TRIP_1627,Tecnoparque,Portal Norte,R4+R1,weekday,15-18,12.7,4,1,1,clear,high,industrial,terminal,76.56
+TRIP_1628,Villa Nueva,Centro Histórico,R3+R1,weekday,15-18,6.3,2,1,1,rain,high,barrial,central,46.52
+TRIP_1629,Hospital Central,Villa Nueva,R2+R3,weekday,15-18,11.0,3,1,1,clear,medium,central,barrial,52.41
+TRIP_1630,Terminal Sur,Portal Norte,R3+R1,weekday,18-21,11.9,3,1,1,rain,high,terminal,terminal,66.75
+TRIP_1631,Terminal Sur,Hospital Central,R2,weekday,09-12,5.8,2,0,0,clear,medium,terminal,central,29.43
+TRIP_1632,Tecnoparque,Lago Azul,R4+R1,sunday,12-15,9.5,3,1,0,clear,high,industrial,intermedia,46.19
+TRIP_1633,Hospital Central,Aeropuerto,R5+R4,weekday,09-12,9.5,2,1,0,rain,medium,central,terminal,42.56
+TRIP_1634,Parque Industrial,Portal Norte,R4+R1,sunday,18-21,15.7,5,1,1,clear,high,industrial,terminal,84.72
+TRIP_1635,Universidad,Centro Histórico,R1,sunday,15-18,2.4,1,0,1,clear,medium,intermedia,central,16.86
+TRIP_1636,Centro Histórico,Aeropuerto,R1+R4,weekday,09-12,15.8,4,1,0,clear,high,central,terminal,74.84
+TRIP_1637,San Pedro,Mercado Distrital,R5+R2,weekday,09-12,4.5,2,1,0,clear,medium,intermedia,barrial,27.17
+TRIP_1638,Portal Norte,Aeropuerto,R1+R4,weekday,07-09,21.8,6,1,1,clear,high,terminal,terminal,97.9
+TRIP_1639,Lago Azul,Universidad,R1,weekday,18-21,5.2,2,0,1,clear,high,intermedia,intermedia,29.07
+TRIP_1640,Mercado Distrital,San Pedro,R2+R5,weekday,15-18,4.5,2,1,1,clear,high,barrial,intermedia,40.09
+TRIP_1641,Aeropuerto,Hospital Central,R4+R5,sunday,21-23,9.5,2,1,0,rain,low,terminal,central,41.21
+TRIP_1642,Universidad,Portal Norte,R1,weekday,18-21,8.4,3,0,1,clear,medium,intermedia,terminal,36.42
+TRIP_1643,Centro Histórico,Aeropuerto,R1+R4,weekday,07-09,15.8,4,1,1,clear,medium,central,terminal,67.99
+TRIP_1644,Villa Nueva,Hospital Central,R3+R2,saturday,05-07,11.0,3,1,0,rain,medium,barrial,central,54.81
+TRIP_1645,Tecnoparque,Centro Histórico,R4+R1,weekday,21-23,6.7,2,1,0,clear,high,industrial,central,40.81
+TRIP_1646,Aeropuerto,San Pedro,R4+R5,weekday,18-21,12.2,3,1,1,heavy_rain,high,terminal,intermedia,73.04
+TRIP_1647,Portal Norte,Parque Industrial,R1+R4,weekday,18-21,15.7,5,1,1,rain,high,terminal,industrial,81.31
+TRIP_1648,Terminal Sur,Universidad,R2+R1,weekday,18-21,10.3,4,1,1,clear,medium,terminal,intermedia,51.14
+TRIP_1649,Tecnoparque,Lago Azul,R4+R1,weekday,18-21,9.5,3,1,1,clear,medium,industrial,intermedia,50.35
+TRIP_1650,Lago Azul,Centro Histórico,R1,weekday,09-12,2.8,1,0,0,rain,medium,intermedia,central,17.55
+TRIP_1651,Terminal Sur,Universidad,R2+R1,sunday,07-09,10.3,4,1,1,rain,high,terminal,intermedia,59.45
+TRIP_1652,San Pedro,Universidad,R1,weekday,07-09,3.1,1,0,1,rain,high,intermedia,intermedia,26.87
+TRIP_1653,Villa Nueva,Portal Norte,R3+R1,saturday,09-12,6.7,2,1,0,heavy_rain,medium,barrial,terminal,37.72
+TRIP_1654,Mercado Distrital,Parque Industrial,R2+R5,weekday,07-09,5.2,2,1,1,clear,medium,barrial,industrial,38.82
+TRIP_1655,Aeropuerto,Tecnoparque,R4,weekday,15-18,9.1,2,0,1,clear,medium,terminal,industrial,41.41
+TRIP_1656,Aeropuerto,Lago Azul,R4+R1,weekday,18-21,18.6,5,1,1,clear,high,terminal,intermedia,95.7
+TRIP_1657,Hospital Central,Terminal Sur,R2,weekday,09-12,5.8,2,0,0,clear,low,central,terminal,22.48
+TRIP_1658,Terminal Sur,Universidad,R2+R1,weekday,09-12,10.3,4,1,0,clear,medium,terminal,intermedia,48.9
+TRIP_1659,Parque Industrial,Lago Azul,R4+R1,saturday,05-07,12.5,4,1,0,heavy_rain,medium,industrial,intermedia,53.19
+TRIP_1660,Centro Histórico,Portal Norte,R1,saturday,07-09,6.0,2,0,1,clear,medium,central,terminal,24.65
+TRIP_1661,Portal Norte,San Pedro,R1,sunday,18-21,11.5,4,0,1,rain,high,terminal,intermedia,50.36
+TRIP_1662,Universidad,Villa Nueva,R1+R3,saturday,05-07,8.7,3,1,0,clear,medium,intermedia,barrial,35.23
+TRIP_1663,Villa Nueva,Universidad,R3+R1,weekday,15-18,8.7,3,1,1,clear,medium,barrial,intermedia,50.42
+TRIP_1664,Villa Nueva,Hospital Central,R3+R2,weekday,18-21,11.0,3,1,1,rain,medium,barrial,central,56.84
+TRIP_1665,Hospital Central,Centro Histórico,R2,saturday,07-09,2.1,1,0,1,rain,high,central,central,26.11
+TRIP_1666,Portal Norte,Hospital Central,R1+R2,saturday,15-18,8.1,3,1,1,clear,high,terminal,central,51.98
+TRIP_1667,Hospital Central,Mercado Distrital,R2,weekday,12-15,1.8,1,0,0,clear,medium,central,barrial,15.42
+TRIP_1668,Terminal Sur,Hospital Central,R2,weekday,12-15,5.8,2,0,0,rain,low,terminal,central,27.7
+TRIP_1669,Centro Histórico,Tecnoparque,R1+R4,weekday,07-09,6.7,2,1,1,clear,medium,central,industrial,42.33
+TRIP_1670,Terminal Sur,Villa Nueva,R3,weekday,12-15,5.2,1,0,0,clear,low,terminal,barrial,19.43
+TRIP_1671,Centro Histórico,Aeropuerto,R1+R4,saturday,07-09,15.8,4,1,1,clear,medium,central,terminal,62.23
+TRIP_1672,Lago Azul,San Pedro,R1,weekday,18-21,8.3,3,0,1,clear,high,intermedia,intermedia,39.52
+TRIP_1673,Portal Norte,San Pedro,R1,weekday,18-21,11.5,4,0,1,clear,high,terminal,intermedia,51.59
+TRIP_1674,Aeropuerto,Lago Azul,R4+R1,weekday,05-07,18.6,5,1,0,clear,low,terminal,intermedia,68.9
+TRIP_1675,Lago Azul,Universidad,R1,saturday,15-18,5.2,2,0,1,clear,high,intermedia,intermedia,31.0
+TRIP_1676,Portal Norte,Hospital Central,R1+R2,weekday,15-18,8.1,3,1,1,clear,high,terminal,central,51.03
+TRIP_1677,Villa Nueva,Mercado Distrital,R3+R2,weekday,07-09,9.2,2,1,1,clear,medium,barrial,barrial,45.63
+TRIP_1678,Parque Industrial,Aeropuerto,R4,weekday,07-09,6.1,1,0,1,clear,low,industrial,terminal,26.08
+TRIP_1679,Mercado Distrital,Villa Nueva,R2+R3,weekday,07-09,9.2,2,1,1,clear,high,barrial,barrial,49.84
+TRIP_1680,Portal Norte,Universidad,R1,weekday,12-15,8.4,3,0,0,clear,low,terminal,intermedia,27.45
+TRIP_1681,Universidad,Portal Norte,R1,weekday,21-23,8.4,3,0,0,clear,low,intermedia,terminal,31.14
+TRIP_1682,Villa Nueva,Lago Azul,R3,weekday,09-12,3.5,1,0,0,clear,medium,barrial,intermedia,17.95
+TRIP_1683,Villa Nueva,Lago Azul,R3,sunday,09-12,3.5,1,0,0,heavy_rain,high,barrial,intermedia,28.88
+TRIP_1684,Centro Histórico,Lago Azul,R1,weekday,07-09,2.8,1,0,1,clear,high,central,intermedia,22.93
+TRIP_1685,Hospital Central,Tecnoparque,R5+R4,sunday,15-18,6.4,2,1,1,clear,high,central,industrial,42.89
+TRIP_1686,Aeropuerto,Tecnoparque,R4,saturday,12-15,9.1,2,0,0,clear,high,terminal,industrial,38.78
+TRIP_1687,Centro Histórico,Hospital Central,R2,weekday,12-15,2.1,1,0,0,clear,low,central,central,13.44
+TRIP_1688,Centro Histórico,Mercado Distrital,R2,weekday,15-18,3.9,2,0,1,clear,medium,central,barrial,21.88
+TRIP_1689,Universidad,Mercado Distrital,R1+R2,sunday,07-09,6.3,3,1,1,clear,high,intermedia,barrial,40.69
+TRIP_1690,San Pedro,Hospital Central,R5,weekday,21-23,2.7,1,0,0,clear,medium,intermedia,central,18.01
+TRIP_1691,Lago Azul,Centro Histórico,R1,weekday,07-09,2.8,1,0,1,clear,medium,intermedia,central,20.49
+TRIP_1692,Universidad,Parque Industrial,R4,saturday,12-15,7.3,2,0,0,rain,low,intermedia,industrial,26.31
+TRIP_1693,Tecnoparque,Universidad,R4,weekday,05-07,4.3,1,0,0,clear,medium,industrial,intermedia,20.43
+TRIP_1694,Portal Norte,Mercado Distrital,R1+R2,sunday,07-09,9.9,4,1,1,clear,high,terminal,barrial,56.34
+TRIP_1695,Universidad,Parque Industrial,R4,sunday,07-09,7.3,2,0,1,rain,high,intermedia,industrial,37.54
+TRIP_1696,Centro Histórico,Tecnoparque,R1+R4,weekday,21-23,6.7,2,1,0,clear,low,central,industrial,33.3
+TRIP_1697,Lago Azul,San Pedro,R1,weekday,09-12,8.3,3,0,0,clear,low,intermedia,intermedia,29.19
+TRIP_1698,Aeropuerto,Universidad,R4,weekday,07-09,13.4,3,0,1,clear,medium,terminal,intermedia,47.02
+TRIP_1699,Hospital Central,Universidad,R2+R1,weekday,15-18,4.5,2,1,1,clear,high,central,intermedia,37.9
+TRIP_1700,Parque Industrial,Terminal Sur,R5+R2,sunday,15-18,9.2,3,1,1,clear,medium,industrial,terminal,46.68
+TRIP_1701,Mercado Distrital,Terminal Sur,R2,saturday,09-12,4.0,1,0,0,clear,low,barrial,terminal,14.86
+TRIP_1702,Centro Histórico,San Pedro,R1,saturday,12-15,5.5,2,0,0,heavy_rain,medium,central,intermedia,28.35
+TRIP_1703,Aeropuerto,Tecnoparque,R4,sunday,15-18,9.1,2,0,1,clear,high,terminal,industrial,47.73
+TRIP_1704,Hospital Central,Villa Nueva,R2+R3,saturday,18-21,11.0,3,1,1,clear,low,central,barrial,51.02
+TRIP_1705,Lago Azul,Aeropuerto,R1+R4,saturday,18-21,18.6,5,1,1,clear,high,intermedia,terminal,87.44
+TRIP_1706,Parque Industrial,Portal Norte,R4+R1,saturday,18-21,15.7,5,1,1,clear,medium,industrial,terminal,70.46
+TRIP_1707,Portal Norte,Villa Nueva,R1+R3,weekday,15-18,6.7,2,1,1,clear,high,terminal,barrial,42.33
+TRIP_1708,Universidad,San Pedro,R1,sunday,09-12,3.1,1,0,0,clear,medium,intermedia,intermedia,14.66
+TRIP_1709,Hospital Central,Centro Histórico,R2,sunday,05-07,2.1,1,0,0,clear,low,central,central,10.13
+TRIP_1710,Terminal Sur,Portal Norte,R3+R1,sunday,15-18,11.9,3,1,1,clear,medium,terminal,terminal,51.3
+TRIP_1711,Hospital Central,Universidad,R2+R1,weekday,05-07,4.5,2,1,0,clear,low,central,intermedia,27.1
+TRIP_1712,Hospital Central,San Pedro,R5,sunday,15-18,2.7,1,0,1,rain,high,central,intermedia,25.36
+TRIP_1713,San Pedro,Lago Azul,R1,weekday,12-15,8.3,3,0,0,heavy_rain,high,intermedia,intermedia,43.96
+TRIP_1714,Terminal Sur,Portal Norte,R3+R1,weekday,05-07,11.9,3,1,0,clear,low,terminal,terminal,44.56
+TRIP_1715,Hospital Central,San Pedro,R5,sunday,12-15,2.7,1,0,0,clear,low,central,intermedia,10.64
+TRIP_1716,Tecnoparque,Portal Norte,R4+R1,weekday,18-21,12.7,4,1,1,clear,high,industrial,terminal,73.2
+TRIP_1717,Hospital Central,Mercado Distrital,R2,weekday,21-23,1.8,1,0,0,clear,low,central,barrial,11.56
+TRIP_1718,Villa Nueva,Universidad,R3+R1,sunday,09-12,8.7,3,1,0,clear,low,barrial,intermedia,35.9
+TRIP_1719,Terminal Sur,Portal Norte,R3+R1,weekday,18-21,11.9,3,1,1,rain,medium,terminal,terminal,58.52
+TRIP_1720,Hospital Central,Mercado Distrital,R2,weekday,12-15,1.8,1,0,0,clear,low,central,barrial,9.47
+TRIP_1721,Lago Azul,Portal Norte,R1,weekday,07-09,3.2,1,0,1,rain,high,intermedia,terminal,25.67
+TRIP_1722,Terminal Sur,Centro Histórico,R2,weekday,18-21,7.9,3,0,1,clear,high,terminal,central,41.53
+TRIP_1723,San Pedro,Terminal Sur,R5+R2,weekday,07-09,8.5,3,1,1,rain,high,intermedia,terminal,51.01
+TRIP_1724,Universidad,Tecnoparque,R4,weekday,07-09,4.3,1,0,1,heavy_rain,high,intermedia,industrial,36.11
+TRIP_1725,Universidad,Mercado Distrital,R1+R2,weekday,07-09,6.3,3,1,1,clear,medium,intermedia,barrial,36.58
+TRIP_1726,Lago Azul,Parque Industrial,R1+R4,saturday,21-23,12.5,4,1,0,clear,high,intermedia,industrial,62.47
+TRIP_1727,Hospital Central,Aeropuerto,R5+R4,weekday,07-09,9.5,2,1,1,clear,high,central,terminal,50.79
+TRIP_1728,Mercado Distrital,Hospital Central,R2,weekday,18-21,1.8,1,0,1,heavy_rain,high,barrial,central,35.48
+TRIP_1729,Tecnoparque,Universidad,R4,weekday,09-12,4.3,1,0,0,clear,high,industrial,intermedia,26.09
+TRIP_1730,Aeropuerto,Parque Industrial,R4,weekday,12-15,6.1,1,0,0,clear,low,terminal,industrial,23.3
+TRIP_1731,Tecnoparque,Universidad,R4,weekday,21-23,4.3,1,0,0,clear,low,industrial,intermedia,18.02
+TRIP_1732,Portal Norte,San Pedro,R1,weekday,05-07,11.5,4,0,0,clear,low,terminal,intermedia,37.77
+TRIP_1733,Lago Azul,Portal Norte,R1,weekday,09-12,3.2,1,0,0,clear,medium,intermedia,terminal,19.51
+TRIP_1734,Hospital Central,Tecnoparque,R5+R4,weekday,15-18,6.4,2,1,1,rain,high,central,industrial,46.44
+TRIP_1735,Universidad,Tecnoparque,R4,weekday,15-18,4.3,1,0,1,clear,high,intermedia,industrial,29.72
+TRIP_1736,Lago Azul,Villa Nueva,R3,weekday,15-18,3.5,1,0,1,clear,high,intermedia,barrial,24.21
+TRIP_1737,Parque Industrial,San Pedro,R5,weekday,09-12,6.1,2,0,0,clear,medium,industrial,intermedia,27.65
+TRIP_1738,Aeropuerto,San Pedro,R4+R5,weekday,18-21,12.2,3,1,1,clear,high,terminal,intermedia,65.46
+TRIP_1739,Universidad,Centro Histórico,R1,weekday,12-15,2.4,1,0,0,clear,medium,intermedia,central,15.72
+TRIP_1740,San Pedro,Tecnoparque,R1+R4,weekday,09-12,7.4,2,1,0,clear,medium,intermedia,industrial,36.07
+TRIP_1741,Villa Nueva,Hospital Central,R3+R2,sunday,09-12,11.0,3,1,0,clear,low,barrial,central,44.32
+TRIP_1742,Parque Industrial,Lago Azul,R4+R1,weekday,07-09,12.5,4,1,1,clear,high,industrial,intermedia,69.61
+TRIP_1743,Hospital Central,Villa Nueva,R2+R3,weekday,09-12,11.0,3,1,0,rain,high,central,barrial,62.25
+TRIP_1744,Universidad,Mercado Distrital,R1+R2,weekday,12-15,6.3,3,1,0,clear,low,intermedia,barrial,35.38
+TRIP_1745,Tecnoparque,Centro Histórico,R4+R1,weekday,09-12,6.7,2,1,0,rain,medium,industrial,central,36.24
+TRIP_1746,Hospital Central,San Pedro,R5,weekday,15-18,2.7,1,0,1,clear,high,central,intermedia,25.07
+TRIP_1747,Lago Azul,Aeropuerto,R1+R4,weekday,15-18,18.6,5,1,1,clear,low,intermedia,terminal,78.54
+TRIP_1748,Terminal Sur,Portal Norte,R3+R1,sunday,18-21,11.9,3,1,1,clear,high,terminal,terminal,61.28
+TRIP_1749,Tecnoparque,Parque Industrial,R4,weekday,12-15,3.0,1,0,0,clear,low,industrial,industrial,14.7
+TRIP_1750,Villa Nueva,Lago Azul,R3,saturday,15-18,3.5,1,0,1,clear,high,barrial,intermedia,24.54
+TRIP_1751,Universidad,Tecnoparque,R4,saturday,18-21,4.3,1,0,1,rain,high,intermedia,industrial,30.05
+TRIP_1752,Lago Azul,Centro Histórico,R1,weekday,09-12,2.8,1,0,0,heavy_rain,medium,intermedia,central,21.21
+TRIP_1753,Centro Histórico,Mercado Distrital,R2,weekday,09-12,3.9,2,0,0,rain,high,central,barrial,28.88
+TRIP_1754,Universidad,Villa Nueva,R1+R3,weekday,15-18,8.7,3,1,1,clear,high,intermedia,barrial,48.37
+TRIP_1755,Tecnoparque,Universidad,R4,weekday,12-15,4.3,1,0,0,clear,low,industrial,intermedia,17.67
+TRIP_1756,Tecnoparque,Aeropuerto,R4,weekday,15-18,9.1,2,0,1,clear,medium,industrial,terminal,39.36
+TRIP_1757,Aeropuerto,Centro Histórico,R4+R1,weekday,07-09,15.8,4,1,1,clear,low,terminal,central,70.84
+TRIP_1758,Villa Nueva,Universidad,R3+R1,sunday,05-07,8.7,3,1,0,clear,low,barrial,intermedia,33.9
+TRIP_1759,Terminal Sur,San Pedro,R2+R5,weekday,09-12,8.5,3,1,0,rain,low,terminal,intermedia,43.08
+TRIP_1760,Portal Norte,Tecnoparque,R1+R4,weekday,07-09,12.7,4,1,1,clear,high,terminal,industrial,72.77
+TRIP_1761,Lago Azul,San Pedro,R1,weekday,15-18,8.3,3,0,1,clear,high,intermedia,intermedia,41.94
+TRIP_1762,Lago Azul,Aeropuerto,R1+R4,saturday,12-15,18.6,5,1,0,clear,low,intermedia,terminal,63.56
+TRIP_1763,Parque Industrial,Tecnoparque,R4,sunday,21-23,3.0,1,0,0,clear,medium,industrial,industrial,16.52
+TRIP_1764,Centro Histórico,Parque Industrial,R2+R5,weekday,09-12,5.5,2,1,0,rain,medium,central,industrial,35.72
+TRIP_1765,Terminal Sur,San Pedro,R2+R5,weekday,12-15,8.5,3,1,0,clear,low,terminal,intermedia,35.82
+TRIP_1766,Portal Norte,Terminal Sur,R1+R3,weekday,12-15,11.9,3,1,0,clear,low,terminal,terminal,45.34
+TRIP_1767,Hospital Central,Aeropuerto,R5+R4,weekday,05-07,9.5,2,1,0,rain,high,central,terminal,48.67
+TRIP_1768,Mercado Distrital,Terminal Sur,R2,weekday,12-15,4.0,1,0,0,rain,medium,barrial,terminal,22.97
+TRIP_1769,San Pedro,Portal Norte,R1,weekday,09-12,11.5,4,0,0,rain,low,intermedia,terminal,42.04
+TRIP_1770,Hospital Central,Lago Azul,R2+R1,weekday,12-15,4.9,2,1,0,clear,high,central,intermedia,43.3
+TRIP_1771,Villa Nueva,San Pedro,R3+R1,weekday,15-18,11.8,4,1,1,clear,medium,barrial,intermedia,54.17
+TRIP_1772,Aeropuerto,Centro Histórico,R4+R1,saturday,05-07,15.8,4,1,0,clear,medium,terminal,central,60.16
+TRIP_1773,Portal Norte,Lago Azul,R1,weekday,12-15,3.2,1,0,0,rain,medium,terminal,intermedia,19.85
+TRIP_1774,Hospital Central,Portal Norte,R2+R1,weekday,21-23,8.1,3,1,0,clear,medium,central,terminal,38.91
+TRIP_1775,Parque Industrial,Centro Histórico,R5+R2,weekday,15-18,5.5,2,1,1,clear,medium,industrial,central,34.7
+TRIP_1776,Villa Nueva,Lago Azul,R3,weekday,21-23,3.5,1,0,0,clear,medium,barrial,intermedia,16.68
+TRIP_1777,Universidad,Tecnoparque,R4,saturday,12-15,4.3,1,0,0,rain,medium,intermedia,industrial,20.36
+TRIP_1778,Universidad,Tecnoparque,R4,sunday,18-21,4.3,1,0,1,clear,high,intermedia,industrial,30.21
+TRIP_1779,Aeropuerto,Hospital Central,R4+R5,sunday,09-12,9.5,2,1,0,rain,medium,terminal,central,43.66
+TRIP_1780,Hospital Central,Centro Histórico,R2,weekday,15-18,2.1,1,0,1,clear,high,central,central,21.57
+TRIP_1781,Universidad,Tecnoparque,R4,weekday,15-18,4.3,1,0,1,rain,high,intermedia,industrial,33.18
+TRIP_1782,Tecnoparque,Hospital Central,R4+R5,saturday,12-15,6.4,2,1,0,clear,low,industrial,central,28.36
+TRIP_1783,Tecnoparque,Universidad,R4,weekday,07-09,4.3,1,0,1,clear,high,industrial,intermedia,28.19
+TRIP_1784,Villa Nueva,Mercado Distrital,R3+R2,weekday,21-23,9.2,2,1,0,rain,medium,barrial,barrial,43.01
+TRIP_1785,Lago Azul,San Pedro,R1,saturday,07-09,8.3,3,0,1,clear,medium,intermedia,intermedia,33.65
+TRIP_1786,Centro Histórico,Villa Nueva,R1+R3,weekday,15-18,6.3,2,1,1,clear,high,central,barrial,46.71
+TRIP_1787,Centro Histórico,Hospital Central,R2,weekday,18-21,2.1,1,0,1,clear,medium,central,central,17.25
+TRIP_1788,Lago Azul,Portal Norte,R1,weekday,18-21,3.2,1,0,1,clear,medium,intermedia,terminal,22.38
+TRIP_1789,Portal Norte,Parque Industrial,R1+R4,weekday,09-12,15.7,5,1,0,clear,low,terminal,industrial,59.32
+TRIP_1790,Mercado Distrital,Villa Nueva,R2+R3,weekday,18-21,9.2,2,1,1,clear,medium,barrial,barrial,46.1
+TRIP_1791,San Pedro,Mercado Distrital,R5+R2,weekday,12-15,4.5,2,1,0,clear,low,intermedia,barrial,25.07
+TRIP_1792,Parque Industrial,Hospital Central,R5,weekday,07-09,3.4,1,0,1,rain,high,industrial,central,26.7
+TRIP_1793,Portal Norte,Hospital Central,R1+R2,weekday,09-12,8.1,3,1,0,clear,high,terminal,central,48.0
+TRIP_1794,Parque Industrial,Terminal Sur,R5+R2,weekday,09-12,9.2,3,1,0,clear,low,industrial,terminal,40.59
+TRIP_1795,Centro Histórico,Aeropuerto,R1+R4,sunday,12-15,15.8,4,1,0,clear,low,central,terminal,53.69
+TRIP_1796,Terminal Sur,San Pedro,R2+R5,weekday,09-12,8.5,3,1,0,rain,medium,terminal,intermedia,43.9
+TRIP_1797,Portal Norte,Villa Nueva,R1+R3,sunday,05-07,6.7,2,1,0,clear,medium,terminal,barrial,29.03
+TRIP_1798,Villa Nueva,San Pedro,R3+R1,saturday,12-15,11.8,4,1,0,clear,low,barrial,intermedia,46.88
+TRIP_1799,Parque Industrial,Tecnoparque,R4,weekday,09-12,3.0,1,0,0,rain,medium,industrial,industrial,20.1
+TRIP_1800,Lago Azul,Portal Norte,R1,saturday,15-18,3.2,1,0,1,clear,medium,intermedia,terminal,20.05

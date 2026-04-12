@@ -1,0 +1,13 @@
+station_id,station_name,station_type
+ST01,Portal Norte,terminal
+ST02,Lago Azul,intermedia
+ST03,Centro Histórico,central
+ST04,Universidad,intermedia
+ST05,San Pedro,intermedia
+ST06,Parque Industrial,industrial
+ST07,Aeropuerto,terminal
+ST08,Terminal Sur,terminal
+ST09,Villa Nueva,barrial
+ST10,Hospital Central,central
+ST11,Mercado Distrital,barrial
+ST12,Tecnoparque,industrial

@@ -1,0 +1,11 @@
+# Planteamiento del problema
+
+En un sistema de transporte masivo local, la experiencia del usuario y la eficiencia operativa dependen en gran medida de la capacidad para anticipar el comportamiento de los trayectos. Aunque la red de transporte diseñada en la etapa anterior ya representaba estaciones, rutas, segmentos, horarios y transbordos, todavía no incorporaba mecanismos analíticos que permitieran inferir tiempos de recorrido ni identificar patrones recurrentes dentro de la operación.
+
+Esta limitación genera una brecha importante entre la representación estructural del sistema y su aprovechamiento inteligente. En un escenario real, no basta con conocer que dos estaciones están conectadas por una ruta o que un viaje requiere transbordo; también resulta necesario estimar cuánto tardará el recorrido y reconocer qué tipos de trayectos comparten condiciones operativas similares. Sin estas capacidades, el sistema permanece en un nivel descriptivo y no evoluciona hacia un nivel predictivo o analítico.
+
+Desde la perspectiva del aprendizaje supervisado, el problema central consiste en determinar si, a partir de variables operativas observables —como estación de origen, estación de destino, ruta, distancia, número de segmentos, transbordos, hora del día, tipo de jornada, clima y nivel de tráfico—, es posible predecir con un nivel aceptable de precisión el tiempo estimado de viaje. Esta predicción permitiría convertir la red modelada en una herramienta más cercana a una aplicación inteligente de apoyo a la movilidad.
+
+Por otra parte, desde el enfoque no supervisado, surge la necesidad de identificar si dentro del conjunto de trayectos existen grupos naturales con características semejantes. Detectar estos grupos permitiría clasificar los recorridos de forma más comprensible, reconocer trayectos de baja complejidad, trayectos de alta congestión o trayectos extensos con transbordos, y sentar bases para futuras decisiones operativas o mejoras del servicio.
+
+En síntesis, el problema que aborda esta fase del proyecto puede formularse de la siguiente manera: **¿cómo evolucionar el sistema de transporte masivo local previamente construido hacia una solución analítica capaz de predecir tiempos de viaje y descubrir patrones de operación, manteniendo coherencia con la red, las rutas y la lógica ya desarrolladas?**

@@ -1,0 +1,13 @@
+# Introducción
+
+La movilidad urbana constituye uno de los desafíos más importantes en la gestión de ciudades contemporáneas, especialmente cuando el sistema de transporte debe responder a variaciones de demanda, congestión, clima, horarios y necesidades de conexión entre estaciones. En el contexto del proyecto académico desarrollado sobre la red local de transporte masivo tipo **Ciudad Móvil**, en una fase previa se construyó la estructura base del sistema, incluyendo estaciones, rutas, segmentos, horarios, transbordos, análisis elemental de trayectos y una representación visual mediante Folium.
+
+A partir de esa base, la presente etapa propone una evolución natural del mismo proyecto hacia el uso de técnicas de analítica avanzada e inteligencia artificial. En lugar de construir un ejercicio aislado, se reutiliza la lógica del sistema ya diseñado para responder dos preguntas relevantes: ¿es posible estimar de manera automática el tiempo de viaje de un trayecto?, y ¿es posible descubrir patrones operativos que permitan clasificar recorridos con comportamientos similares?
+
+Para responder a la primera pregunta se formuló un problema de **aprendizaje supervisado** orientado a la predicción del tiempo estimado de viaje (`travel_time_min`) mediante modelos de regresión. Este componente permite analizar cómo variables como la distancia, la cantidad de segmentos, la presencia de transbordos, la congestión, el clima y la franja horaria influyen en la duración del recorrido.
+
+Posteriormente, para responder a la segunda pregunta se abordó un problema de **aprendizaje no supervisado**, cuyo objetivo consistió en identificar grupos de trayectos con características operativas semejantes. Con ello se buscó pasar de la simple descripción del sistema a una comprensión más profunda de sus comportamientos internos, permitiendo distinguir, por ejemplo, viajes cortos de baja complejidad, trayectos de hora pico o recorridos largos con transbordos.
+
+Debido a que no se dispone de una fuente pública real completamente alineada con la red construida en la fase anterior, se diseñó un **dataset sintético**, académicamente justificado y coherente con la estructura del sistema ya modelado. Esta decisión permite mantener continuidad metodológica, control sobre las variables de análisis y reproducibilidad en el entorno universitario.
+
+En consecuencia, este proyecto integra modelado del dominio, generación de datos, aprendizaje supervisado, clustering, visualización y análisis académico en una sola línea de trabajo, fortaleciendo la comprensión del sistema de transporte y demostrando cómo la ciencia de datos puede apoyar la toma de decisiones en contextos de movilidad urbana.

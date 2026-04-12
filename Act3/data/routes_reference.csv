@@ -1,0 +1,6 @@
+route_id,path
+R1,ST01 -> ST02 -> ST03 -> ST04 -> ST05
+R2,ST03 -> ST10 -> ST11 -> ST08
+R3,ST02 -> ST09 -> ST08
+R4,ST04 -> ST12 -> ST06 -> ST07
+R5,ST05 -> ST10 -> ST06
